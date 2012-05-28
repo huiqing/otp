@@ -2259,7 +2259,7 @@ trace_filter(Process *p, Eterm pid_spec, Eterm Pattern)
 
   UseTmpHeap(3,p);
    /*
-    * Check and compile the match specification.
+    * Check and compile  the match specification.
    */
   if is_nil(Pattern) {
       match_prog_set = NULL;  /* disable filter */
@@ -2286,10 +2286,10 @@ trace_filter(Process *p, Eterm pid_spec, Eterm Pattern)
       erts_printf("Set filter failed.\n"); /*added by HL*/
       goto error;
     }
+    MatchSetUnref(tracee_p->trace_filter);
     tracee_p -> trace_filter= match_prog_set;
     MatchSetRef(tracee_p -> trace_filter);
-    MatchSetUnref(match_prog_set);
-
+   
     erts_smp_proc_unlock(tracee_p,
                          (tracee_p == p
                           ? ERTS_PROC_LOCKS_ALL_MINOR

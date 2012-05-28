@@ -57,6 +57,7 @@ static Uint default_trace_flags;
 static Eterm default_tracer;
 
 static Binary* default_trace_filter; /* Added by HL*/
+static Eterm filter_trace_message(Process *rp, Eterm mess); /* Added by HL*/
 
 static Eterm system_monitor;
 static Eterm system_profile;
@@ -298,17 +299,7 @@ erts_get_default_tracing(Uint *flagsp, Eterm *tracerp)
 void
 get_default_trace_filter(Binary **trace_filter)
 {  
-  erts_printf("Get default trace filter-------------------\n"); 
-  /* if(*trace_filter) */
-  /*   { */
   *trace_filter = default_trace_filter;
-  if(default_trace_filter)
-    erts_printf("default_trace filter not empty1\n");
-  else 
-    erts_printf("default_trace filter empty1\n");
-    /* } */
-  /* else  */
-  /*   erts_printf("Get default trace filter (NULL)------------------\n");  */
 }
 
 /* function added by HL*/
@@ -327,10 +318,6 @@ erts_change_default_trace_filter(Binary **trace_filter)
   if (*trace_filter)
     default_trace_filter = *trace_filter;
   get_default_trace_filter(trace_filter);
-  if(default_trace_filter)
-    erts_printf("default_trace filter not empty\n");
-  else 
-    erts_printf("default_trace filter empty\n");
   erts_smp_mtx_unlock(&sys_trace_mtx);
 }
 
@@ -880,8 +867,9 @@ trace_sched_aux(Process *p, Eterm what, int never_fake_sched)
 	mess = TUPLE5(hp, am_trace, p->id, what, sched_id, tmp);
 	hp += 6;
     }
-
-    send_to_tracer(p, tracer_ref, mess, &hp, bp, no_fake_sched);
+    if (filter_trace_message(p, mess)==am_true){
+      send_to_tracer(p, tracer_ref, mess, &hp, bp, no_fake_sched);
+    }
     UnUseTmpHeap(LOCAL_HEAP_SIZE,p);
 #undef LOCAL_HEAP_SIZE
 }
@@ -940,7 +928,10 @@ trace_send(Process *p, Eterm to, Eterm msg)
 	if (p->trace_flags & F_TIMESTAMP) {
 	    hp = patch_ts(mess, hp);
 	}
-	send_to_port(p, mess, &p->tracer_proc, &p->trace_flags);
+        if (filter_trace_message(p, mess)==am_true){
+          erts_printf("enqueue message to port.\n");
+          send_to_port(p, mess, &p->tracer_proc, &p->trace_flags);
+        }
 	UnUseTmpHeapNoproc(LOCAL_HEAP_SIZE);
 #undef LOCAL_HEAP_SIZE
 	erts_smp_mtx_unlock(&smq_mtx);
@@ -977,10 +968,12 @@ trace_send(Process *p, Eterm to, Eterm msg)
 	if (p->trace_flags & F_TIMESTAMP) {
 	    patch_ts(mess, hp);
 	}
-      
-     	ERTS_ENQ_TRACE_MSG(p->id, tracer_ref, mess, bp);
+        if (filter_trace_message(p, mess)==am_true){
+          erts_printf("enqueue message.\n");
+          ERTS_ENQ_TRACE_MSG(p->id, tracer_ref, mess, bp);
+        }
 	erts_smp_mtx_unlock(&smq_mtx);
-    }
+    } 
 }
 
 /* Send {trace_ts, Pid, receive, Msg, Timestamp}
@@ -992,10 +985,7 @@ trace_receive(Process *rp, Eterm msg)
     Eterm mess;
     size_t sz_msg;
     Eterm* hp;
-    Uint32 return_flags; /*Added by HL*/
-    Eterm pam_result = am_true; /*Added by HL*/
-    Eterm *tp; /*Added by HL*/
-    
+       
     if (is_internal_port(rp->tracer_proc)) {
 #define LOCAL_HEAP_SIZE (10)
 	DeclareTmpHeapNoproc(local_heap,LOCAL_HEAP_SIZE);
@@ -1008,7 +998,10 @@ trace_receive(Process *rp, Eterm msg)
 	if (rp->trace_flags & F_TIMESTAMP) {
 	    hp = patch_ts(mess, hp);
 	}
-	send_to_port(rp, mess, &rp->tracer_proc, &rp->trace_flags);
+        if (filter_trace_message(rp, mess)==am_true){
+          erts_printf("enqueue message to port.\n");
+          send_to_port(rp, mess, &rp->tracer_proc, &rp->trace_flags);
+        }
 	UnUseTmpHeapNoproc(LOCAL_HEAP_SIZE);
 #undef LOCAL_HEAP_SIZE
 	erts_smp_mtx_unlock(&smq_mtx);
@@ -1017,7 +1010,7 @@ trace_receive(Process *rp, Eterm msg)
 	ErlHeapFragment *bp;
 	ErlOffHeap *off_heap;
 	ERTS_TRACER_REF_TYPE tracer_ref;
-
+        
 	ASSERT(is_internal_pid(rp->tracer_proc)
 	       && internal_pid_index(rp->tracer_proc) < erts_max_processes);
 
@@ -1038,33 +1031,11 @@ trace_receive(Process *rp, Eterm msg)
 	if (rp->trace_flags & F_TIMESTAMP) {
 	    patch_ts(mess, hp);
 	}
-        /* Begin Added by HL*/
-        return_flags=0;
-        if (rp->trace_filter) {
-          erts_printf("Check trace filter:%s\n", rp->trace_filter);
-          erts_printf("is tuple: %d\n", is_tuple(mess));
-          tp = tuple_val(mess);
-          pam_result = erts_match_set_run(rp, rp->trace_filter, ++tp, 4,
-                                          ERTS_PAM_TMP_RESULT, &return_flags);
-          if (is_non_value(pam_result) || pam_result == am_false) {
-            erts_printf("Failed\n");
-            // ERTS_ENQ_TRACE_MSG(rp->id, tracer_ref, mess, bp);
-            erts_smp_mtx_unlock(&smq_mtx);
-          } else {
-            erts_printf("Returning : %T\n", pam_result);
-            /* End added by HL*/
-            ERTS_ENQ_TRACE_MSG(rp->id, tracer_ref, mess, bp);
-            erts_smp_mtx_unlock(&smq_mtx);
-          }
-        }
-        else { 
-          erts_printf("trace filter empty\n");
+        if (filter_trace_message(rp, mess)==am_true){
+          erts_printf("enqueue message.\n");
           ERTS_ENQ_TRACE_MSG(rp->id, tracer_ref, mess, bp);
-          erts_smp_mtx_unlock(&smq_mtx);
         }
-        /* End added by HL*/
-	/* ERTS_ENQ_TRACE_MSG(rp->id, tracer_ref, mess, bp); */
-	/* erts_smp_mtx_unlock(&smq_mtx); */
+        erts_smp_mtx_unlock(&smq_mtx);
     }
 }
 
@@ -2046,15 +2017,17 @@ trace_proc(Process *c_p, Process *t_p, Eterm what, Eterm data)
 	if (t_p->trace_flags & F_TIMESTAMP) {
 	    hp = patch_ts(mess, hp);
 	}
-	send_to_port(
+        if (filter_trace_message(t_p, mess)==am_true){
+          send_to_port(
 #ifndef ERTS_SMP
-	    /* No fake schedule out and in again after an exit */
-	    what == am_exit ? NULL : c_p,
+                       /* No fake schedule out and in again after an exit */
+                       what == am_exit ? NULL : c_p,
 #else
-	    /* Fake schedule out and in are never sent when smp enabled */
-	    c_p,
+                       /* Fake schedule out and in are never sent when smp enabled */
+                       c_p,
 #endif
-	    mess, &t_p->tracer_proc, &t_p->trace_flags);
+                       mess, &t_p->tracer_proc, &t_p->trace_flags);
+        }
 	UnUseTmpHeapNoproc(LOCAL_HEAP_SIZE);
 #undef LOCAL_HEAP_SIZE
 	erts_smp_mtx_unlock(&smq_mtx);
@@ -2083,10 +2056,11 @@ trace_proc(Process *c_p, Process *t_p, Eterm what, Eterm data)
 	erts_smp_mtx_lock(&smq_mtx);
 
 	if (t_p->trace_flags & F_TIMESTAMP) {
-	    hp = patch_ts(mess, hp);
+          hp = patch_ts(mess, hp);
 	}
-
-	ERTS_ENQ_TRACE_MSG(t_p->id, tracer_ref, mess, bp);
+        if (filter_trace_message(t_p, mess)==am_true){
+          ERTS_ENQ_TRACE_MSG(t_p->id, tracer_ref, mess, bp);
+        }
 	erts_smp_mtx_unlock(&smq_mtx);
     }
 }
@@ -2121,7 +2095,9 @@ trace_proc_spawn(Process *p, Eterm pid,
 	if (p->trace_flags & F_TIMESTAMP) {
 	    hp = patch_ts(mess, hp);
 	}
-	send_to_port(p, mess, &p->tracer_proc, &p->trace_flags);
+        if (filter_trace_message(p, mess)==am_true){
+          send_to_port(p, mess, &p->tracer_proc, &p->trace_flags);
+        }
 	UnUseTmpHeapNoproc(LOCAL_HEAP_SIZE);
 #undef LOCAL_HEAP_SIZE
 	erts_smp_mtx_unlock(&smq_mtx);
@@ -2156,8 +2132,10 @@ trace_proc_spawn(Process *p, Eterm pid,
 	if (p->trace_flags & F_TIMESTAMP) {
 	    hp = patch_ts(mess, hp);
 	}
-
-	ERTS_ENQ_TRACE_MSG(p->id, tracer_ref, mess, bp);
+        
+        if (filter_trace_message(p, mess)==am_true){
+          ERTS_ENQ_TRACE_MSG(p->id, tracer_ref, mess, bp);
+        }
 	erts_smp_mtx_unlock(&smq_mtx);
     }
 }
@@ -2476,10 +2454,12 @@ trace_gc(Process *p, Eterm what)
 	hp = patch_ts(msg, hp);
     }
     ASSERT(hp == limit);
-    if (is_internal_port(p->tracer_proc))
+    if (filter_trace_message(p, msg)==am_true){
+      if (is_internal_port(p->tracer_proc))
 	send_to_port(p, msg, &p->tracer_proc, &p->trace_flags);
-    else
+      else
 	ERTS_ENQ_TRACE_MSG(p->id, tracer_ref, msg, bp);
+    }
     erts_smp_mtx_unlock(&smq_mtx);
     UnUseTmpHeap(LOCAL_HEAP_SIZE,p);
 #undef LOCAL_HEAP_SIZE
@@ -3570,3 +3550,31 @@ init_sys_msg_dispatcher(void)
 }
 
 #endif
+
+/*Added by HL*/
+static Eterm filter_trace_message(Process *rp, Eterm mess)
+{
+  Uint32 return_flags =0; 
+  Eterm pam_result = am_true;
+  Eterm *tp; 
+  int arity; 
+  
+  if (rp !=NULL) {
+    if (rp->trace_filter!=NULL) {
+      erts_printf("Check trace filter:%s\n", rp->trace_filter);
+      erts_printf("is tuple: %d\n", is_tuple(mess));
+      tp = tuple_val(mess);
+      arity = arityval(*tp);
+      erts_printf("Tuple arity: %d\n", arity);
+      pam_result = erts_match_set_run(rp, rp->trace_filter, ++tp, arity,
+                                      ERTS_PAM_TMP_RESULT, &return_flags);
+      if (is_non_value(pam_result) || pam_result == am_false) {
+        return am_false;
+      } else {
+        erts_printf("Returning : %T\n", pam_result);
+        return am_true;
+      }}
+    else return am_true;
+  }
+  else return am_true;
+}
