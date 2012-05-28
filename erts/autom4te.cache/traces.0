@@ -1,0 +1,2475 @@
+m4trace:configure.in:23: -1- AC_INIT([vsn.mk])
+m4trace:configure.in:23: -1- m4_pattern_forbid([^_?A[CHUM]_])
+m4trace:configure.in:23: -1- m4_pattern_forbid([_AC_])
+m4trace:configure.in:23: -1- m4_pattern_forbid([^LIBOBJS$], [do not use LIBOBJS directly, use AC_LIBOBJ (see section `AC_LIBOBJ vs LIBOBJS'])
+m4trace:configure.in:23: -1- m4_pattern_allow([^AS_FLAGS$])
+m4trace:configure.in:23: -1- m4_pattern_forbid([^_?m4_])
+m4trace:configure.in:23: -1- m4_pattern_forbid([^dnl$])
+m4trace:configure.in:23: -1- m4_pattern_forbid([^_?AS_])
+m4trace:configure.in:23: -1- AC_SUBST([SHELL])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([SHELL])
+m4trace:configure.in:23: -1- m4_pattern_allow([^SHELL$])
+m4trace:configure.in:23: -1- AC_SUBST([PATH_SEPARATOR])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([PATH_SEPARATOR])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PATH_SEPARATOR$])
+m4trace:configure.in:23: -1- AC_SUBST([PACKAGE_NAME], [m4_ifdef([AC_PACKAGE_NAME],      ['AC_PACKAGE_NAME'])])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([PACKAGE_NAME])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PACKAGE_NAME$])
+m4trace:configure.in:23: -1- AC_SUBST([PACKAGE_TARNAME], [m4_ifdef([AC_PACKAGE_TARNAME],   ['AC_PACKAGE_TARNAME'])])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([PACKAGE_TARNAME])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PACKAGE_TARNAME$])
+m4trace:configure.in:23: -1- AC_SUBST([PACKAGE_VERSION], [m4_ifdef([AC_PACKAGE_VERSION],   ['AC_PACKAGE_VERSION'])])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([PACKAGE_VERSION])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PACKAGE_VERSION$])
+m4trace:configure.in:23: -1- AC_SUBST([PACKAGE_STRING], [m4_ifdef([AC_PACKAGE_STRING],    ['AC_PACKAGE_STRING'])])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([PACKAGE_STRING])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PACKAGE_STRING$])
+m4trace:configure.in:23: -1- AC_SUBST([PACKAGE_BUGREPORT], [m4_ifdef([AC_PACKAGE_BUGREPORT], ['AC_PACKAGE_BUGREPORT'])])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([PACKAGE_BUGREPORT])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PACKAGE_BUGREPORT$])
+m4trace:configure.in:23: -1- AC_SUBST([PACKAGE_URL], [m4_ifdef([AC_PACKAGE_URL],       ['AC_PACKAGE_URL'])])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([PACKAGE_URL])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PACKAGE_URL$])
+m4trace:configure.in:23: -1- AC_SUBST([exec_prefix], [NONE])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([exec_prefix])
+m4trace:configure.in:23: -1- m4_pattern_allow([^exec_prefix$])
+m4trace:configure.in:23: -1- AC_SUBST([prefix], [NONE])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([prefix])
+m4trace:configure.in:23: -1- m4_pattern_allow([^prefix$])
+m4trace:configure.in:23: -1- AC_SUBST([program_transform_name], [s,x,x,])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([program_transform_name])
+m4trace:configure.in:23: -1- m4_pattern_allow([^program_transform_name$])
+m4trace:configure.in:23: -1- AC_SUBST([bindir], ['${exec_prefix}/bin'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([bindir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^bindir$])
+m4trace:configure.in:23: -1- AC_SUBST([sbindir], ['${exec_prefix}/sbin'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([sbindir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^sbindir$])
+m4trace:configure.in:23: -1- AC_SUBST([libexecdir], ['${exec_prefix}/libexec'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([libexecdir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^libexecdir$])
+m4trace:configure.in:23: -1- AC_SUBST([datarootdir], ['${prefix}/share'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([datarootdir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^datarootdir$])
+m4trace:configure.in:23: -1- AC_SUBST([datadir], ['${datarootdir}'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([datadir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^datadir$])
+m4trace:configure.in:23: -1- AC_SUBST([sysconfdir], ['${prefix}/etc'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([sysconfdir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^sysconfdir$])
+m4trace:configure.in:23: -1- AC_SUBST([sharedstatedir], ['${prefix}/com'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([sharedstatedir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^sharedstatedir$])
+m4trace:configure.in:23: -1- AC_SUBST([localstatedir], ['${prefix}/var'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([localstatedir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^localstatedir$])
+m4trace:configure.in:23: -1- AC_SUBST([includedir], ['${prefix}/include'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([includedir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^includedir$])
+m4trace:configure.in:23: -1- AC_SUBST([oldincludedir], ['/usr/include'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([oldincludedir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^oldincludedir$])
+m4trace:configure.in:23: -1- AC_SUBST([docdir], [m4_ifset([AC_PACKAGE_TARNAME],
+				     ['${datarootdir}/doc/${PACKAGE_TARNAME}'],
+				     ['${datarootdir}/doc/${PACKAGE}'])])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([docdir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^docdir$])
+m4trace:configure.in:23: -1- AC_SUBST([infodir], ['${datarootdir}/info'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([infodir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^infodir$])
+m4trace:configure.in:23: -1- AC_SUBST([htmldir], ['${docdir}'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([htmldir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^htmldir$])
+m4trace:configure.in:23: -1- AC_SUBST([dvidir], ['${docdir}'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([dvidir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^dvidir$])
+m4trace:configure.in:23: -1- AC_SUBST([pdfdir], ['${docdir}'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([pdfdir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^pdfdir$])
+m4trace:configure.in:23: -1- AC_SUBST([psdir], ['${docdir}'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([psdir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^psdir$])
+m4trace:configure.in:23: -1- AC_SUBST([libdir], ['${exec_prefix}/lib'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([libdir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^libdir$])
+m4trace:configure.in:23: -1- AC_SUBST([localedir], ['${datarootdir}/locale'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([localedir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^localedir$])
+m4trace:configure.in:23: -1- AC_SUBST([mandir], ['${datarootdir}/man'])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([mandir])
+m4trace:configure.in:23: -1- m4_pattern_allow([^mandir$])
+m4trace:configure.in:23: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_NAME])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PACKAGE_NAME$])
+m4trace:configure.in:23: -1- AH_OUTPUT([PACKAGE_NAME], [/* Define to the full name of this package. */
+@%:@undef PACKAGE_NAME])
+m4trace:configure.in:23: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_TARNAME])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PACKAGE_TARNAME$])
+m4trace:configure.in:23: -1- AH_OUTPUT([PACKAGE_TARNAME], [/* Define to the one symbol short name of this package. */
+@%:@undef PACKAGE_TARNAME])
+m4trace:configure.in:23: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_VERSION])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PACKAGE_VERSION$])
+m4trace:configure.in:23: -1- AH_OUTPUT([PACKAGE_VERSION], [/* Define to the version of this package. */
+@%:@undef PACKAGE_VERSION])
+m4trace:configure.in:23: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_STRING])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PACKAGE_STRING$])
+m4trace:configure.in:23: -1- AH_OUTPUT([PACKAGE_STRING], [/* Define to the full name and version of this package. */
+@%:@undef PACKAGE_STRING])
+m4trace:configure.in:23: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_BUGREPORT])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PACKAGE_BUGREPORT$])
+m4trace:configure.in:23: -1- AH_OUTPUT([PACKAGE_BUGREPORT], [/* Define to the address where bug reports for this package should be sent. */
+@%:@undef PACKAGE_BUGREPORT])
+m4trace:configure.in:23: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_URL])
+m4trace:configure.in:23: -1- m4_pattern_allow([^PACKAGE_URL$])
+m4trace:configure.in:23: -1- AH_OUTPUT([PACKAGE_URL], [/* Define to the home page for this package. */
+@%:@undef PACKAGE_URL])
+m4trace:configure.in:23: -1- AC_SUBST([DEFS])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([DEFS])
+m4trace:configure.in:23: -1- m4_pattern_allow([^DEFS$])
+m4trace:configure.in:23: -1- AC_SUBST([ECHO_C])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([ECHO_C])
+m4trace:configure.in:23: -1- m4_pattern_allow([^ECHO_C$])
+m4trace:configure.in:23: -1- AC_SUBST([ECHO_N])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([ECHO_N])
+m4trace:configure.in:23: -1- m4_pattern_allow([^ECHO_N$])
+m4trace:configure.in:23: -1- AC_SUBST([ECHO_T])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([ECHO_T])
+m4trace:configure.in:23: -1- m4_pattern_allow([^ECHO_T$])
+m4trace:configure.in:23: -1- AC_SUBST([LIBS])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([LIBS])
+m4trace:configure.in:23: -1- m4_pattern_allow([^LIBS$])
+m4trace:configure.in:23: -1- AC_SUBST([build_alias])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([build_alias])
+m4trace:configure.in:23: -1- m4_pattern_allow([^build_alias$])
+m4trace:configure.in:23: -1- AC_SUBST([host_alias])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([host_alias])
+m4trace:configure.in:23: -1- m4_pattern_allow([^host_alias$])
+m4trace:configure.in:23: -1- AC_SUBST([target_alias])
+m4trace:configure.in:23: -1- AC_SUBST_TRACE([target_alias])
+m4trace:configure.in:23: -1- m4_pattern_allow([^target_alias$])
+m4trace:configure.in:26: -1- AC_SUBST([ERL_TOP])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([ERL_TOP])
+m4trace:configure.in:26: -1- m4_pattern_allow([^ERL_TOP$])
+m4trace:configure.in:26: -1- AC_SUBST([CC])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([CC])
+m4trace:configure.in:26: -1- m4_pattern_allow([^CC$])
+m4trace:configure.in:26: -1- AC_SUBST([CFLAGS])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([CFLAGS])
+m4trace:configure.in:26: -1- m4_pattern_allow([^CFLAGS$])
+m4trace:configure.in:26: -1- AC_SUBST([STATIC_CFLAGS])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([STATIC_CFLAGS])
+m4trace:configure.in:26: -1- m4_pattern_allow([^STATIC_CFLAGS$])
+m4trace:configure.in:26: -1- AC_SUBST([CFLAG_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([CFLAG_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:26: -1- m4_pattern_allow([^CFLAG_RUNTIME_LIBRARY_PATH$])
+m4trace:configure.in:26: -1- AC_SUBST([CPP])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([CPP])
+m4trace:configure.in:26: -1- m4_pattern_allow([^CPP$])
+m4trace:configure.in:26: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([CPPFLAGS])
+m4trace:configure.in:26: -1- m4_pattern_allow([^CPPFLAGS$])
+m4trace:configure.in:26: -1- AC_SUBST([CXX])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([CXX])
+m4trace:configure.in:26: -1- m4_pattern_allow([^CXX$])
+m4trace:configure.in:26: -1- AC_SUBST([CXXFLAGS])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([CXXFLAGS])
+m4trace:configure.in:26: -1- m4_pattern_allow([^CXXFLAGS$])
+m4trace:configure.in:26: -1- AC_SUBST([LD])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([LD])
+m4trace:configure.in:26: -1- m4_pattern_allow([^LD$])
+m4trace:configure.in:26: -1- AC_SUBST([LDFLAGS])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([LDFLAGS])
+m4trace:configure.in:26: -1- m4_pattern_allow([^LDFLAGS$])
+m4trace:configure.in:26: -1- AC_SUBST([LIBS])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([LIBS])
+m4trace:configure.in:26: -1- m4_pattern_allow([^LIBS$])
+m4trace:configure.in:26: -1- AC_SUBST([DED_LD])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([DED_LD])
+m4trace:configure.in:26: -1- m4_pattern_allow([^DED_LD$])
+m4trace:configure.in:26: -1- AC_SUBST([DED_LDFLAGS])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([DED_LDFLAGS])
+m4trace:configure.in:26: -1- m4_pattern_allow([^DED_LDFLAGS$])
+m4trace:configure.in:26: -1- AC_SUBST([DED_LD_FLAG_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([DED_LD_FLAG_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:26: -1- m4_pattern_allow([^DED_LD_FLAG_RUNTIME_LIBRARY_PATH$])
+m4trace:configure.in:26: -1- AC_SUBST([LFS_CFLAGS])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([LFS_CFLAGS])
+m4trace:configure.in:26: -1- m4_pattern_allow([^LFS_CFLAGS$])
+m4trace:configure.in:26: -1- AC_SUBST([LFS_LDFLAGS])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([LFS_LDFLAGS])
+m4trace:configure.in:26: -1- m4_pattern_allow([^LFS_LDFLAGS$])
+m4trace:configure.in:26: -1- AC_SUBST([LFS_LIBS])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([LFS_LIBS])
+m4trace:configure.in:26: -1- m4_pattern_allow([^LFS_LIBS$])
+m4trace:configure.in:26: -1- AC_SUBST([RANLIB])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([RANLIB])
+m4trace:configure.in:26: -1- m4_pattern_allow([^RANLIB$])
+m4trace:configure.in:26: -1- AC_SUBST([AR])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([AR])
+m4trace:configure.in:26: -1- m4_pattern_allow([^AR$])
+m4trace:configure.in:26: -1- AC_SUBST([GETCONF])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([GETCONF])
+m4trace:configure.in:26: -1- m4_pattern_allow([^GETCONF$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_sysroot])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_sysroot])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_sysroot$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_isysroot])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_isysroot])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_isysroot$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_bigendian])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_bigendian])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_bigendian$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_linux_clock_gettime_correction])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_linux_clock_gettime_correction])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_linux_clock_gettime_correction$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_linux_nptl])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_linux_nptl])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_linux_nptl$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_linux_usable_sigusrx])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_linux_usable_sigusrx])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_linux_usable_sigusrx$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_linux_usable_sigaltstack])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_linux_usable_sigaltstack])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_linux_usable_sigaltstack$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_poll])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_poll])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_poll$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_kqueue])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_kqueue])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_kqueue$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_putenv_copy])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_putenv_copy])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_putenv_copy$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_reliable_fpe])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_reliable_fpe])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_reliable_fpe$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_getaddrinfo])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_getaddrinfo])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_getaddrinfo$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_gethrvtime_procfs_ioctl])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_gethrvtime_procfs_ioctl])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_gethrvtime_procfs_ioctl$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_clock_gettime_cpu_time])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_clock_gettime_cpu_time])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_clock_gettime_cpu_time$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_after_morecore_hook])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_after_morecore_hook])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_after_morecore_hook$])
+m4trace:configure.in:26: -1- AC_SUBST([erl_xcomp_dlsym_brk_wrappers])
+m4trace:configure.in:26: -1- AC_SUBST_TRACE([erl_xcomp_dlsym_brk_wrappers])
+m4trace:configure.in:26: -1- m4_pattern_allow([^erl_xcomp_dlsym_brk_wrappers$])
+m4trace:configure.in:88: -1- AC_CANONICAL_HOST
+m4trace:configure.in:88: -1- AC_CANONICAL_BUILD
+m4trace:configure.in:88: -1- AC_REQUIRE_AUX_FILE([config.sub])
+m4trace:configure.in:88: -1- AC_REQUIRE_AUX_FILE([config.guess])
+m4trace:configure.in:88: -1- AC_SUBST([build], [$ac_cv_build])
+m4trace:configure.in:88: -1- AC_SUBST_TRACE([build])
+m4trace:configure.in:88: -1- m4_pattern_allow([^build$])
+m4trace:configure.in:88: -1- AC_SUBST([build_cpu], [$[1]])
+m4trace:configure.in:88: -1- AC_SUBST_TRACE([build_cpu])
+m4trace:configure.in:88: -1- m4_pattern_allow([^build_cpu$])
+m4trace:configure.in:88: -1- AC_SUBST([build_vendor], [$[2]])
+m4trace:configure.in:88: -1- AC_SUBST_TRACE([build_vendor])
+m4trace:configure.in:88: -1- m4_pattern_allow([^build_vendor$])
+m4trace:configure.in:88: -1- AC_SUBST([build_os])
+m4trace:configure.in:88: -1- AC_SUBST_TRACE([build_os])
+m4trace:configure.in:88: -1- m4_pattern_allow([^build_os$])
+m4trace:configure.in:88: -1- AC_SUBST([host], [$ac_cv_host])
+m4trace:configure.in:88: -1- AC_SUBST_TRACE([host])
+m4trace:configure.in:88: -1- m4_pattern_allow([^host$])
+m4trace:configure.in:88: -1- AC_SUBST([host_cpu], [$[1]])
+m4trace:configure.in:88: -1- AC_SUBST_TRACE([host_cpu])
+m4trace:configure.in:88: -1- m4_pattern_allow([^host_cpu$])
+m4trace:configure.in:88: -1- AC_SUBST([host_vendor], [$[2]])
+m4trace:configure.in:88: -1- AC_SUBST_TRACE([host_vendor])
+m4trace:configure.in:88: -1- m4_pattern_allow([^host_vendor$])
+m4trace:configure.in:88: -1- AC_SUBST([host_os])
+m4trace:configure.in:88: -1- AC_SUBST_TRACE([host_os])
+m4trace:configure.in:88: -1- m4_pattern_allow([^host_os$])
+m4trace:configure.in:98: -1- AC_SUBST([CROSS_COMPILING])
+m4trace:configure.in:98: -1- AC_SUBST_TRACE([CROSS_COMPILING])
+m4trace:configure.in:98: -1- m4_pattern_allow([^CROSS_COMPILING$])
+m4trace:configure.in:102: -1- _m4_warn([obsolete], [The macro `AC_ISC_POSIX' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/specific.m4:442: AC_ISC_POSIX is expanded from...
+configure.in:102: the top level])
+m4trace:configure.in:102: -1- AC_SUBST([CC])
+m4trace:configure.in:102: -1- AC_SUBST_TRACE([CC])
+m4trace:configure.in:102: -1- m4_pattern_allow([^CC$])
+m4trace:configure.in:102: -1- AC_SUBST([CFLAGS])
+m4trace:configure.in:102: -1- AC_SUBST_TRACE([CFLAGS])
+m4trace:configure.in:102: -1- m4_pattern_allow([^CFLAGS$])
+m4trace:configure.in:102: -1- AC_SUBST([LDFLAGS])
+m4trace:configure.in:102: -1- AC_SUBST_TRACE([LDFLAGS])
+m4trace:configure.in:102: -1- m4_pattern_allow([^LDFLAGS$])
+m4trace:configure.in:102: -1- AC_SUBST([LIBS])
+m4trace:configure.in:102: -1- AC_SUBST_TRACE([LIBS])
+m4trace:configure.in:102: -1- m4_pattern_allow([^LIBS$])
+m4trace:configure.in:102: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.in:102: -1- AC_SUBST_TRACE([CPPFLAGS])
+m4trace:configure.in:102: -1- m4_pattern_allow([^CPPFLAGS$])
+m4trace:configure.in:102: -1- AC_SUBST([CC])
+m4trace:configure.in:102: -1- AC_SUBST_TRACE([CC])
+m4trace:configure.in:102: -1- m4_pattern_allow([^CC$])
+m4trace:configure.in:102: -1- AC_SUBST([CC])
+m4trace:configure.in:102: -1- AC_SUBST_TRACE([CC])
+m4trace:configure.in:102: -1- m4_pattern_allow([^CC$])
+m4trace:configure.in:102: -1- AC_SUBST([CC])
+m4trace:configure.in:102: -1- AC_SUBST_TRACE([CC])
+m4trace:configure.in:102: -1- m4_pattern_allow([^CC$])
+m4trace:configure.in:102: -1- AC_SUBST([CC])
+m4trace:configure.in:102: -1- AC_SUBST_TRACE([CC])
+m4trace:configure.in:102: -1- m4_pattern_allow([^CC$])
+m4trace:configure.in:102: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.in:102: -1- AC_SUBST_TRACE([ac_ct_CC])
+m4trace:configure.in:102: -1- m4_pattern_allow([^ac_ct_CC$])
+m4trace:configure.in:102: -1- AC_SUBST([EXEEXT], [$ac_cv_exeext])
+m4trace:configure.in:102: -1- AC_SUBST_TRACE([EXEEXT])
+m4trace:configure.in:102: -1- m4_pattern_allow([^EXEEXT$])
+m4trace:configure.in:102: -1- AC_SUBST([OBJEXT], [$ac_cv_objext])
+m4trace:configure.in:102: -1- AC_SUBST_TRACE([OBJEXT])
+m4trace:configure.in:102: -1- m4_pattern_allow([^OBJEXT$])
+m4trace:configure.in:104: -1- AC_CONFIG_HEADERS([$host/config.h:config.h.in include/internal/$host/ethread_header_config.h:include/internal/ethread_header_config.h.in include/$host/erl_int_sizes_config.h:include/erl_int_sizes_config.h.in])
+m4trace:configure.in:110: -1- AC_SUBST([ENABLE_ALLOC_TYPE_VARS])
+m4trace:configure.in:110: -1- AC_SUBST_TRACE([ENABLE_ALLOC_TYPE_VARS])
+m4trace:configure.in:110: -1- m4_pattern_allow([^ENABLE_ALLOC_TYPE_VARS$])
+m4trace:configure.in:262: -1- AC_SUBST([PERFCTR_PATH])
+m4trace:configure.in:262: -1- AC_SUBST_TRACE([PERFCTR_PATH])
+m4trace:configure.in:262: -1- m4_pattern_allow([^PERFCTR_PATH$])
+m4trace:configure.in:275: -1- AC_DEFINE_TRACE_LITERAL([USE_PERFCTR])
+m4trace:configure.in:275: -1- m4_pattern_allow([^USE_PERFCTR$])
+m4trace:configure.in:275: -1- AH_OUTPUT([USE_PERFCTR], [/* Define to enable hrvtime() on Linux systems with perfctr extension */
+@%:@undef USE_PERFCTR])
+m4trace:configure.in:293: -1- AC_DEFINE_TRACE_LITERAL([USE_DTRACE])
+m4trace:configure.in:293: -1- m4_pattern_allow([^USE_DTRACE$])
+m4trace:configure.in:293: -1- AH_OUTPUT([USE_DTRACE], [/* Define if you want to use dtrace for dynamic tracing */
+@%:@undef USE_DTRACE])
+m4trace:configure.in:297: -1- AC_DEFINE_TRACE_LITERAL([USE_SYSTEMTAP])
+m4trace:configure.in:297: -1- m4_pattern_allow([^USE_SYSTEMTAP$])
+m4trace:configure.in:297: -1- AH_OUTPUT([USE_SYSTEMTAP], [/* Define if you want to use systemtap for dynamic tracing */
+@%:@undef USE_SYSTEMTAP])
+m4trace:configure.in:305: -1- AC_DEFINE_TRACE_LITERAL([USE_DYNAMIC_TRACE])
+m4trace:configure.in:305: -1- m4_pattern_allow([^USE_DYNAMIC_TRACE$])
+m4trace:configure.in:305: -1- AH_OUTPUT([USE_DYNAMIC_TRACE], [/* Define if you want to use dynamic tracing */
+@%:@undef USE_DYNAMIC_TRACE])
+m4trace:configure.in:326: -1- AC_SUBST([USE_VM_PROBES])
+m4trace:configure.in:326: -1- AC_SUBST_TRACE([USE_VM_PROBES])
+m4trace:configure.in:326: -1- m4_pattern_allow([^USE_VM_PROBES$])
+m4trace:configure.in:329: -1- AC_DEFINE_TRACE_LITERAL([USE_VM_PROBES])
+m4trace:configure.in:329: -1- m4_pattern_allow([^USE_VM_PROBES$])
+m4trace:configure.in:329: -1- AH_OUTPUT([USE_VM_PROBES], [/* Define to enable VM dynamic trace probes */
+@%:@undef USE_VM_PROBES])
+m4trace:configure.in:350: -1- AC_SUBST([OTP_RELEASE])
+m4trace:configure.in:350: -1- AC_SUBST_TRACE([OTP_RELEASE])
+m4trace:configure.in:350: -1- m4_pattern_allow([^OTP_RELEASE$])
+m4trace:configure.in:427: -1- AC_SUBST([CC])
+m4trace:configure.in:427: -1- AC_SUBST_TRACE([CC])
+m4trace:configure.in:427: -1- m4_pattern_allow([^CC$])
+m4trace:configure.in:427: -1- AC_SUBST([CFLAGS])
+m4trace:configure.in:427: -1- AC_SUBST_TRACE([CFLAGS])
+m4trace:configure.in:427: -1- m4_pattern_allow([^CFLAGS$])
+m4trace:configure.in:427: -1- AC_SUBST([LDFLAGS])
+m4trace:configure.in:427: -1- AC_SUBST_TRACE([LDFLAGS])
+m4trace:configure.in:427: -1- m4_pattern_allow([^LDFLAGS$])
+m4trace:configure.in:427: -1- AC_SUBST([LIBS])
+m4trace:configure.in:427: -1- AC_SUBST_TRACE([LIBS])
+m4trace:configure.in:427: -1- m4_pattern_allow([^LIBS$])
+m4trace:configure.in:427: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.in:427: -1- AC_SUBST_TRACE([CPPFLAGS])
+m4trace:configure.in:427: -1- m4_pattern_allow([^CPPFLAGS$])
+m4trace:configure.in:427: -1- AC_SUBST([CC])
+m4trace:configure.in:427: -1- AC_SUBST_TRACE([CC])
+m4trace:configure.in:427: -1- m4_pattern_allow([^CC$])
+m4trace:configure.in:427: -1- AC_SUBST([CC])
+m4trace:configure.in:427: -1- AC_SUBST_TRACE([CC])
+m4trace:configure.in:427: -1- m4_pattern_allow([^CC$])
+m4trace:configure.in:427: -1- AC_SUBST([CC])
+m4trace:configure.in:427: -1- AC_SUBST_TRACE([CC])
+m4trace:configure.in:427: -1- m4_pattern_allow([^CC$])
+m4trace:configure.in:427: -1- AC_SUBST([CC])
+m4trace:configure.in:427: -1- AC_SUBST_TRACE([CC])
+m4trace:configure.in:427: -1- m4_pattern_allow([^CC$])
+m4trace:configure.in:427: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.in:427: -1- AC_SUBST_TRACE([ac_ct_CC])
+m4trace:configure.in:427: -1- m4_pattern_allow([^ac_ct_CC$])
+m4trace:configure.in:428: -1- AC_SUBST([GCC])
+m4trace:configure.in:428: -1- AC_SUBST_TRACE([GCC])
+m4trace:configure.in:428: -1- m4_pattern_allow([^GCC$])
+m4trace:configure.in:450: -1- AC_SUBST([MIXED_CYGWIN_VC])
+m4trace:configure.in:450: -1- AC_SUBST_TRACE([MIXED_CYGWIN_VC])
+m4trace:configure.in:450: -1- m4_pattern_allow([^MIXED_CYGWIN_VC$])
+m4trace:configure.in:450: -1- AC_SUBST([MIXED_MSYS_VC])
+m4trace:configure.in:450: -1- AC_SUBST_TRACE([MIXED_MSYS_VC])
+m4trace:configure.in:450: -1- m4_pattern_allow([^MIXED_MSYS_VC$])
+m4trace:configure.in:450: -1- AC_SUBST([MIXED_VC])
+m4trace:configure.in:450: -1- AC_SUBST_TRACE([MIXED_VC])
+m4trace:configure.in:450: -1- m4_pattern_allow([^MIXED_VC$])
+m4trace:configure.in:450: -1- AC_SUBST([MIXED_CYGWIN_MINGW])
+m4trace:configure.in:450: -1- AC_SUBST_TRACE([MIXED_CYGWIN_MINGW])
+m4trace:configure.in:450: -1- m4_pattern_allow([^MIXED_CYGWIN_MINGW$])
+m4trace:configure.in:450: -1- AC_SUBST([MIXED_CYGWIN])
+m4trace:configure.in:450: -1- AC_SUBST_TRACE([MIXED_CYGWIN])
+m4trace:configure.in:450: -1- m4_pattern_allow([^MIXED_CYGWIN$])
+m4trace:configure.in:450: -1- AC_SUBST([MIXED_MSYS])
+m4trace:configure.in:450: -1- AC_SUBST_TRACE([MIXED_MSYS])
+m4trace:configure.in:450: -1- m4_pattern_allow([^MIXED_MSYS$])
+m4trace:configure.in:514: -1- AC_SUBST([GETCONF])
+m4trace:configure.in:514: -1- AC_SUBST_TRACE([GETCONF])
+m4trace:configure.in:514: -1- m4_pattern_allow([^GETCONF$])
+m4trace:configure.in:514: -1- AC_SUBST([GETCONF])
+m4trace:configure.in:514: -1- AC_SUBST_TRACE([GETCONF])
+m4trace:configure.in:514: -1- m4_pattern_allow([^GETCONF$])
+m4trace:configure.in:514: -1- AC_SUBST([GETCONF])
+m4trace:configure.in:514: -1- AC_SUBST_TRACE([GETCONF])
+m4trace:configure.in:514: -1- m4_pattern_allow([^GETCONF$])
+m4trace:configure.in:563: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:563: the top level])
+m4trace:configure.in:572: -1- AC_SUBST([DEBUG_FLAGS])
+m4trace:configure.in:572: -1- AC_SUBST_TRACE([DEBUG_FLAGS])
+m4trace:configure.in:572: -1- m4_pattern_allow([^DEBUG_FLAGS$])
+m4trace:configure.in:573: -1- AC_SUBST([DEBUG_CFLAGS])
+m4trace:configure.in:573: -1- AC_SUBST_TRACE([DEBUG_CFLAGS])
+m4trace:configure.in:573: -1- m4_pattern_allow([^DEBUG_CFLAGS$])
+m4trace:configure.in:574: -1- AC_SUBST([WFLAGS])
+m4trace:configure.in:574: -1- AC_SUBST_TRACE([WFLAGS])
+m4trace:configure.in:574: -1- m4_pattern_allow([^WFLAGS$])
+m4trace:configure.in:575: -1- AC_SUBST([CFLAG_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:575: -1- AC_SUBST_TRACE([CFLAG_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:575: -1- m4_pattern_allow([^CFLAG_RUNTIME_LIBRARY_PATH$])
+m4trace:configure.in:577: -1- AC_SUBST([CPP])
+m4trace:configure.in:577: -1- AC_SUBST_TRACE([CPP])
+m4trace:configure.in:577: -1- m4_pattern_allow([^CPP$])
+m4trace:configure.in:577: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.in:577: -1- AC_SUBST_TRACE([CPPFLAGS])
+m4trace:configure.in:577: -1- m4_pattern_allow([^CPPFLAGS$])
+m4trace:configure.in:577: -1- AC_SUBST([CPP])
+m4trace:configure.in:577: -1- AC_SUBST_TRACE([CPP])
+m4trace:configure.in:577: -1- m4_pattern_allow([^CPP$])
+m4trace:configure.in:577: -1- AC_SUBST([GREP])
+m4trace:configure.in:577: -1- AC_SUBST_TRACE([GREP])
+m4trace:configure.in:577: -1- m4_pattern_allow([^GREP$])
+m4trace:configure.in:577: -1- AC_SUBST([EGREP])
+m4trace:configure.in:577: -1- AC_SUBST_TRACE([EGREP])
+m4trace:configure.in:577: -1- m4_pattern_allow([^EGREP$])
+m4trace:configure.in:577: -1- AC_DEFINE_TRACE_LITERAL([STDC_HEADERS])
+m4trace:configure.in:577: -1- m4_pattern_allow([^STDC_HEADERS$])
+m4trace:configure.in:577: -1- AH_OUTPUT([STDC_HEADERS], [/* Define to 1 if you have the ANSI C header files. */
+@%:@undef STDC_HEADERS])
+m4trace:configure.in:577: -1- AH_OUTPUT([HAVE_SYS_TYPES_H], [/* Define to 1 if you have the <sys/types.h> header file. */
+@%:@undef HAVE_SYS_TYPES_H])
+m4trace:configure.in:577: -1- AH_OUTPUT([HAVE_SYS_STAT_H], [/* Define to 1 if you have the <sys/stat.h> header file. */
+@%:@undef HAVE_SYS_STAT_H])
+m4trace:configure.in:577: -1- AH_OUTPUT([HAVE_STDLIB_H], [/* Define to 1 if you have the <stdlib.h> header file. */
+@%:@undef HAVE_STDLIB_H])
+m4trace:configure.in:577: -1- AH_OUTPUT([HAVE_STRING_H], [/* Define to 1 if you have the <string.h> header file. */
+@%:@undef HAVE_STRING_H])
+m4trace:configure.in:577: -1- AH_OUTPUT([HAVE_MEMORY_H], [/* Define to 1 if you have the <memory.h> header file. */
+@%:@undef HAVE_MEMORY_H])
+m4trace:configure.in:577: -1- AH_OUTPUT([HAVE_STRINGS_H], [/* Define to 1 if you have the <strings.h> header file. */
+@%:@undef HAVE_STRINGS_H])
+m4trace:configure.in:577: -1- AH_OUTPUT([HAVE_INTTYPES_H], [/* Define to 1 if you have the <inttypes.h> header file. */
+@%:@undef HAVE_INTTYPES_H])
+m4trace:configure.in:577: -1- AH_OUTPUT([HAVE_STDINT_H], [/* Define to 1 if you have the <stdint.h> header file. */
+@%:@undef HAVE_STDINT_H])
+m4trace:configure.in:577: -1- AH_OUTPUT([HAVE_UNISTD_H], [/* Define to 1 if you have the <unistd.h> header file. */
+@%:@undef HAVE_UNISTD_H])
+m4trace:configure.in:577: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_VOID_P])
+m4trace:configure.in:577: -1- m4_pattern_allow([^SIZEOF_VOID_P$])
+m4trace:configure.in:577: -1- AH_OUTPUT([SIZEOF_VOID_P], [/* The size of `void *\', as computed by sizeof. */
+@%:@undef SIZEOF_VOID_P])
+m4trace:configure.in:579: -1- AC_SUBST([EXTERNAL_WORD_SIZE], [64])
+m4trace:configure.in:579: -1- AC_SUBST_TRACE([EXTERNAL_WORD_SIZE])
+m4trace:configure.in:579: -1- m4_pattern_allow([^EXTERNAL_WORD_SIZE$])
+m4trace:configure.in:581: -1- AC_SUBST([EXTERNAL_WORD_SIZE], [32])
+m4trace:configure.in:581: -1- AC_SUBST_TRACE([EXTERNAL_WORD_SIZE])
+m4trace:configure.in:581: -1- m4_pattern_allow([^EXTERNAL_WORD_SIZE$])
+m4trace:configure.in:668: -1- AC_SUBST([OPSYS])
+m4trace:configure.in:668: -1- AC_SUBST_TRACE([OPSYS])
+m4trace:configure.in:668: -1- m4_pattern_allow([^OPSYS$])
+m4trace:configure.in:669: -1- AC_SUBST([ARCH])
+m4trace:configure.in:669: -1- AC_SUBST_TRACE([ARCH])
+m4trace:configure.in:669: -1- m4_pattern_allow([^ARCH$])
+m4trace:configure.in:758: -1- AC_SUBST([LIBCARBON])
+m4trace:configure.in:758: -1- AC_SUBST_TRACE([LIBCARBON])
+m4trace:configure.in:758: -1- m4_pattern_allow([^LIBCARBON$])
+m4trace:configure.in:765: -1- AC_DEFINE_TRACE_LITERAL([HALFWORD_HEAP_EMULATOR])
+m4trace:configure.in:765: -1- m4_pattern_allow([^HALFWORD_HEAP_EMULATOR$])
+m4trace:configure.in:765: -1- AH_OUTPUT([HALFWORD_HEAP_EMULATOR], [/* Define if building a halfword-heap 64bit emulator */
+@%:@undef HALFWORD_HEAP_EMULATOR])
+m4trace:configure.in:782: -1- AC_SUBST([CPP])
+m4trace:configure.in:782: -1- AC_SUBST_TRACE([CPP])
+m4trace:configure.in:782: -1- m4_pattern_allow([^CPP$])
+m4trace:configure.in:782: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.in:782: -1- AC_SUBST_TRACE([CPPFLAGS])
+m4trace:configure.in:782: -1- m4_pattern_allow([^CPPFLAGS$])
+m4trace:configure.in:782: -1- AC_SUBST([CPP])
+m4trace:configure.in:782: -1- AC_SUBST_TRACE([CPP])
+m4trace:configure.in:782: -1- m4_pattern_allow([^CPP$])
+m4trace:configure.in:784: -1- AC_SUBST([RANLIB])
+m4trace:configure.in:784: -1- AC_SUBST_TRACE([RANLIB])
+m4trace:configure.in:784: -1- m4_pattern_allow([^RANLIB$])
+m4trace:configure.in:786: -1- AC_SUBST([YACC])
+m4trace:configure.in:786: -1- AC_SUBST_TRACE([YACC])
+m4trace:configure.in:786: -1- m4_pattern_allow([^YACC$])
+m4trace:configure.in:786: -1- AC_SUBST([YACC])
+m4trace:configure.in:786: -1- AC_SUBST_TRACE([YACC])
+m4trace:configure.in:786: -1- m4_pattern_allow([^YACC$])
+m4trace:configure.in:786: -1- AC_SUBST([YFLAGS])
+m4trace:configure.in:786: -1- AC_SUBST_TRACE([YFLAGS])
+m4trace:configure.in:786: -1- m4_pattern_allow([^YFLAGS$])
+m4trace:configure.in:787: -1- AC_SUBST([PERL])
+m4trace:configure.in:787: -1- AC_SUBST_TRACE([PERL])
+m4trace:configure.in:787: -1- m4_pattern_allow([^PERL$])
+m4trace:configure.in:791: -1- AC_SUBST([LN_S], [$as_ln_s])
+m4trace:configure.in:791: -1- AC_SUBST_TRACE([LN_S])
+m4trace:configure.in:791: -1- m4_pattern_allow([^LN_S$])
+m4trace:configure.in:794: -1- AC_SUBST([AR])
+m4trace:configure.in:794: -1- AC_SUBST_TRACE([AR])
+m4trace:configure.in:794: -1- m4_pattern_allow([^AR$])
+m4trace:configure.in:801: -1- AC_SUBST([RM])
+m4trace:configure.in:801: -1- AC_SUBST_TRACE([RM])
+m4trace:configure.in:801: -1- m4_pattern_allow([^RM$])
+m4trace:configure.in:806: -1- AC_SUBST([MKDIR])
+m4trace:configure.in:806: -1- AC_SUBST_TRACE([MKDIR])
+m4trace:configure.in:806: -1- m4_pattern_allow([^MKDIR$])
+m4trace:configure.in:822: -1- AC_SUBST([XSLTPROC])
+m4trace:configure.in:822: -1- AC_SUBST_TRACE([XSLTPROC])
+m4trace:configure.in:822: -1- m4_pattern_allow([^XSLTPROC$])
+m4trace:configure.in:828: -1- AC_SUBST([FOP])
+m4trace:configure.in:828: -1- AC_SUBST_TRACE([FOP])
+m4trace:configure.in:828: -1- m4_pattern_allow([^FOP$])
+m4trace:configure.in:847: -1- AC_REQUIRE_AUX_FILE([install-sh])
+m4trace:configure.in:847: -1- AC_SUBST([INSTALL_PROGRAM])
+m4trace:configure.in:847: -1- AC_SUBST_TRACE([INSTALL_PROGRAM])
+m4trace:configure.in:847: -1- m4_pattern_allow([^INSTALL_PROGRAM$])
+m4trace:configure.in:847: -1- AC_SUBST([INSTALL_SCRIPT])
+m4trace:configure.in:847: -1- AC_SUBST_TRACE([INSTALL_SCRIPT])
+m4trace:configure.in:847: -1- m4_pattern_allow([^INSTALL_SCRIPT$])
+m4trace:configure.in:847: -1- AC_SUBST([INSTALL_DATA])
+m4trace:configure.in:847: -1- AC_SUBST_TRACE([INSTALL_DATA])
+m4trace:configure.in:847: -1- m4_pattern_allow([^INSTALL_DATA$])
+m4trace:configure.in:848: -1- AC_SUBST([INSTALL_DIR])
+m4trace:configure.in:848: -1- AC_SUBST_TRACE([INSTALL_DIR])
+m4trace:configure.in:848: -1- m4_pattern_allow([^INSTALL_DIR$])
+m4trace:configure.in:882: -1- AC_SUBST([HCC])
+m4trace:configure.in:882: -1- AC_SUBST_TRACE([HCC])
+m4trace:configure.in:882: -1- m4_pattern_allow([^HCC$])
+m4trace:configure.in:883: -1- AC_SUBST([HCFLAGS])
+m4trace:configure.in:883: -1- AC_SUBST_TRACE([HCFLAGS])
+m4trace:configure.in:883: -1- m4_pattern_allow([^HCFLAGS$])
+m4trace:configure.in:885: -1- AC_SUBST([vxworks_reclaim])
+m4trace:configure.in:885: -1- AC_SUBST_TRACE([vxworks_reclaim])
+m4trace:configure.in:885: -1- m4_pattern_allow([^vxworks_reclaim$])
+m4trace:configure.in:893: -1- AC_SUBST([LD])
+m4trace:configure.in:893: -1- AC_SUBST_TRACE([LD])
+m4trace:configure.in:893: -1- m4_pattern_allow([^LD$])
+m4trace:configure.in:896: -1- AC_SUBST([LDFLAG_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:896: -1- AC_SUBST_TRACE([LDFLAG_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:896: -1- m4_pattern_allow([^LDFLAG_RUNTIME_LIBRARY_PATH$])
+m4trace:configure.in:910: -1- AC_SUBST([ERLANG_OSTYPE])
+m4trace:configure.in:910: -1- AC_SUBST_TRACE([ERLANG_OSTYPE])
+m4trace:configure.in:910: -1- m4_pattern_allow([^ERLANG_OSTYPE$])
+m4trace:configure.in:937: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+configure.in:937: the top level])
+m4trace:configure.in:937: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2662: _AC_LINK_IFELSE is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2679: AC_LINK_IFELSE is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+configure.in:937: the top level])
+m4trace:configure.in:944: -1- AC_SUBST([DEXPORT])
+m4trace:configure.in:944: -1- AC_SUBST_TRACE([DEXPORT])
+m4trace:configure.in:944: -1- m4_pattern_allow([^DEXPORT$])
+m4trace:configure.in:956: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SOLARIS_SPARC_PERFMON])
+m4trace:configure.in:956: -1- m4_pattern_allow([^HAVE_SOLARIS_SPARC_PERFMON$])
+m4trace:configure.in:956: -1- AH_OUTPUT([HAVE_SOLARIS_SPARC_PERFMON], [/* define if you have the Solaris/ultrasparc /dev/perfmon interface */
+@%:@undef HAVE_SOLARIS_SPARC_PERFMON])
+m4trace:configure.in:968: -1- AH_OUTPUT([HAVE_LIBM], [/* Define to 1 if you have the `m\' library (-lm). */
+@%:@undef HAVE_LIBM])
+m4trace:configure.in:968: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBM])
+m4trace:configure.in:968: -1- m4_pattern_allow([^HAVE_LIBM$])
+m4trace:configure.in:969: -1- AH_OUTPUT([HAVE_LIBDL], [/* Define to 1 if you have the `dl\' library (-ldl). */
+@%:@undef HAVE_LIBDL])
+m4trace:configure.in:969: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBDL])
+m4trace:configure.in:969: -1- m4_pattern_allow([^HAVE_LIBDL$])
+m4trace:configure.in:970: -1- AH_OUTPUT([HAVE_LIBINET], [/* Define to 1 if you have the `inet\' library (-linet). */
+@%:@undef HAVE_LIBINET])
+m4trace:configure.in:970: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBINET])
+m4trace:configure.in:970: -1- m4_pattern_allow([^HAVE_LIBINET$])
+m4trace:configure.in:971: -1- AH_OUTPUT([HAVE_LIBUTIL], [/* Define to 1 if you have the `util\' library (-lutil). */
+@%:@undef HAVE_LIBUTIL])
+m4trace:configure.in:971: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBUTIL])
+m4trace:configure.in:971: -1- m4_pattern_allow([^HAVE_LIBUTIL$])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:620: LM_CHECK_THR_LIB is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -1- AC_SUBST([GETCONF])
+m4trace:configure.in:977: -1- AC_SUBST_TRACE([GETCONF])
+m4trace:configure.in:977: -1- m4_pattern_allow([^GETCONF$])
+m4trace:configure.in:977: -1- AC_SUBST([GETCONF])
+m4trace:configure.in:977: -1- AC_SUBST_TRACE([GETCONF])
+m4trace:configure.in:977: -1- m4_pattern_allow([^GETCONF$])
+m4trace:configure.in:977: -1- AC_SUBST([GETCONF])
+m4trace:configure.in:977: -1- AC_SUBST_TRACE([GETCONF])
+m4trace:configure.in:977: -1- m4_pattern_allow([^GETCONF$])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([HAVE_PTHREAD_H])
+m4trace:configure.in:977: -2- m4_pattern_allow([^HAVE_PTHREAD_H$])
+m4trace:configure.in:977: -2- AH_OUTPUT([HAVE_PTHREAD_H], [/* Define if you have the <pthread.h> header file. */
+@%:@undef HAVE_PTHREAD_H])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([HAVE_MIT_PTHREAD_H])
+m4trace:configure.in:977: -2- m4_pattern_allow([^HAVE_MIT_PTHREAD_H$])
+m4trace:configure.in:977: -2- AH_OUTPUT([HAVE_MIT_PTHREAD_H], [/* Define if the pthread.h header file is in pthread/mit directory. */
+@%:@undef HAVE_MIT_PTHREAD_H])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([HAVE_KSTAT])
+m4trace:configure.in:977: -1- m4_pattern_allow([^HAVE_KSTAT$])
+m4trace:configure.in:977: -1- AH_OUTPUT([HAVE_KSTAT], [/* Define if you have kstat */
+@%:@undef HAVE_KSTAT])
+m4trace:configure.in:977: -1- AC_SUBST([ERTS_INTERNAL_X_LIBS])
+m4trace:configure.in:977: -1- AC_SUBST_TRACE([ERTS_INTERNAL_X_LIBS])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ERTS_INTERNAL_X_LIBS$])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_WIN32_THREADS])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_WIN32_THREADS$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_WIN32_THREADS], [/* Define if you have win32 threads */
+@%:@undef ETHR_WIN32_THREADS])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDDECREMENT])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDDECREMENT$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDDECREMENT], [/* Define if you have _InterlockedDecrement() */
+@%:@undef ETHR_HAVE__INTERLOCKEDDECREMENT])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDDECREMENT_REL])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDDECREMENT_REL$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDDECREMENT_REL], [/* Define if you have _InterlockedDecrement_rel() */
+@%:@undef ETHR_HAVE__INTERLOCKEDDECREMENT_REL])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDINCREMENT])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDINCREMENT$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDINCREMENT], [/* Define if you have _InterlockedIncrement() */
+@%:@undef ETHR_HAVE__INTERLOCKEDINCREMENT])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDINCREMENT_ACQ])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDINCREMENT_ACQ$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDINCREMENT_ACQ], [/* Define if you have _InterlockedIncrement_acq() */
+@%:@undef ETHR_HAVE__INTERLOCKEDINCREMENT_ACQ])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDEXCHANGEADD])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDEXCHANGEADD$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDEXCHANGEADD], [/* Define if you have _InterlockedExchangeAdd() */
+@%:@undef ETHR_HAVE__INTERLOCKEDEXCHANGEADD])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDEXCHANGEADD_ACQ])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDEXCHANGEADD_ACQ$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDEXCHANGEADD_ACQ], [/* Define if you have _InterlockedExchangeAdd_acq() */
+@%:@undef ETHR_HAVE__INTERLOCKEDEXCHANGEADD_ACQ])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDAND])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDAND$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDAND], [/* Define if you have _InterlockedAnd() */
+@%:@undef ETHR_HAVE__INTERLOCKEDAND])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDOR])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDOR$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDOR], [/* Define if you have _InterlockedOr() */
+@%:@undef ETHR_HAVE__INTERLOCKEDOR])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDEXCHANGE])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDEXCHANGE$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDEXCHANGE], [/* Define if you have _InterlockedExchange() */
+@%:@undef ETHR_HAVE__INTERLOCKEDEXCHANGE])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE], [/* Define if you have _InterlockedCompareExchange() */
+@%:@undef ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE_ACQ])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE_ACQ$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE_ACQ], [/* Define if you have _InterlockedCompareExchange_acq() */
+@%:@undef ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE_ACQ])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE_REL])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE_REL$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE_REL], [/* Define if you have _InterlockedCompareExchange_rel() */
+@%:@undef ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE_REL])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDDECREMENT64])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDDECREMENT64$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDDECREMENT64], [/* Define if you have _InterlockedDecrement64() */
+@%:@undef ETHR_HAVE__INTERLOCKEDDECREMENT64])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDDECREMENT64_REL])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDDECREMENT64_REL$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDDECREMENT64_REL], [/* Define if you have _InterlockedDecrement64_rel() */
+@%:@undef ETHR_HAVE__INTERLOCKEDDECREMENT64_REL])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDINCREMENT64])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDINCREMENT64$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDINCREMENT64], [/* Define if you have _InterlockedIncrement64() */
+@%:@undef ETHR_HAVE__INTERLOCKEDINCREMENT64])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDINCREMENT64_ACQ])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDINCREMENT64_ACQ$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDINCREMENT64_ACQ], [/* Define if you have _InterlockedIncrement64_acq() */
+@%:@undef ETHR_HAVE__INTERLOCKEDINCREMENT64_ACQ])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDEXCHANGEADD64])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDEXCHANGEADD64$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDEXCHANGEADD64], [/* Define if you have _InterlockedExchangeAdd64() */
+@%:@undef ETHR_HAVE__INTERLOCKEDEXCHANGEADD64])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDEXCHANGEADD64_ACQ])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDEXCHANGEADD64_ACQ$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDEXCHANGEADD64_ACQ], [/* Define if you have _InterlockedExchangeAdd64_acq() */
+@%:@undef ETHR_HAVE__INTERLOCKEDEXCHANGEADD64_ACQ])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDAND64])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDAND64$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDAND64], [/* Define if you have _InterlockedAnd64() */
+@%:@undef ETHR_HAVE__INTERLOCKEDAND64])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDOR64])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDOR64$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDOR64], [/* Define if you have _InterlockedOr64() */
+@%:@undef ETHR_HAVE__INTERLOCKEDOR64])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDEXCHANGE64])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDEXCHANGE64$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDEXCHANGE64], [/* Define if you have _InterlockedExchange64() */
+@%:@undef ETHR_HAVE__INTERLOCKEDEXCHANGE64])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE64])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE64$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE64], [/* Define if you have _InterlockedCompareExchange64() */
+@%:@undef ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE64])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE64_ACQ])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE64_ACQ$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE64_ACQ], [/* Define if you have _InterlockedCompareExchange64_acq() */
+@%:@undef ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE64_ACQ])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE64_REL])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE64_REL$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE64_REL], [/* Define if you have _InterlockedCompareExchange64_rel() */
+@%:@undef ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE64_REL])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE128])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE128$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE128], [/* Define if you have _InterlockedCompareExchange128() */
+@%:@undef ETHR_HAVE__INTERLOCKEDCOMPAREEXCHANGE128])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:800: ETHR_CHK_INTERLOCKED is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_PTHREADS])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_PTHREADS$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_PTHREADS], [/* Define if you have pthreads */
+@%:@undef ETHR_PTHREADS])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_PTHREAD_H])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE_PTHREAD_H$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE_PTHREAD_H], [/* Define if you have the <pthread.h> header file. */
+@%:@undef ETHR_HAVE_PTHREAD_H])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_MIT_PTHREAD_H])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE_MIT_PTHREAD_H$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE_MIT_PTHREAD_H], [/* Define if the pthread.h header file is in pthread/mit directory. */
+@%:@undef ETHR_HAVE_MIT_PTHREAD_H])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_NEED_NPTL_PTHREAD_H])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_NEED_NPTL_PTHREAD_H$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_NEED_NPTL_PTHREAD_H], [/* Define if you need the <nptl/pthread.h> header file. */
+@%:@undef ETHR_NEED_NPTL_PTHREAD_H])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_SCHED_H])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE_SCHED_H$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE_SCHED_H], [/* Define if you have the <sched.h> header file. */
+@%:@undef ETHR_HAVE_SCHED_H])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_SYS_TIME_H])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE_SYS_TIME_H$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE_SYS_TIME_H], [/* Define if you have the <sys/time.h> header file. */
+@%:@undef ETHR_HAVE_SYS_TIME_H])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_TIME_WITH_SYS_TIME])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_TIME_WITH_SYS_TIME$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_TIME_WITH_SYS_TIME], [/* Define if you can safely include both <sys/time.h> and <time.h>. */
+@%:@undef ETHR_TIME_WITH_SYS_TIME])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_PTHREAD_SPIN_LOCK])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_HAVE_PTHREAD_SPIN_LOCK$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_HAVE_PTHREAD_SPIN_LOCK], [/* Define if you have the pthread_spin_lock function. */
+@%:@undef ETHR_HAVE_PTHREAD_SPIN_LOCK])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_SCHED_YIELD])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_HAVE_SCHED_YIELD$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_HAVE_SCHED_YIELD], [/* Define if you have the sched_yield() function. */
+@%:@undef ETHR_HAVE_SCHED_YIELD])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_SCHED_YIELD_RET_INT])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_SCHED_YIELD_RET_INT$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_SCHED_YIELD_RET_INT], [/* Define if sched_yield() returns an int. */
+@%:@undef ETHR_SCHED_YIELD_RET_INT])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_PTHREAD_YIELD])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_HAVE_PTHREAD_YIELD$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_HAVE_PTHREAD_YIELD], [/* Define if you have the pthread_yield() function. */
+@%:@undef ETHR_HAVE_PTHREAD_YIELD])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_PTHREAD_YIELD_RET_INT])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_PTHREAD_YIELD_RET_INT$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_PTHREAD_YIELD_RET_INT], [/* Define if pthread_yield() returns an int. */
+@%:@undef ETHR_PTHREAD_YIELD_RET_INT])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_PTHREAD_RWLOCKATTR_SETKIND_NP])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_HAVE_PTHREAD_RWLOCKATTR_SETKIND_NP$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_HAVE_PTHREAD_RWLOCKATTR_SETKIND_NP], [/* Define if you have the pthread_rwlockattr_setkind_np() function. */
+@%:@undef ETHR_HAVE_PTHREAD_RWLOCKATTR_SETKIND_NP])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_PTHREAD_RWLOCK_PREFER_WRITER_NONRECURSIVE_NP])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_HAVE_PTHREAD_RWLOCK_PREFER_WRITER_NONRECURSIVE_NP$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_HAVE_PTHREAD_RWLOCK_PREFER_WRITER_NONRECURSIVE_NP], [/* Define if you have the PTHREAD_RWLOCK_PREFER_WRITER_NONRECURSIVE_NP rwlock
+   attribute. */
+@%:@undef ETHR_HAVE_PTHREAD_RWLOCK_PREFER_WRITER_NONRECURSIVE_NP])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_FORCE_PTHREAD_RWLOCK])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_FORCE_PTHREAD_RWLOCK$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_FORCE_PTHREAD_RWLOCK], [/* Define if you want to force usage of pthread rwlocks */
+@%:@undef ETHR_FORCE_PTHREAD_RWLOCK])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_PTHREAD_ATTR_SETGUARDSIZE])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE_PTHREAD_ATTR_SETGUARDSIZE$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE_PTHREAD_ATTR_SETGUARDSIZE], [/* Define if you have the pthread_attr_setguardsize function. */
+@%:@undef ETHR_HAVE_PTHREAD_ATTR_SETGUARDSIZE])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_LINUX_FUTEX])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_HAVE_LINUX_FUTEX$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_HAVE_LINUX_FUTEX], [/* Define if you have a linux futex implementation. */
+@%:@undef ETHR_HAVE_LINUX_FUTEX])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_INT])
+m4trace:configure.in:977: -1- m4_pattern_allow([^SIZEOF_INT$])
+m4trace:configure.in:977: -1- AH_OUTPUT([SIZEOF_INT], [/* The size of `int\', as computed by sizeof. */
+@%:@undef SIZEOF_INT])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_LONG])
+m4trace:configure.in:977: -1- m4_pattern_allow([^SIZEOF_LONG$])
+m4trace:configure.in:977: -1- AH_OUTPUT([SIZEOF_LONG], [/* The size of `long\', as computed by sizeof. */
+@%:@undef SIZEOF_LONG])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_LONG_LONG])
+m4trace:configure.in:977: -1- m4_pattern_allow([^SIZEOF_LONG_LONG$])
+m4trace:configure.in:977: -1- AH_OUTPUT([SIZEOF_LONG_LONG], [/* The size of `long long\', as computed by sizeof. */
+@%:@undef SIZEOF_LONG_LONG])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF___INT128_T])
+m4trace:configure.in:977: -1- m4_pattern_allow([^SIZEOF___INT128_T$])
+m4trace:configure.in:977: -1- AH_OUTPUT([SIZEOF___INT128_T], [/* The size of `__int128_t\', as computed by sizeof. */
+@%:@undef SIZEOF___INT128_T])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE___SYNC_VAL_COMPARE_AND_SWAP32])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE___SYNC_VAL_COMPARE_AND_SWAP32$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE___SYNC_VAL_COMPARE_AND_SWAP32], [/* Define if you have __sync_val_compare_and_swap() for 32-bit integers */
+@%:@undef ETHR_HAVE___SYNC_VAL_COMPARE_AND_SWAP32])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:780: ETHR_CHK_SYNC_OP is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE___SYNC_ADD_AND_FETCH32])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE___SYNC_ADD_AND_FETCH32$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE___SYNC_ADD_AND_FETCH32], [/* Define if you have __sync_add_and_fetch() for 32-bit integers */
+@%:@undef ETHR_HAVE___SYNC_ADD_AND_FETCH32])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:780: ETHR_CHK_SYNC_OP is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE___SYNC_FETCH_AND_AND32])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE___SYNC_FETCH_AND_AND32$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE___SYNC_FETCH_AND_AND32], [/* Define if you have __sync_fetch_and_and() for 32-bit integers */
+@%:@undef ETHR_HAVE___SYNC_FETCH_AND_AND32])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:780: ETHR_CHK_SYNC_OP is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE___SYNC_FETCH_AND_OR32])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE___SYNC_FETCH_AND_OR32$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE___SYNC_FETCH_AND_OR32], [/* Define if you have __sync_fetch_and_or() for 32-bit integers */
+@%:@undef ETHR_HAVE___SYNC_FETCH_AND_OR32])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:780: ETHR_CHK_SYNC_OP is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE___SYNC_VAL_COMPARE_AND_SWAP64])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE___SYNC_VAL_COMPARE_AND_SWAP64$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE___SYNC_VAL_COMPARE_AND_SWAP64], [/* Define if you have __sync_val_compare_and_swap() for 64-bit integers */
+@%:@undef ETHR_HAVE___SYNC_VAL_COMPARE_AND_SWAP64])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:780: ETHR_CHK_SYNC_OP is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE___SYNC_ADD_AND_FETCH64])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE___SYNC_ADD_AND_FETCH64$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE___SYNC_ADD_AND_FETCH64], [/* Define if you have __sync_add_and_fetch() for 64-bit integers */
+@%:@undef ETHR_HAVE___SYNC_ADD_AND_FETCH64])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:780: ETHR_CHK_SYNC_OP is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE___SYNC_FETCH_AND_AND64])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE___SYNC_FETCH_AND_AND64$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE___SYNC_FETCH_AND_AND64], [/* Define if you have __sync_fetch_and_and() for 64-bit integers */
+@%:@undef ETHR_HAVE___SYNC_FETCH_AND_AND64])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:780: ETHR_CHK_SYNC_OP is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE___SYNC_FETCH_AND_OR64])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE___SYNC_FETCH_AND_OR64$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE___SYNC_FETCH_AND_OR64], [/* Define if you have __sync_fetch_and_or() for 64-bit integers */
+@%:@undef ETHR_HAVE___SYNC_FETCH_AND_OR64])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:780: ETHR_CHK_SYNC_OP is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -2- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE___SYNC_VAL_COMPARE_AND_SWAP128])
+m4trace:configure.in:977: -2- m4_pattern_allow([^ETHR_HAVE___SYNC_VAL_COMPARE_AND_SWAP128$])
+m4trace:configure.in:977: -2- AH_OUTPUT([ETHR_HAVE___SYNC_VAL_COMPARE_AND_SWAP128], [/* Define if you have __sync_val_compare_and_swap() for 128-bit integers */
+@%:@undef ETHR_HAVE___SYNC_VAL_COMPARE_AND_SWAP128])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:780: ETHR_CHK_SYNC_OP is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_AO_T])
+m4trace:configure.in:977: -1- m4_pattern_allow([^SIZEOF_AO_T$])
+m4trace:configure.in:977: -1- AH_OUTPUT([SIZEOF_AO_T], [/* The size of `AO_t\', as computed by sizeof. */
+@%:@undef SIZEOF_AO_T])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_SIZEOF_AO_T])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_SIZEOF_AO_T$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_SIZEOF_AO_T], [/* Define to the size of AO_t if libatomic_ops is used */
+@%:@undef ETHR_SIZEOF_AO_T])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_LIBATOMIC_OPS])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_HAVE_LIBATOMIC_OPS$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_HAVE_LIBATOMIC_OPS], [/* Define if you have libatomic_ops atomic operations */
+@%:@undef ETHR_HAVE_LIBATOMIC_OPS])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_PREFER_LIBATOMIC_OPS_NATIVE_IMPLS])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_PREFER_LIBATOMIC_OPS_NATIVE_IMPLS$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_PREFER_LIBATOMIC_OPS_NATIVE_IMPLS], [/* Define if you prefer libatomic_ops native ethread implementations */
+@%:@undef ETHR_PREFER_LIBATOMIC_OPS_NATIVE_IMPLS])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_SPARC_TSO])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_SPARC_TSO$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_SPARC_TSO], [/* Define if only run in Sparc TSO mode */
+@%:@undef ETHR_SPARC_TSO])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_SPARC_PSO])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_SPARC_PSO$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_SPARC_PSO], [/* Define if only run in Sparc PSO, or TSO mode */
+@%:@undef ETHR_SPARC_PSO])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_SPARC_RMO])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_SPARC_RMO$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_SPARC_RMO], [/* Define if run in Sparc RMO, PSO, or TSO mode */
+@%:@undef ETHR_SPARC_RMO])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_X86_OUT_OF_ORDER])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_X86_OUT_OF_ORDER$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_X86_OUT_OF_ORDER], [/* Define if x86/x86_64 out of order instructions should be synchronized */
+@%:@undef ETHR_X86_OUT_OF_ORDER])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_MODIFIED_DEFAULT_STACK_SIZE])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_MODIFIED_DEFAULT_STACK_SIZE$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_MODIFIED_DEFAULT_STACK_SIZE], [/* Define if you want to modify the default stack size */
+@%:@undef ETHR_MODIFIED_DEFAULT_STACK_SIZE])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_VOID_P])
+m4trace:configure.in:977: -1- m4_pattern_allow([^SIZEOF_VOID_P$])
+m4trace:configure.in:977: -1- AH_OUTPUT([SIZEOF_VOID_P], [/* The size of `void *\', as computed by sizeof. */
+@%:@undef SIZEOF_VOID_P])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_SIZEOF_PTR])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_SIZEOF_PTR$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_SIZEOF_PTR], [/* Define to the size of pointers */
+@%:@undef ETHR_SIZEOF_PTR])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_INT])
+m4trace:configure.in:977: -1- m4_pattern_allow([^SIZEOF_INT$])
+m4trace:configure.in:977: -1- AH_OUTPUT([SIZEOF_INT], [/* The size of `int\', as computed by sizeof. */
+@%:@undef SIZEOF_INT])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_SIZEOF_INT])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_SIZEOF_INT$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_SIZEOF_INT], [/* Define to the size of int */
+@%:@undef ETHR_SIZEOF_INT])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_LONG])
+m4trace:configure.in:977: -1- m4_pattern_allow([^SIZEOF_LONG$])
+m4trace:configure.in:977: -1- AH_OUTPUT([SIZEOF_LONG], [/* The size of `long\', as computed by sizeof. */
+@%:@undef SIZEOF_LONG])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_SIZEOF_LONG])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_SIZEOF_LONG$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_SIZEOF_LONG], [/* Define to the size of long */
+@%:@undef ETHR_SIZEOF_LONG])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_LONG_LONG])
+m4trace:configure.in:977: -1- m4_pattern_allow([^SIZEOF_LONG_LONG$])
+m4trace:configure.in:977: -1- AH_OUTPUT([SIZEOF_LONG_LONG], [/* The size of `long long\', as computed by sizeof. */
+@%:@undef SIZEOF_LONG_LONG])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_SIZEOF_LONG_LONG])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_SIZEOF_LONG_LONG$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_SIZEOF_LONG_LONG], [/* Define to the size of long long */
+@%:@undef ETHR_SIZEOF_LONG_LONG])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF___INT64])
+m4trace:configure.in:977: -1- m4_pattern_allow([^SIZEOF___INT64$])
+m4trace:configure.in:977: -1- AH_OUTPUT([SIZEOF___INT64], [/* The size of `__int64\', as computed by sizeof. */
+@%:@undef SIZEOF___INT64])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_SIZEOF___INT64])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_SIZEOF___INT64$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_SIZEOF___INT64], [/* Define to the size of __int64 */
+@%:@undef ETHR_SIZEOF___INT64])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF___INT128_T])
+m4trace:configure.in:977: -1- m4_pattern_allow([^SIZEOF___INT128_T$])
+m4trace:configure.in:977: -1- AH_OUTPUT([SIZEOF___INT128_T], [/* The size of `__int128_t\', as computed by sizeof. */
+@%:@undef SIZEOF___INT128_T])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_SIZEOF___INT128_T])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_SIZEOF___INT128_T$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_SIZEOF___INT128_T], [/* Define to the size of __int128_t */
+@%:@undef ETHR_SIZEOF___INT128_T])
+m4trace:configure.in:977: -1- AH_OUTPUT([WORDS_BIGENDIAN], [/* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
+   significant byte first (like Motorola and SPARC, unlike Intel). */
+#if defined AC_APPLE_UNIVERSAL_BUILD
+# if defined __BIG_ENDIAN__
+#  define WORDS_BIGENDIAN 1
+# endif
+#else
+# ifndef WORDS_BIGENDIAN
+#  undef WORDS_BIGENDIAN
+# endif
+#endif])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([WORDS_BIGENDIAN])
+m4trace:configure.in:977: -1- m4_pattern_allow([^WORDS_BIGENDIAN$])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([AC_APPLE_UNIVERSAL_BUILD])
+m4trace:configure.in:977: -1- m4_pattern_allow([^AC_APPLE_UNIVERSAL_BUILD$])
+m4trace:configure.in:977: -1- AH_OUTPUT([AC_APPLE_UNIVERSAL_BUILD], [/* Define if building universal (internal helper macro) */
+@%:@undef AC_APPLE_UNIVERSAL_BUILD])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_BIGENDIAN])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_BIGENDIAN$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_BIGENDIAN], [/* Define if bigendian */
+@%:@undef ETHR_BIGENDIAN])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_DISABLE_NATIVE_IMPLS])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_DISABLE_NATIVE_IMPLS$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_DISABLE_NATIVE_IMPLS], [/* Define if you want to disable native ethread implementations */
+@%:@undef ETHR_DISABLE_NATIVE_IMPLS])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_PREFER_GCC_NATIVE_IMPLS])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_PREFER_GCC_NATIVE_IMPLS$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_PREFER_GCC_NATIVE_IMPLS], [/* Define if you prefer gcc native ethread implementations */
+@%:@undef ETHR_PREFER_GCC_NATIVE_IMPLS])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_GCC_HAVE_SSE2_ASM_SUPPORT])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_GCC_HAVE_SSE2_ASM_SUPPORT$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_GCC_HAVE_SSE2_ASM_SUPPORT], [/* Define if you use a gcc that supports -msse2 and understand sse2 specific
+   asm statements */
+@%:@undef ETHR_GCC_HAVE_SSE2_ASM_SUPPORT])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+aclocal.m4:848: ERL_FIND_ETHR_LIB is expanded from...
+configure.in:977: the top level])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_CMPXCHG8B_REGISTER_SHORTAGE])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_CMPXCHG8B_REGISTER_SHORTAGE$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_CMPXCHG8B_REGISTER_SHORTAGE], [/* Define if you get a register shortage with cmpxchg8b and position
+   independent code */
+@%:@undef ETHR_CMPXCHG8B_REGISTER_SHORTAGE])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_GCC_HAVE_DW_CMPXCHG_ASM_SUPPORT])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_GCC_HAVE_DW_CMPXCHG_ASM_SUPPORT$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_GCC_HAVE_DW_CMPXCHG_ASM_SUPPORT], [/* Define if you use a gcc that supports the double word cmpxchg instruction
+   */
+@%:@undef ETHR_GCC_HAVE_DW_CMPXCHG_ASM_SUPPORT])
+m4trace:configure.in:977: -1- AC_DEFINE_TRACE_LITERAL([ETHR_HAVE_ETHREAD_DEFINES])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_HAVE_ETHREAD_DEFINES$])
+m4trace:configure.in:977: -1- AH_OUTPUT([ETHR_HAVE_ETHREAD_DEFINES], [/* Define if you have all ethread defines */
+@%:@undef ETHR_HAVE_ETHREAD_DEFINES])
+m4trace:configure.in:977: -1- AC_SUBST([ETHR_X_LIBS])
+m4trace:configure.in:977: -1- AC_SUBST_TRACE([ETHR_X_LIBS])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_X_LIBS$])
+m4trace:configure.in:977: -1- AC_SUBST([ETHR_LIBS])
+m4trace:configure.in:977: -1- AC_SUBST_TRACE([ETHR_LIBS])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_LIBS$])
+m4trace:configure.in:977: -1- AC_SUBST([ETHR_LIB_NAME])
+m4trace:configure.in:977: -1- AC_SUBST_TRACE([ETHR_LIB_NAME])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_LIB_NAME$])
+m4trace:configure.in:977: -1- AC_SUBST([ETHR_DEFS])
+m4trace:configure.in:977: -1- AC_SUBST_TRACE([ETHR_DEFS])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_DEFS$])
+m4trace:configure.in:977: -1- AC_SUBST([ETHR_THR_LIB_BASE])
+m4trace:configure.in:977: -1- AC_SUBST_TRACE([ETHR_THR_LIB_BASE])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_THR_LIB_BASE$])
+m4trace:configure.in:977: -1- AC_SUBST([ETHR_THR_LIB_BASE_DIR])
+m4trace:configure.in:977: -1- AC_SUBST_TRACE([ETHR_THR_LIB_BASE_DIR])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_THR_LIB_BASE_DIR$])
+m4trace:configure.in:977: -1- AC_SUBST([ETHR_X86_SSE2_ASM])
+m4trace:configure.in:977: -1- AC_SUBST_TRACE([ETHR_X86_SSE2_ASM])
+m4trace:configure.in:977: -1- m4_pattern_allow([^ETHR_X86_SSE2_ASM$])
+m4trace:configure.in:996: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:996: the top level])
+m4trace:configure.in:1042: -1- AC_DEFINE_TRACE_LITERAL([ERTS_HAVE_SMP_EMU])
+m4trace:configure.in:1042: -1- m4_pattern_allow([^ERTS_HAVE_SMP_EMU$])
+m4trace:configure.in:1042: -1- AH_OUTPUT([ERTS_HAVE_SMP_EMU], [/* Define if the smp emulator is built */
+@%:@undef ERTS_HAVE_SMP_EMU])
+m4trace:configure.in:1082: -1- AC_SUBST([ERTS_BUILD_SMP_EMU])
+m4trace:configure.in:1082: -1- AC_SUBST_TRACE([ERTS_BUILD_SMP_EMU])
+m4trace:configure.in:1082: -1- m4_pattern_allow([^ERTS_BUILD_SMP_EMU$])
+m4trace:configure.in:1084: -1- AH_OUTPUT([HAVE_POSIX_FADVISE], [/* Define to 1 if you have the `posix_fadvise\' function. */
+@%:@undef HAVE_POSIX_FADVISE])
+m4trace:configure.in:1084: -1- AC_DEFINE_TRACE_LITERAL([HAVE_POSIX_FADVISE])
+m4trace:configure.in:1084: -1- m4_pattern_allow([^HAVE_POSIX_FADVISE$])
+m4trace:configure.in:1181: -1- AC_DEFINE_TRACE_LITERAL([ERTS_NEED_DLOPEN_BEFORE_DLERROR])
+m4trace:configure.in:1181: -1- m4_pattern_allow([^ERTS_NEED_DLOPEN_BEFORE_DLERROR$])
+m4trace:configure.in:1181: -1- AH_OUTPUT([ERTS_NEED_DLOPEN_BEFORE_DLERROR], [/* Define if dlopen() needs to be called before first call to dlerror() */
+@%:@undef ERTS_NEED_DLOPEN_BEFORE_DLERROR])
+m4trace:configure.in:1219: -1- AC_DEFINE_TRACE_LITERAL([ENABLE_CHILD_WAITER_THREAD])
+m4trace:configure.in:1219: -1- m4_pattern_allow([^ENABLE_CHILD_WAITER_THREAD$])
+m4trace:configure.in:1219: -1- AH_OUTPUT([ENABLE_CHILD_WAITER_THREAD], [/* Define if you want to enable child waiter thread */
+@%:@undef ENABLE_CHILD_WAITER_THREAD])
+m4trace:configure.in:1227: -1- AC_DEFINE_TRACE_LITERAL([DISABLE_CHILD_WAITER_THREAD])
+m4trace:configure.in:1227: -1- m4_pattern_allow([^DISABLE_CHILD_WAITER_THREAD$])
+m4trace:configure.in:1227: -1- AH_OUTPUT([DISABLE_CHILD_WAITER_THREAD], [/* Define if you want to disable child waiter thread */
+@%:@undef DISABLE_CHILD_WAITER_THREAD])
+m4trace:configure.in:1236: -1- AC_SUBST([EMU_THR_LIB_NAME])
+m4trace:configure.in:1236: -1- AC_SUBST_TRACE([EMU_THR_LIB_NAME])
+m4trace:configure.in:1236: -1- m4_pattern_allow([^EMU_THR_LIB_NAME$])
+m4trace:configure.in:1237: -1- AC_SUBST([EMU_THR_X_LIBS])
+m4trace:configure.in:1237: -1- AC_SUBST_TRACE([EMU_THR_X_LIBS])
+m4trace:configure.in:1237: -1- m4_pattern_allow([^EMU_THR_X_LIBS$])
+m4trace:configure.in:1238: -1- AC_SUBST([EMU_THR_LIBS])
+m4trace:configure.in:1238: -1- AC_SUBST_TRACE([EMU_THR_LIBS])
+m4trace:configure.in:1238: -1- m4_pattern_allow([^EMU_THR_LIBS$])
+m4trace:configure.in:1239: -1- AC_SUBST([EMU_THR_DEFS])
+m4trace:configure.in:1239: -1- AC_SUBST_TRACE([EMU_THR_DEFS])
+m4trace:configure.in:1239: -1- m4_pattern_allow([^EMU_THR_DEFS$])
+m4trace:configure.in:1247: -1- AC_SUBST([EMU_LOCK_CHECKING])
+m4trace:configure.in:1247: -1- AC_SUBST_TRACE([EMU_LOCK_CHECKING])
+m4trace:configure.in:1247: -1- m4_pattern_allow([^EMU_LOCK_CHECKING$])
+m4trace:configure.in:1249: -1- AC_DEFINE_TRACE_LITERAL([HAVE_KSTAT])
+m4trace:configure.in:1249: -1- m4_pattern_allow([^HAVE_KSTAT$])
+m4trace:configure.in:1249: -1- AH_OUTPUT([HAVE_KSTAT], [/* Define if you have kstat */
+@%:@undef HAVE_KSTAT])
+m4trace:configure.in:1249: -1- AC_SUBST([ERTS_INTERNAL_X_LIBS])
+m4trace:configure.in:1249: -1- AC_SUBST_TRACE([ERTS_INTERNAL_X_LIBS])
+m4trace:configure.in:1249: -1- m4_pattern_allow([^ERTS_INTERNAL_X_LIBS$])
+m4trace:configure.in:1255: -1- AC_SUBST([THR_LIBS])
+m4trace:configure.in:1255: -1- AC_SUBST_TRACE([THR_LIBS])
+m4trace:configure.in:1255: -1- m4_pattern_allow([^THR_LIBS$])
+m4trace:configure.in:1256: -1- AC_SUBST([THR_DEFS])
+m4trace:configure.in:1256: -1- AC_SUBST_TRACE([THR_DEFS])
+m4trace:configure.in:1256: -1- m4_pattern_allow([^THR_DEFS$])
+m4trace:configure.in:1282: -1- AC_SUBST([TERMCAP_LIB])
+m4trace:configure.in:1282: -1- AC_SUBST_TRACE([TERMCAP_LIB])
+m4trace:configure.in:1282: -1- m4_pattern_allow([^TERMCAP_LIB$])
+m4trace:configure.in:1286: -1- AC_DEFINE_TRACE_LITERAL([HAVE_TERMCAP])
+m4trace:configure.in:1286: -1- m4_pattern_allow([^HAVE_TERMCAP$])
+m4trace:configure.in:1286: -1- AH_OUTPUT([HAVE_TERMCAP], [/* Define if termcap functions exists */
+@%:@undef HAVE_TERMCAP])
+m4trace:configure.in:1303: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBZ])
+m4trace:configure.in:1303: -1- m4_pattern_allow([^HAVE_LIBZ$])
+m4trace:configure.in:1303: -1- AH_OUTPUT([HAVE_LIBZ], [/* Define to 1 if you have the `z\' library (-lz). */
+@%:@undef HAVE_LIBZ])
+m4trace:configure.in:1311: -1- AC_SUBST([Z_LIB])
+m4trace:configure.in:1311: -1- AC_SUBST_TRACE([Z_LIB])
+m4trace:configure.in:1311: -1- m4_pattern_allow([^Z_LIB$])
+m4trace:configure.in:1357: -1- AC_DEFINE_TRACE_LITERAL([HAVE_GETHOSTBYNAME_R])
+m4trace:configure.in:1357: -1- m4_pattern_allow([^HAVE_GETHOSTBYNAME_R$])
+m4trace:configure.in:1357: -1- AH_OUTPUT([HAVE_GETHOSTBYNAME_R], [/* Define to flavour of gethostbyname_r */
+@%:@undef HAVE_GETHOSTBYNAME_R])
+m4trace:configure.in:1364: -2- AC_DEFINE_TRACE_LITERAL([HAVE_GETHOSTBYNAME_R])
+m4trace:configure.in:1364: -2- m4_pattern_allow([^HAVE_GETHOSTBYNAME_R$])
+m4trace:configure.in:1364: -2- AH_OUTPUT([HAVE_GETHOSTBYNAME_R], [/* Define to flavour of gethostbyname_r */
+@%:@undef HAVE_GETHOSTBYNAME_R])
+m4trace:configure.in:1362: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:1362: the top level])
+m4trace:configure.in:1372: -2- AC_DEFINE_TRACE_LITERAL([HAVE_GETHOSTBYNAME_R])
+m4trace:configure.in:1372: -2- m4_pattern_allow([^HAVE_GETHOSTBYNAME_R$])
+m4trace:configure.in:1372: -2- AH_OUTPUT([HAVE_GETHOSTBYNAME_R], [/* Define to flavour of gethostbyname_r */
+@%:@undef HAVE_GETHOSTBYNAME_R])
+m4trace:configure.in:1379: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+configure.in:1379: the top level])
+m4trace:configure.in:1393: -1- AC_DEFINE_TRACE_LITERAL([HAVE_WORKING_POSIX_OPENPT])
+m4trace:configure.in:1393: -1- m4_pattern_allow([^HAVE_WORKING_POSIX_OPENPT$])
+m4trace:configure.in:1393: -1- AH_OUTPUT([HAVE_WORKING_POSIX_OPENPT], [/* Define if you have a working posix_openpt implementation */
+@%:@undef HAVE_WORKING_POSIX_OPENPT])
+m4trace:configure.in:1408: -2- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:1408: the top level])
+m4trace:configure.in:1416: -1- AC_DEFINE_TRACE_LITERAL([NETDB_H_NEEDS_IN_H])
+m4trace:configure.in:1416: -1- m4_pattern_allow([^NETDB_H_NEEDS_IN_H$])
+m4trace:configure.in:1416: -1- AH_OUTPUT([NETDB_H_NEEDS_IN_H], [/* Define if netdb.h needs struct sockaddr_in ans in.h CAN be included before
+   */
+@%:@undef NETDB_H_NEEDS_IN_H])
+m4trace:configure.in:1426: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:1426: the top level])
+m4trace:configure.in:1432: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SOCKLEN_T])
+m4trace:configure.in:1432: -1- m4_pattern_allow([^HAVE_SOCKLEN_T$])
+m4trace:configure.in:1432: -1- AH_OUTPUT([HAVE_SOCKLEN_T], [/* Define if we have socklen_t */
+@%:@undef HAVE_SOCKLEN_T])
+m4trace:configure.in:1442: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+configure.in:1442: the top level])
+m4trace:configure.in:1447: -1- AC_DEFINE_TRACE_LITERAL([H_ERRNO_DECLARED])
+m4trace:configure.in:1447: -1- m4_pattern_allow([^H_ERRNO_DECLARED$])
+m4trace:configure.in:1447: -1- AH_OUTPUT([H_ERRNO_DECLARED], [/* define if h_errno is declared (in some way) in a system header file */
+@%:@undef H_ERRNO_DECLARED])
+m4trace:configure.in:1460: -1- AH_OUTPUT([HAVE_DIRENT_H], [/* Define to 1 if you have the <dirent.h> header file, and it defines `DIR\'.
+   */
+@%:@undef HAVE_DIRENT_H])
+m4trace:configure.in:1460: -1- AH_OUTPUT([HAVE_SYS_NDIR_H], [/* Define to 1 if you have the <sys/ndir.h> header file, and it defines `DIR\'.
+   */
+@%:@undef HAVE_SYS_NDIR_H])
+m4trace:configure.in:1460: -1- AH_OUTPUT([HAVE_SYS_DIR_H], [/* Define to 1 if you have the <sys/dir.h> header file, and it defines `DIR\'.
+   */
+@%:@undef HAVE_SYS_DIR_H])
+m4trace:configure.in:1460: -1- AH_OUTPUT([HAVE_NDIR_H], [/* Define to 1 if you have the <ndir.h> header file, and it defines `DIR\'. */
+@%:@undef HAVE_NDIR_H])
+m4trace:configure.in:1461: -1- AC_DEFINE_TRACE_LITERAL([STDC_HEADERS])
+m4trace:configure.in:1461: -1- m4_pattern_allow([^STDC_HEADERS$])
+m4trace:configure.in:1461: -1- AH_OUTPUT([STDC_HEADERS], [/* Define to 1 if you have the ANSI C header files. */
+@%:@undef STDC_HEADERS])
+m4trace:configure.in:1462: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SYS_WAIT_H])
+m4trace:configure.in:1462: -1- m4_pattern_allow([^HAVE_SYS_WAIT_H$])
+m4trace:configure.in:1462: -1- AH_OUTPUT([HAVE_SYS_WAIT_H], [/* Define to 1 if you have <sys/wait.h> that is POSIX.1 compatible. */
+@%:@undef HAVE_SYS_WAIT_H])
+m4trace:configure.in:1463: -1- AC_DEFINE_TRACE_LITERAL([TIME_WITH_SYS_TIME])
+m4trace:configure.in:1463: -1- m4_pattern_allow([^TIME_WITH_SYS_TIME$])
+m4trace:configure.in:1463: -1- AH_OUTPUT([TIME_WITH_SYS_TIME], [/* Define to 1 if you can safely include both <sys/time.h> and <time.h>. */
+@%:@undef TIME_WITH_SYS_TIME])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_FCNTL_H], [/* Define to 1 if you have the <fcntl.h> header file. */
+@%:@undef HAVE_FCNTL_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_LIMITS_H], [/* Define to 1 if you have the <limits.h> header file. */
+@%:@undef HAVE_LIMITS_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_UNISTD_H], [/* Define to 1 if you have the <unistd.h> header file. */
+@%:@undef HAVE_UNISTD_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_SYSLOG_H], [/* Define to 1 if you have the <syslog.h> header file. */
+@%:@undef HAVE_SYSLOG_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_DLFCN_H], [/* Define to 1 if you have the <dlfcn.h> header file. */
+@%:@undef HAVE_DLFCN_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_IEEEFP_H], [/* Define to 1 if you have the <ieeefp.h> header file. */
+@%:@undef HAVE_IEEEFP_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_SYS_TYPES_H], [/* Define to 1 if you have the <sys/types.h> header file. */
+@%:@undef HAVE_SYS_TYPES_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_SYS_STROPTS_H], [/* Define to 1 if you have the <sys/stropts.h> header file. */
+@%:@undef HAVE_SYS_STROPTS_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_SYS_SYSCTL_H], [/* Define to 1 if you have the <sys/sysctl.h> header file. */
+@%:@undef HAVE_SYS_SYSCTL_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_SYS_IOCTL_H], [/* Define to 1 if you have the <sys/ioctl.h> header file. */
+@%:@undef HAVE_SYS_IOCTL_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_SYS_TIME_H], [/* Define to 1 if you have the <sys/time.h> header file. */
+@%:@undef HAVE_SYS_TIME_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_SYS_UIO_H], [/* Define to 1 if you have the <sys/uio.h> header file. */
+@%:@undef HAVE_SYS_UIO_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_SYS_SOCKET_H], [/* Define to 1 if you have the <sys/socket.h> header file. */
+@%:@undef HAVE_SYS_SOCKET_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_SYS_SOCKIO_H], [/* Define to 1 if you have the <sys/sockio.h> header file. */
+@%:@undef HAVE_SYS_SOCKIO_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_SYS_SOCKETIO_H], [/* Define to 1 if you have the <sys/socketio.h> header file. */
+@%:@undef HAVE_SYS_SOCKETIO_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_NET_ERRNO_H], [/* Define to 1 if you have the <net/errno.h> header file. */
+@%:@undef HAVE_NET_ERRNO_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_MALLOC_H], [/* Define to 1 if you have the <malloc.h> header file. */
+@%:@undef HAVE_MALLOC_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_ARPA_NAMESER_H], [/* Define to 1 if you have the <arpa/nameser.h> header file. */
+@%:@undef HAVE_ARPA_NAMESER_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_LIBDLPI_H], [/* Define to 1 if you have the <libdlpi.h> header file. */
+@%:@undef HAVE_LIBDLPI_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_PTY_H], [/* Define to 1 if you have the <pty.h> header file. */
+@%:@undef HAVE_PTY_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_UTIL_H], [/* Define to 1 if you have the <util.h> header file. */
+@%:@undef HAVE_UTIL_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_UTMP_H], [/* Define to 1 if you have the <utmp.h> header file. */
+@%:@undef HAVE_UTMP_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_LANGINFO_H], [/* Define to 1 if you have the <langinfo.h> header file. */
+@%:@undef HAVE_LANGINFO_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_POLL_H], [/* Define to 1 if you have the <poll.h> header file. */
+@%:@undef HAVE_POLL_H])
+m4trace:configure.in:1468: -1- AH_OUTPUT([HAVE_SDKDDKVER_H], [/* Define to 1 if you have the <sdkddkver.h> header file. */
+@%:@undef HAVE_SDKDDKVER_H])
+m4trace:configure.in:1475: -1- AC_DEFINE_TRACE_LITERAL([HAVE_STRUCT_IFREQ_IFR_HWADDR])
+m4trace:configure.in:1475: -1- m4_pattern_allow([^HAVE_STRUCT_IFREQ_IFR_HWADDR$])
+m4trace:configure.in:1475: -1- AH_OUTPUT([HAVE_STRUCT_IFREQ_IFR_HWADDR], [/* Define to 1 if `ifr_hwaddr\' is a member of `struct ifreq\'. */
+@%:@undef HAVE_STRUCT_IFREQ_IFR_HWADDR])
+m4trace:configure.in:1485: -1- AC_DEFINE_TRACE_LITERAL([HAVE_STRUCT_IFREQ_IFR_ENADDR])
+m4trace:configure.in:1485: -1- m4_pattern_allow([^HAVE_STRUCT_IFREQ_IFR_ENADDR$])
+m4trace:configure.in:1485: -1- AH_OUTPUT([HAVE_STRUCT_IFREQ_IFR_ENADDR], [/* Define to 1 if `ifr_enaddr\' is a member of `struct ifreq\'. */
+@%:@undef HAVE_STRUCT_IFREQ_IFR_ENADDR])
+m4trace:configure.in:1498: -1- AH_OUTPUT([HAVE_LIBDLPI], [/* Define to 1 if you have the `dlpi\' library (-ldlpi). */
+@%:@undef HAVE_LIBDLPI])
+m4trace:configure.in:1498: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBDLPI])
+m4trace:configure.in:1498: -1- m4_pattern_allow([^HAVE_LIBDLPI$])
+m4trace:configure.in:1530: -1- AH_OUTPUT([HAVE_LIBDLPI], [/* Define to 1 if you have the `dlpi\' library (-ldlpi). */
+@%:@undef HAVE_LIBDLPI])
+m4trace:configure.in:1530: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LIBDLPI])
+m4trace:configure.in:1530: -1- m4_pattern_allow([^HAVE_LIBDLPI$])
+m4trace:configure.in:1537: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SYS_RESOURCE_H])
+m4trace:configure.in:1537: -1- m4_pattern_allow([^HAVE_SYS_RESOURCE_H$])
+m4trace:configure.in:1537: -1- AH_OUTPUT([HAVE_SYS_RESOURCE_H], [/* Define to 1 if you have the <sys/resource.h> header file */
+@%:@undef HAVE_SYS_RESOURCE_H])
+m4trace:configure.in:1537: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_GETRLIMIT])
+m4trace:configure.in:1537: -1- m4_pattern_allow([^HAVE_DECL_GETRLIMIT$])
+m4trace:configure.in:1537: -1- AH_OUTPUT([HAVE_DECL_GETRLIMIT], [/* Define to 1 if you have the declaration of `getrlimit\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_GETRLIMIT])
+m4trace:configure.in:1537: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SETRLIMIT])
+m4trace:configure.in:1537: -1- m4_pattern_allow([^HAVE_DECL_SETRLIMIT$])
+m4trace:configure.in:1537: -1- AH_OUTPUT([HAVE_DECL_SETRLIMIT], [/* Define to 1 if you have the declaration of `setrlimit\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_SETRLIMIT])
+m4trace:configure.in:1537: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_RLIMIT_STACK])
+m4trace:configure.in:1537: -1- m4_pattern_allow([^HAVE_DECL_RLIMIT_STACK$])
+m4trace:configure.in:1537: -1- AH_OUTPUT([HAVE_DECL_RLIMIT_STACK], [/* Define to 1 if you have the declaration of `RLIMIT_STACK\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_RLIMIT_STACK])
+m4trace:configure.in:1552: -1- AC_SUBST([LIBSCTP])
+m4trace:configure.in:1552: -1- AC_SUBST_TRACE([LIBSCTP])
+m4trace:configure.in:1552: -1- m4_pattern_allow([^LIBSCTP$])
+m4trace:configure.in:1554: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SCTP_H])
+m4trace:configure.in:1554: -1- m4_pattern_allow([^HAVE_SCTP_H$])
+m4trace:configure.in:1554: -1- AH_OUTPUT([HAVE_SCTP_H], [/* Define to 1 if you have the <netinet/sctp.h> header file */
+@%:@undef HAVE_SCTP_H])
+m4trace:configure.in:1566: -1- AH_OUTPUT([HAVE_SCTP_BINDX], [/* Define to 1 if you have the `sctp_bindx\' function. */
+@%:@undef HAVE_SCTP_BINDX])
+m4trace:configure.in:1566: -1- AH_OUTPUT([HAVE_SCTP_PEELOFF], [/* Define to 1 if you have the `sctp_peeloff\' function. */
+@%:@undef HAVE_SCTP_PEELOFF])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_UNORDERED])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_UNORDERED$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_UNORDERED], [/* Define to 1 if you have the declaration of `SCTP_UNORDERED\', and to 0 if
+   you don\'t. */
+@%:@undef HAVE_DECL_SCTP_UNORDERED])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_ADDR_OVER])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_ADDR_OVER$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_ADDR_OVER], [/* Define to 1 if you have the declaration of `SCTP_ADDR_OVER\', and to 0 if
+   you don\'t. */
+@%:@undef HAVE_DECL_SCTP_ADDR_OVER])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_ABORT])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_ABORT$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_ABORT], [/* Define to 1 if you have the declaration of `SCTP_ABORT\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_SCTP_ABORT])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_EOF])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_EOF$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_EOF], [/* Define to 1 if you have the declaration of `SCTP_EOF\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_SCTP_EOF])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_SENDALL])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_SENDALL$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_SENDALL], [/* Define to 1 if you have the declaration of `SCTP_SENDALL\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_SCTP_SENDALL])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_ADDR_CONFIRMED])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_ADDR_CONFIRMED$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_ADDR_CONFIRMED], [/* Define to 1 if you have the declaration of `SCTP_ADDR_CONFIRMED\', and to 0
+   if you don\'t. */
+@%:@undef HAVE_DECL_SCTP_ADDR_CONFIRMED])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_DELAYED_ACK_TIME])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_DELAYED_ACK_TIME$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_DELAYED_ACK_TIME], [/* Define to 1 if you have the declaration of `SCTP_DELAYED_ACK_TIME\', and to
+   0 if you don\'t. */
+@%:@undef HAVE_DECL_SCTP_DELAYED_ACK_TIME])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_EMPTY])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_EMPTY$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_EMPTY], [/* Define to 1 if you have the declaration of `SCTP_EMPTY\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_SCTP_EMPTY])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_CLOSED])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_CLOSED$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_CLOSED], [/* Define to 1 if you have the declaration of `SCTP_CLOSED\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_SCTP_CLOSED])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTPS_IDLE])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTPS_IDLE$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTPS_IDLE], [/* Define to 1 if you have the declaration of `SCTPS_IDLE\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_SCTPS_IDLE])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_BOUND])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_BOUND$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_BOUND], [/* Define to 1 if you have the declaration of `SCTP_BOUND\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_SCTP_BOUND])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTPS_BOUND])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTPS_BOUND$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTPS_BOUND], [/* Define to 1 if you have the declaration of `SCTPS_BOUND\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_SCTPS_BOUND])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_LISTEN])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_LISTEN$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_LISTEN], [/* Define to 1 if you have the declaration of `SCTP_LISTEN\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_SCTP_LISTEN])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTPS_LISTEN])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTPS_LISTEN$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTPS_LISTEN], [/* Define to 1 if you have the declaration of `SCTPS_LISTEN\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_SCTPS_LISTEN])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_COOKIE_WAIT])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_COOKIE_WAIT$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_COOKIE_WAIT], [/* Define to 1 if you have the declaration of `SCTP_COOKIE_WAIT\', and to 0 if
+   you don\'t. */
+@%:@undef HAVE_DECL_SCTP_COOKIE_WAIT])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTPS_COOKIE_WAIT])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTPS_COOKIE_WAIT$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTPS_COOKIE_WAIT], [/* Define to 1 if you have the declaration of `SCTPS_COOKIE_WAIT\', and to 0 if
+   you don\'t. */
+@%:@undef HAVE_DECL_SCTPS_COOKIE_WAIT])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_COOKIE_ECHOED])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_COOKIE_ECHOED$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_COOKIE_ECHOED], [/* Define to 1 if you have the declaration of `SCTP_COOKIE_ECHOED\', and to 0
+   if you don\'t. */
+@%:@undef HAVE_DECL_SCTP_COOKIE_ECHOED])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTPS_COOKIE_ECHOED])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTPS_COOKIE_ECHOED$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTPS_COOKIE_ECHOED], [/* Define to 1 if you have the declaration of `SCTPS_COOKIE_ECHOED\', and to 0
+   if you don\'t. */
+@%:@undef HAVE_DECL_SCTPS_COOKIE_ECHOED])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_ESTABLISHED])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_ESTABLISHED$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_ESTABLISHED], [/* Define to 1 if you have the declaration of `SCTP_ESTABLISHED\', and to 0 if
+   you don\'t. */
+@%:@undef HAVE_DECL_SCTP_ESTABLISHED])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTPS_ESTABLISHED])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTPS_ESTABLISHED$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTPS_ESTABLISHED], [/* Define to 1 if you have the declaration of `SCTPS_ESTABLISHED\', and to 0 if
+   you don\'t. */
+@%:@undef HAVE_DECL_SCTPS_ESTABLISHED])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_SHUTDOWN_PENDING])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_SHUTDOWN_PENDING$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_SHUTDOWN_PENDING], [/* Define to 1 if you have the declaration of `SCTP_SHUTDOWN_PENDING\', and to
+   0 if you don\'t. */
+@%:@undef HAVE_DECL_SCTP_SHUTDOWN_PENDING])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTPS_SHUTDOWN_PENDING])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTPS_SHUTDOWN_PENDING$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTPS_SHUTDOWN_PENDING], [/* Define to 1 if you have the declaration of `SCTPS_SHUTDOWN_PENDING\', and to
+   0 if you don\'t. */
+@%:@undef HAVE_DECL_SCTPS_SHUTDOWN_PENDING])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_SHUTDOWN_SENT])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_SHUTDOWN_SENT$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_SHUTDOWN_SENT], [/* Define to 1 if you have the declaration of `SCTP_SHUTDOWN_SENT\', and to 0
+   if you don\'t. */
+@%:@undef HAVE_DECL_SCTP_SHUTDOWN_SENT])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTPS_SHUTDOWN_SENT])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTPS_SHUTDOWN_SENT$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTPS_SHUTDOWN_SENT], [/* Define to 1 if you have the declaration of `SCTPS_SHUTDOWN_SENT\', and to 0
+   if you don\'t. */
+@%:@undef HAVE_DECL_SCTPS_SHUTDOWN_SENT])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_SHUTDOWN_RECEIVED])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_SHUTDOWN_RECEIVED$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_SHUTDOWN_RECEIVED], [/* Define to 1 if you have the declaration of `SCTP_SHUTDOWN_RECEIVED\', and to
+   0 if you don\'t. */
+@%:@undef HAVE_DECL_SCTP_SHUTDOWN_RECEIVED])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTPS_SHUTDOWN_RECEIVED])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTPS_SHUTDOWN_RECEIVED$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTPS_SHUTDOWN_RECEIVED], [/* Define to 1 if you have the declaration of `SCTPS_SHUTDOWN_RECEIVED\', and
+   to 0 if you don\'t. */
+@%:@undef HAVE_DECL_SCTPS_SHUTDOWN_RECEIVED])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTP_SHUTDOWN_ACK_SENT])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTP_SHUTDOWN_ACK_SENT$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTP_SHUTDOWN_ACK_SENT], [/* Define to 1 if you have the declaration of `SCTP_SHUTDOWN_ACK_SENT\', and to
+   0 if you don\'t. */
+@%:@undef HAVE_DECL_SCTP_SHUTDOWN_ACK_SENT])
+m4trace:configure.in:1567: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_SCTPS_SHUTDOWN_ACK_SENT])
+m4trace:configure.in:1567: -1- m4_pattern_allow([^HAVE_DECL_SCTPS_SHUTDOWN_ACK_SENT$])
+m4trace:configure.in:1567: -1- AH_OUTPUT([HAVE_DECL_SCTPS_SHUTDOWN_ACK_SENT], [/* Define to 1 if you have the declaration of `SCTPS_SHUTDOWN_ACK_SENT\', and
+   to 0 if you don\'t. */
+@%:@undef HAVE_DECL_SCTPS_SHUTDOWN_ACK_SENT])
+m4trace:configure.in:1586: -1- AC_DEFINE_TRACE_LITERAL([HAVE_STRUCT_SCTP_PADDRPARAMS_SPP_PATHMTU])
+m4trace:configure.in:1586: -1- m4_pattern_allow([^HAVE_STRUCT_SCTP_PADDRPARAMS_SPP_PATHMTU$])
+m4trace:configure.in:1586: -1- AH_OUTPUT([HAVE_STRUCT_SCTP_PADDRPARAMS_SPP_PATHMTU], [/* Define to 1 if `spp_pathmtu\' is a member of `struct sctp_paddrparams\'. */
+@%:@undef HAVE_STRUCT_SCTP_PADDRPARAMS_SPP_PATHMTU])
+m4trace:configure.in:1586: -1- AC_DEFINE_TRACE_LITERAL([HAVE_STRUCT_SCTP_PADDRPARAMS_SPP_SACKDELAY])
+m4trace:configure.in:1586: -1- m4_pattern_allow([^HAVE_STRUCT_SCTP_PADDRPARAMS_SPP_SACKDELAY$])
+m4trace:configure.in:1586: -1- AH_OUTPUT([HAVE_STRUCT_SCTP_PADDRPARAMS_SPP_SACKDELAY], [/* Define to 1 if `spp_sackdelay\' is a member of `struct sctp_paddrparams\'. */
+@%:@undef HAVE_STRUCT_SCTP_PADDRPARAMS_SPP_SACKDELAY])
+m4trace:configure.in:1586: -1- AC_DEFINE_TRACE_LITERAL([HAVE_STRUCT_SCTP_PADDRPARAMS_SPP_FLAGS])
+m4trace:configure.in:1586: -1- m4_pattern_allow([^HAVE_STRUCT_SCTP_PADDRPARAMS_SPP_FLAGS$])
+m4trace:configure.in:1586: -1- AH_OUTPUT([HAVE_STRUCT_SCTP_PADDRPARAMS_SPP_FLAGS], [/* Define to 1 if `spp_flags\' is a member of `struct sctp_paddrparams\'. */
+@%:@undef HAVE_STRUCT_SCTP_PADDRPARAMS_SPP_FLAGS])
+m4trace:configure.in:1586: -1- AC_DEFINE_TRACE_LITERAL([HAVE_STRUCT_SCTP_REMOTE_ERROR_SRE_DATA])
+m4trace:configure.in:1586: -1- m4_pattern_allow([^HAVE_STRUCT_SCTP_REMOTE_ERROR_SRE_DATA$])
+m4trace:configure.in:1586: -1- AH_OUTPUT([HAVE_STRUCT_SCTP_REMOTE_ERROR_SRE_DATA], [/* Define to 1 if `sre_data\' is a member of `struct sctp_remote_error\'. */
+@%:@undef HAVE_STRUCT_SCTP_REMOTE_ERROR_SRE_DATA])
+m4trace:configure.in:1586: -1- AC_DEFINE_TRACE_LITERAL([HAVE_STRUCT_SCTP_SEND_FAILED_SSF_DATA])
+m4trace:configure.in:1586: -1- m4_pattern_allow([^HAVE_STRUCT_SCTP_SEND_FAILED_SSF_DATA$])
+m4trace:configure.in:1586: -1- AH_OUTPUT([HAVE_STRUCT_SCTP_SEND_FAILED_SSF_DATA], [/* Define to 1 if `ssf_data\' is a member of `struct sctp_send_failed\'. */
+@%:@undef HAVE_STRUCT_SCTP_SEND_FAILED_SSF_DATA])
+m4trace:configure.in:1600: -1- AC_SUBST([HAVE_VALGRIND])
+m4trace:configure.in:1600: -1- AC_SUBST_TRACE([HAVE_VALGRIND])
+m4trace:configure.in:1600: -1- m4_pattern_allow([^HAVE_VALGRIND$])
+m4trace:configure.in:1602: -2- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+aclocal.m4:368: LM_DECL_SO_BSDCOMPAT is expanded from...
+configure.in:1602: the top level])
+m4trace:configure.in:1602: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SO_BSDCOMPAT])
+m4trace:configure.in:1602: -1- m4_pattern_allow([^HAVE_SO_BSDCOMPAT$])
+m4trace:configure.in:1602: -1- AH_OUTPUT([HAVE_SO_BSDCOMPAT], [/* Define if you have SO_BSDCOMPAT flag on sockets */
+@%:@undef HAVE_SO_BSDCOMPAT])
+m4trace:configure.in:1603: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+aclocal.m4:389: LM_DECL_INADDR_LOOPBACK is expanded from...
+configure.in:1603: the top level])
+m4trace:configure.in:1603: -2- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+aclocal.m4:389: LM_DECL_INADDR_LOOPBACK is expanded from...
+configure.in:1603: the top level])
+m4trace:configure.in:1603: -1- AC_DEFINE_TRACE_LITERAL([DEF_INADDR_LOOPBACK_IN_RPC_TYPES_H])
+m4trace:configure.in:1603: -1- m4_pattern_allow([^DEF_INADDR_LOOPBACK_IN_RPC_TYPES_H$])
+m4trace:configure.in:1603: -1- AH_OUTPUT([DEF_INADDR_LOOPBACK_IN_RPC_TYPES_H], [/* Define if you need to include rpc/types.h to get INADDR_LOOPBACK defined */
+@%:@undef DEF_INADDR_LOOPBACK_IN_RPC_TYPES_H])
+m4trace:configure.in:1603: -2- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+aclocal.m4:389: LM_DECL_INADDR_LOOPBACK is expanded from...
+configure.in:1603: the top level])
+m4trace:configure.in:1603: -1- AC_DEFINE_TRACE_LITERAL([DEF_INADDR_LOOPBACK_IN_WINSOCK2_H])
+m4trace:configure.in:1603: -1- m4_pattern_allow([^DEF_INADDR_LOOPBACK_IN_WINSOCK2_H$])
+m4trace:configure.in:1603: -1- AH_OUTPUT([DEF_INADDR_LOOPBACK_IN_WINSOCK2_H], [/* Define if you need to include winsock2.h to get INADDR_LOOPBACK defined */
+@%:@undef DEF_INADDR_LOOPBACK_IN_WINSOCK2_H])
+m4trace:configure.in:1603: -1- AC_DEFINE_TRACE_LITERAL([HAVE_NO_INADDR_LOOPBACK])
+m4trace:configure.in:1603: -1- m4_pattern_allow([^HAVE_NO_INADDR_LOOPBACK$])
+m4trace:configure.in:1603: -1- AH_OUTPUT([HAVE_NO_INADDR_LOOPBACK], [/* Define if you don\'t have a definition of INADDR_LOOPBACK */
+@%:@undef HAVE_NO_INADDR_LOOPBACK])
+m4trace:configure.in:1604: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+aclocal.m4:565: LM_DECL_SYS_ERRLIST is expanded from...
+configure.in:1604: the top level])
+m4trace:configure.in:1604: -1- AC_DEFINE_TRACE_LITERAL([SYS_ERRLIST_DECLARED])
+m4trace:configure.in:1604: -1- m4_pattern_allow([^SYS_ERRLIST_DECLARED$])
+m4trace:configure.in:1604: -1- AH_OUTPUT([SYS_ERRLIST_DECLARED], [/* define if the variable sys_errlist is declared in a system header file */
+@%:@undef SYS_ERRLIST_DECLARED])
+m4trace:configure.in:1608: -2- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:1608: the top level])
+m4trace:configure.in:1618: -1- AC_DEFINE_TRACE_LITERAL([WINDOWS_H_INCLUDES_WINSOCK2_H])
+m4trace:configure.in:1618: -1- m4_pattern_allow([^WINDOWS_H_INCLUDES_WINSOCK2_H$])
+m4trace:configure.in:1618: -1- AH_OUTPUT([WINDOWS_H_INCLUDES_WINSOCK2_H], [/* Define if windows.h includes winsock2.h */
+@%:@undef WINDOWS_H_INCLUDES_WINSOCK2_H])
+m4trace:configure.in:1629: -1- AC_DEFINE_TRACE_LITERAL([const])
+m4trace:configure.in:1629: -1- m4_pattern_allow([^const$])
+m4trace:configure.in:1629: -1- AH_OUTPUT([const], [/* Define to empty if `const\' does not conform to ANSI C. */
+@%:@undef const])
+m4trace:configure.in:1630: -1- _m4_warn([obsolete], [The macro `AC_TYPE_SIGNAL' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/types.m4:738: AC_TYPE_SIGNAL is expanded from...
+configure.in:1630: the top level])
+m4trace:configure.in:1630: -1- AC_DEFINE_TRACE_LITERAL([RETSIGTYPE])
+m4trace:configure.in:1630: -1- m4_pattern_allow([^RETSIGTYPE$])
+m4trace:configure.in:1630: -1- AH_OUTPUT([RETSIGTYPE], [/* Define as the return type of signal handlers (`int\' or `void\'). */
+@%:@undef RETSIGTYPE])
+m4trace:configure.in:1631: -1- AC_DEFINE_TRACE_LITERAL([off_t])
+m4trace:configure.in:1631: -1- m4_pattern_allow([^off_t$])
+m4trace:configure.in:1631: -1- AH_OUTPUT([off_t], [/* Define to `long int\' if <sys/types.h> does not define. */
+@%:@undef off_t])
+m4trace:configure.in:1632: -1- AC_DEFINE_TRACE_LITERAL([pid_t])
+m4trace:configure.in:1632: -1- m4_pattern_allow([^pid_t$])
+m4trace:configure.in:1632: -1- AH_OUTPUT([pid_t], [/* Define to `int\' if <sys/types.h> does not define. */
+@%:@undef pid_t])
+m4trace:configure.in:1633: -1- AC_DEFINE_TRACE_LITERAL([size_t])
+m4trace:configure.in:1633: -1- m4_pattern_allow([^size_t$])
+m4trace:configure.in:1633: -1- AH_OUTPUT([size_t], [/* Define to `unsigned int\' if <sys/types.h> does not define. */
+@%:@undef size_t])
+m4trace:configure.in:1635: -1- AC_DEFINE_TRACE_LITERAL([TM_IN_SYS_TIME])
+m4trace:configure.in:1635: -1- m4_pattern_allow([^TM_IN_SYS_TIME$])
+m4trace:configure.in:1635: -1- AH_OUTPUT([TM_IN_SYS_TIME], [/* Define to 1 if your <sys/time.h> declares `struct tm\'. */
+@%:@undef TM_IN_SYS_TIME])
+m4trace:configure.in:1636: -2- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+aclocal.m4:438: LM_STRUCT_SOCKADDR_SA_LEN is expanded from...
+configure.in:1636: the top level])
+m4trace:configure.in:1636: -1- AC_DEFINE_TRACE_LITERAL([NO_SA_LEN])
+m4trace:configure.in:1636: -1- m4_pattern_allow([^NO_SA_LEN$])
+m4trace:configure.in:1636: -1- AH_OUTPUT([NO_SA_LEN], [/* Define if you dont have salen */
+@%:@undef NO_SA_LEN])
+m4trace:configure.in:1637: -2- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+aclocal.m4:460: LM_STRUCT_EXCEPTION is expanded from...
+configure.in:1637: the top level])
+m4trace:configure.in:1637: -1- AC_DEFINE_TRACE_LITERAL([USE_MATHERR])
+m4trace:configure.in:1637: -1- m4_pattern_allow([^USE_MATHERR$])
+m4trace:configure.in:1637: -1- AH_OUTPUT([USE_MATHERR], [/* Define if you have matherr() function and struct exception type */
+@%:@undef USE_MATHERR])
+m4trace:configure.in:1639: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_CHAR])
+m4trace:configure.in:1639: -1- m4_pattern_allow([^SIZEOF_CHAR$])
+m4trace:configure.in:1639: -1- AH_OUTPUT([SIZEOF_CHAR], [/* The size of `char\', as computed by sizeof. */
+@%:@undef SIZEOF_CHAR])
+m4trace:configure.in:1640: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_SHORT])
+m4trace:configure.in:1640: -1- m4_pattern_allow([^SIZEOF_SHORT$])
+m4trace:configure.in:1640: -1- AH_OUTPUT([SIZEOF_SHORT], [/* The size of `short\', as computed by sizeof. */
+@%:@undef SIZEOF_SHORT])
+m4trace:configure.in:1641: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_INT])
+m4trace:configure.in:1641: -1- m4_pattern_allow([^SIZEOF_INT$])
+m4trace:configure.in:1641: -1- AH_OUTPUT([SIZEOF_INT], [/* The size of `int\', as computed by sizeof. */
+@%:@undef SIZEOF_INT])
+m4trace:configure.in:1642: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_LONG])
+m4trace:configure.in:1642: -1- m4_pattern_allow([^SIZEOF_LONG$])
+m4trace:configure.in:1642: -1- AH_OUTPUT([SIZEOF_LONG], [/* The size of `long\', as computed by sizeof. */
+@%:@undef SIZEOF_LONG])
+m4trace:configure.in:1643: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_VOID_P])
+m4trace:configure.in:1643: -1- m4_pattern_allow([^SIZEOF_VOID_P$])
+m4trace:configure.in:1643: -1- AH_OUTPUT([SIZEOF_VOID_P], [/* The size of `void *\', as computed by sizeof. */
+@%:@undef SIZEOF_VOID_P])
+m4trace:configure.in:1644: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_LONG_LONG])
+m4trace:configure.in:1644: -1- m4_pattern_allow([^SIZEOF_LONG_LONG$])
+m4trace:configure.in:1644: -1- AH_OUTPUT([SIZEOF_LONG_LONG], [/* The size of `long long\', as computed by sizeof. */
+@%:@undef SIZEOF_LONG_LONG])
+m4trace:configure.in:1645: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_SIZE_T])
+m4trace:configure.in:1645: -1- m4_pattern_allow([^SIZEOF_SIZE_T$])
+m4trace:configure.in:1645: -1- AH_OUTPUT([SIZEOF_SIZE_T], [/* The size of `size_t\', as computed by sizeof. */
+@%:@undef SIZEOF_SIZE_T])
+m4trace:configure.in:1646: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_OFF_T])
+m4trace:configure.in:1646: -1- m4_pattern_allow([^SIZEOF_OFF_T$])
+m4trace:configure.in:1646: -1- AH_OUTPUT([SIZEOF_OFF_T], [/* The size of `off_t\', as computed by sizeof. */
+@%:@undef SIZEOF_OFF_T])
+m4trace:configure.in:1647: -1- AC_DEFINE_TRACE_LITERAL([SIZEOF_TIME_T])
+m4trace:configure.in:1647: -1- m4_pattern_allow([^SIZEOF_TIME_T$])
+m4trace:configure.in:1647: -1- AH_OUTPUT([SIZEOF_TIME_T], [/* The size of `time_t\', as computed by sizeof. */
+@%:@undef SIZEOF_TIME_T])
+m4trace:configure.in:1654: -1- AC_SUBST([BITS64])
+m4trace:configure.in:1654: -1- AC_SUBST_TRACE([BITS64])
+m4trace:configure.in:1654: -1- m4_pattern_allow([^BITS64$])
+m4trace:configure.in:1658: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:1658: the top level])
+m4trace:configure.in:1678: -1- _m4_warn([obsolete], [The macro `AC_TRY_RUN' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2765: AC_TRY_RUN is expanded from...
+configure.in:1678: the top level])
+m4trace:configure.in:1738: -1- AH_OUTPUT([WORDS_BIGENDIAN], [/* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
+   significant byte first (like Motorola and SPARC, unlike Intel). */
+#if defined AC_APPLE_UNIVERSAL_BUILD
+# if defined __BIG_ENDIAN__
+#  define WORDS_BIGENDIAN 1
+# endif
+#else
+# ifndef WORDS_BIGENDIAN
+#  undef WORDS_BIGENDIAN
+# endif
+#endif])
+m4trace:configure.in:1738: -1- AC_DEFINE_TRACE_LITERAL([WORDS_BIGENDIAN])
+m4trace:configure.in:1738: -1- m4_pattern_allow([^WORDS_BIGENDIAN$])
+m4trace:configure.in:1738: -1- AC_DEFINE_TRACE_LITERAL([AC_APPLE_UNIVERSAL_BUILD])
+m4trace:configure.in:1738: -1- m4_pattern_allow([^AC_APPLE_UNIVERSAL_BUILD$])
+m4trace:configure.in:1738: -1- AH_OUTPUT([AC_APPLE_UNIVERSAL_BUILD], [/* Define if building universal (internal helper macro) */
+@%:@undef AC_APPLE_UNIVERSAL_BUILD])
+m4trace:configure.in:1741: -1- AH_OUTPUT([HAVE_FDATASYNC], [/* Define to 1 if you have the `fdatasync\' function. */
+@%:@undef HAVE_FDATASYNC])
+m4trace:configure.in:1741: -1- AC_DEFINE_TRACE_LITERAL([HAVE_FDATASYNC])
+m4trace:configure.in:1741: -1- m4_pattern_allow([^HAVE_FDATASYNC$])
+m4trace:configure.in:1753: -1- AH_OUTPUT([HAVE_SENDFILE], [/* Define to 1 if you have the `sendfile\' function. */
+@%:@undef HAVE_SENDFILE])
+m4trace:configure.in:1753: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SENDFILE])
+m4trace:configure.in:1753: -1- m4_pattern_allow([^HAVE_SENDFILE$])
+m4trace:configure.in:1757: -2- AC_DEFINE_TRACE_LITERAL([HAVE_SENDFILEV])
+m4trace:configure.in:1757: -2- m4_pattern_allow([^HAVE_SENDFILEV$])
+m4trace:configure.in:1757: -2- AH_OUTPUT([HAVE_SENDFILEV], [/* Define to 1 if you have the `sendfilev\' function. */
+@%:@undef HAVE_SENDFILEV])
+m4trace:configure.in:1779: -1- AH_OUTPUT([HAVE_WINDOWS_H], [/* Define to 1 if you have the <windows.h> header file. */
+@%:@undef HAVE_WINDOWS_H])
+m4trace:configure.in:1779: -1- AC_DEFINE_TRACE_LITERAL([HAVE_WINDOWS_H])
+m4trace:configure.in:1779: -1- m4_pattern_allow([^HAVE_WINDOWS_H$])
+m4trace:configure.in:1780: -1- AH_OUTPUT([HAVE_WINSOCK2_H], [/* Define to 1 if you have the <winsock2.h> header file. */
+@%:@undef HAVE_WINSOCK2_H])
+m4trace:configure.in:1780: -1- AC_DEFINE_TRACE_LITERAL([HAVE_WINSOCK2_H])
+m4trace:configure.in:1780: -1- m4_pattern_allow([^HAVE_WINSOCK2_H$])
+m4trace:configure.in:1781: -1- AH_OUTPUT([HAVE_WS2TCPIP_H], [/* Define to 1 if you have the <ws2tcpip.h> header file. */
+@%:@undef HAVE_WS2TCPIP_H])
+m4trace:configure.in:1781: -1- AC_DEFINE_TRACE_LITERAL([HAVE_WS2TCPIP_H])
+m4trace:configure.in:1781: -1- m4_pattern_allow([^HAVE_WS2TCPIP_H$])
+m4trace:configure.in:1791: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+configure.in:1791: the top level])
+m4trace:configure.in:1814: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:1814: the top level])
+m4trace:configure.in:1847: -1- AC_DEFINE_TRACE_LITERAL([HAVE_GETADDRINFO])
+m4trace:configure.in:1847: -1- m4_pattern_allow([^HAVE_GETADDRINFO$])
+m4trace:configure.in:1847: -1- AH_OUTPUT([HAVE_GETADDRINFO], [/* Define to 1 if you have a good `getaddrinfo\' function. */
+@%:@undef HAVE_GETADDRINFO])
+m4trace:configure.in:1855: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+configure.in:1855: the top level])
+m4trace:configure.in:1877: -1- AC_DEFINE_TRACE_LITERAL([HAVE_GETNAMEINFO])
+m4trace:configure.in:1877: -1- m4_pattern_allow([^HAVE_GETNAMEINFO$])
+m4trace:configure.in:1877: -1- AH_OUTPUT([HAVE_GETNAMEINFO], [/* Define to 1 if you have a good `getnameinfo\' function. */
+@%:@undef HAVE_GETNAMEINFO])
+m4trace:configure.in:1884: -1- AH_OUTPUT([HAVE_GETIPNODEBYNAME], [/* Define to 1 if you have the `getipnodebyname\' function. */
+@%:@undef HAVE_GETIPNODEBYNAME])
+m4trace:configure.in:1884: -1- AH_OUTPUT([HAVE_GETIPNODEBYADDR], [/* Define to 1 if you have the `getipnodebyaddr\' function. */
+@%:@undef HAVE_GETIPNODEBYADDR])
+m4trace:configure.in:1884: -1- AH_OUTPUT([HAVE_GETHOSTBYNAME2], [/* Define to 1 if you have the `gethostbyname2\' function. */
+@%:@undef HAVE_GETHOSTBYNAME2])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_IEEE_HANDLER], [/* Define to 1 if you have the `ieee_handler\' function. */
+@%:@undef HAVE_IEEE_HANDLER])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_FPSETMASK], [/* Define to 1 if you have the `fpsetmask\' function. */
+@%:@undef HAVE_FPSETMASK])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_FINITE], [/* Define to 1 if you have the `finite\' function. */
+@%:@undef HAVE_FINITE])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_ISNAN], [/* Define to 1 if you have the `isnan\' function. */
+@%:@undef HAVE_ISNAN])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_ISINF], [/* Define to 1 if you have the `isinf\' function. */
+@%:@undef HAVE_ISINF])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_RES_GETHOSTBYNAME], [/* Define to 1 if you have the `res_gethostbyname\' function. */
+@%:@undef HAVE_RES_GETHOSTBYNAME])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_DLOPEN], [/* Define to 1 if you have the `dlopen\' function. */
+@%:@undef HAVE_DLOPEN])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_PREAD], [/* Define to 1 if you have the `pread\' function. */
+@%:@undef HAVE_PREAD])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_PWRITE], [/* Define to 1 if you have the `pwrite\' function. */
+@%:@undef HAVE_PWRITE])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_WRITEV], [/* Define to 1 if you have the `writev\' function. */
+@%:@undef HAVE_WRITEV])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_MEMMOVE], [/* Define to 1 if you have the `memmove\' function. */
+@%:@undef HAVE_MEMMOVE])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_STRERROR], [/* Define to 1 if you have the `strerror\' function. */
+@%:@undef HAVE_STRERROR])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_STRERROR_R], [/* Define to 1 if you have the `strerror_r\' function. */
+@%:@undef HAVE_STRERROR_R])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_STRNCASECMP], [/* Define to 1 if you have the `strncasecmp\' function. */
+@%:@undef HAVE_STRNCASECMP])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_GETHRTIME], [/* Define to 1 if you have the `gethrtime\' function. */
+@%:@undef HAVE_GETHRTIME])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_LOCALTIME_R], [/* Define to 1 if you have the `localtime_r\' function. */
+@%:@undef HAVE_LOCALTIME_R])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_GMTIME_R], [/* Define to 1 if you have the `gmtime_r\' function. */
+@%:@undef HAVE_GMTIME_R])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_INET_PTON], [/* Define to 1 if you have the `inet_pton\' function. */
+@%:@undef HAVE_INET_PTON])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_MMAP], [/* Define to 1 if you have the `mmap\' function. */
+@%:@undef HAVE_MMAP])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_MREMAP], [/* Define to 1 if you have the `mremap\' function. */
+@%:@undef HAVE_MREMAP])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_MEMCPY], [/* Define to 1 if you have the `memcpy\' function. */
+@%:@undef HAVE_MEMCPY])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_MALLOPT], [/* Define to 1 if you have the `mallopt\' function. */
+@%:@undef HAVE_MALLOPT])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_SBRK], [/* Define to 1 if you have the `sbrk\' function. */
+@%:@undef HAVE_SBRK])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE__SBRK], [/* Define to 1 if you have the `_sbrk\' function. */
+@%:@undef HAVE__SBRK])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE___SBRK], [/* Define to 1 if you have the `__sbrk\' function. */
+@%:@undef HAVE___SBRK])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_BRK], [/* Define to 1 if you have the `brk\' function. */
+@%:@undef HAVE_BRK])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE__BRK], [/* Define to 1 if you have the `_brk\' function. */
+@%:@undef HAVE__BRK])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE___BRK], [/* Define to 1 if you have the `__brk\' function. */
+@%:@undef HAVE___BRK])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_FLOCKFILE], [/* Define to 1 if you have the `flockfile\' function. */
+@%:@undef HAVE_FLOCKFILE])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_FSTAT], [/* Define to 1 if you have the `fstat\' function. */
+@%:@undef HAVE_FSTAT])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_STRLCPY], [/* Define to 1 if you have the `strlcpy\' function. */
+@%:@undef HAVE_STRLCPY])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_STRLCAT], [/* Define to 1 if you have the `strlcat\' function. */
+@%:@undef HAVE_STRLCAT])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_SETSID], [/* Define to 1 if you have the `setsid\' function. */
+@%:@undef HAVE_SETSID])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_POSIX2TIME], [/* Define to 1 if you have the `posix2time\' function. */
+@%:@undef HAVE_POSIX2TIME])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_SETLOCALE], [/* Define to 1 if you have the `setlocale\' function. */
+@%:@undef HAVE_SETLOCALE])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_NL_LANGINFO], [/* Define to 1 if you have the `nl_langinfo\' function. */
+@%:@undef HAVE_NL_LANGINFO])
+m4trace:configure.in:1886: -1- AH_OUTPUT([HAVE_POLL], [/* Define to 1 if you have the `poll\' function. */
+@%:@undef HAVE_POLL])
+m4trace:configure.in:1892: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DECL_POSIX2TIME])
+m4trace:configure.in:1892: -1- m4_pattern_allow([^HAVE_DECL_POSIX2TIME$])
+m4trace:configure.in:1892: -1- AH_OUTPUT([HAVE_DECL_POSIX2TIME], [/* Define to 1 if you have the declaration of `posix2time\', and to 0 if you
+   don\'t. */
+@%:@undef HAVE_DECL_POSIX2TIME])
+m4trace:configure.in:1907: -1- _m4_warn([obsolete], [The macro `AC_FUNC_VFORK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/functions.m4:1948: AC_FUNC_VFORK is expanded from...
+configure.in:1907: the top level])
+m4trace:configure.in:1907: -1- AH_OUTPUT([HAVE_VFORK_H], [/* Define to 1 if you have the <vfork.h> header file. */
+@%:@undef HAVE_VFORK_H])
+m4trace:configure.in:1907: -1- AC_DEFINE_TRACE_LITERAL([HAVE_VFORK_H])
+m4trace:configure.in:1907: -1- m4_pattern_allow([^HAVE_VFORK_H$])
+m4trace:configure.in:1907: -1- AH_OUTPUT([HAVE_FORK], [/* Define to 1 if you have the `fork\' function. */
+@%:@undef HAVE_FORK])
+m4trace:configure.in:1907: -1- AH_OUTPUT([HAVE_VFORK], [/* Define to 1 if you have the `vfork\' function. */
+@%:@undef HAVE_VFORK])
+m4trace:configure.in:1907: -1- AC_DEFINE_TRACE_LITERAL([HAVE_WORKING_VFORK])
+m4trace:configure.in:1907: -1- m4_pattern_allow([^HAVE_WORKING_VFORK$])
+m4trace:configure.in:1907: -1- AH_OUTPUT([HAVE_WORKING_VFORK], [/* Define to 1 if `vfork\' works. */
+@%:@undef HAVE_WORKING_VFORK])
+m4trace:configure.in:1907: -1- AC_DEFINE_TRACE_LITERAL([vfork])
+m4trace:configure.in:1907: -1- m4_pattern_allow([^vfork$])
+m4trace:configure.in:1907: -1- AH_OUTPUT([vfork], [/* Define as `fork\' if `vfork\' does not work. */
+@%:@undef vfork])
+m4trace:configure.in:1907: -1- AC_DEFINE_TRACE_LITERAL([HAVE_WORKING_FORK])
+m4trace:configure.in:1907: -1- m4_pattern_allow([^HAVE_WORKING_FORK$])
+m4trace:configure.in:1907: -1- AH_OUTPUT([HAVE_WORKING_FORK], [/* Define to 1 if `fork\' works. */
+@%:@undef HAVE_WORKING_FORK])
+m4trace:configure.in:1914: -1- AC_DEFINE_TRACE_LITERAL([DISABLE_VFORK])
+m4trace:configure.in:1914: -1- m4_pattern_allow([^DISABLE_VFORK$])
+m4trace:configure.in:1914: -1- AH_OUTPUT([DISABLE_VFORK], [/* Define if you want to disable vfork. */
+@%:@undef DISABLE_VFORK])
+m4trace:configure.in:1917: -1- AH_OUTPUT([HAVE_VPRINTF], [/* Define to 1 if you have the `vprintf\' function. */
+@%:@undef HAVE_VPRINTF])
+m4trace:configure.in:1917: -1- AC_DEFINE_TRACE_LITERAL([HAVE_VPRINTF])
+m4trace:configure.in:1917: -1- m4_pattern_allow([^HAVE_VPRINTF$])
+m4trace:configure.in:1917: -1- AC_DEFINE_TRACE_LITERAL([HAVE_DOPRNT])
+m4trace:configure.in:1917: -1- m4_pattern_allow([^HAVE_DOPRNT$])
+m4trace:configure.in:1917: -1- AH_OUTPUT([HAVE_DOPRNT], [/* Define to 1 if you don\'t have `vprintf\' but do have `_doprnt.\' */
+@%:@undef HAVE_DOPRNT])
+m4trace:configure.in:1922: -2- AC_DEFINE_TRACE_LITERAL([HAVE_CONFLICTING_FREAD_DECLARATION])
+m4trace:configure.in:1922: -2- m4_pattern_allow([^HAVE_CONFLICTING_FREAD_DECLARATION$])
+m4trace:configure.in:1922: -2- AH_OUTPUT([HAVE_CONFLICTING_FREAD_DECLARATION], [/* Define if you have a decl of fread that conflicts with int fread */
+@%:@undef HAVE_CONFLICTING_FREAD_DECLARATION])
+m4trace:configure.in:1921: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+aclocal.m4:592: LM_CHECK_FUNC_DECL is expanded from...
+configure.in:1921: the top level])
+m4trace:configure.in:1927: -2- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+configure.in:1927: the top level])
+m4trace:configure.in:1932: -1- AC_DEFINE_TRACE_LITERAL([HAVE_PUTC_UNLOCKED])
+m4trace:configure.in:1932: -1- m4_pattern_allow([^HAVE_PUTC_UNLOCKED$])
+m4trace:configure.in:1932: -1- AH_OUTPUT([HAVE_PUTC_UNLOCKED], [/* Define if you have putc_unlocked */
+@%:@undef HAVE_PUTC_UNLOCKED])
+m4trace:configure.in:1938: -2- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+configure.in:1938: the top level])
+m4trace:configure.in:1943: -1- AC_DEFINE_TRACE_LITERAL([HAVE_FWRITE_UNLOCKED])
+m4trace:configure.in:1943: -1- m4_pattern_allow([^HAVE_FWRITE_UNLOCKED$])
+m4trace:configure.in:1943: -1- AH_OUTPUT([HAVE_FWRITE_UNLOCKED], [/* Define if you have fwrite_unlocked */
+@%:@undef HAVE_FWRITE_UNLOCKED])
+m4trace:configure.in:1947: -1- AH_OUTPUT([HAVE_OPENPTY], [/* Define to 1 if you have the `openpty\' function. */
+@%:@undef HAVE_OPENPTY])
+m4trace:configure.in:1947: -1- AC_DEFINE_TRACE_LITERAL([HAVE_OPENPTY])
+m4trace:configure.in:1947: -1- m4_pattern_allow([^HAVE_OPENPTY$])
+m4trace:configure.in:1949: -1- AH_OUTPUT([HAVE_NET_IF_DL_H], [/* Define to 1 if you have the <net/if_dl.h> header file. */
+@%:@undef HAVE_NET_IF_DL_H])
+m4trace:configure.in:1949: -1- AH_OUTPUT([HAVE_IFADDRS_H], [/* Define to 1 if you have the <ifaddrs.h> header file. */
+@%:@undef HAVE_IFADDRS_H])
+m4trace:configure.in:1949: -1- AH_OUTPUT([HAVE_NETPACKET_PACKET_H], [/* Define to 1 if you have the <netpacket/packet.h> header file. */
+@%:@undef HAVE_NETPACKET_PACKET_H])
+m4trace:configure.in:1950: -1- AH_OUTPUT([HAVE_GETIFADDRS], [/* Define to 1 if you have the `getifaddrs\' function. */
+@%:@undef HAVE_GETIFADDRS])
+m4trace:configure.in:1950: -1- AC_DEFINE_TRACE_LITERAL([HAVE_GETIFADDRS])
+m4trace:configure.in:1950: -1- m4_pattern_allow([^HAVE_GETIFADDRS$])
+m4trace:configure.in:1957: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:1957: the top level])
+m4trace:configure.in:1975: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SCHED_xETAFFINITY])
+m4trace:configure.in:1975: -1- m4_pattern_allow([^HAVE_SCHED_xETAFFINITY$])
+m4trace:configure.in:1975: -1- AH_OUTPUT([HAVE_SCHED_xETAFFINITY], [/* Define if you have sched_getaffinity/sched_setaffinity */
+@%:@undef HAVE_SCHED_xETAFFINITY])
+m4trace:configure.in:1980: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:1980: the top level])
+m4trace:configure.in:1994: -1- AC_DEFINE_TRACE_LITERAL([HAVE_PSET])
+m4trace:configure.in:1994: -1- m4_pattern_allow([^HAVE_PSET$])
+m4trace:configure.in:1994: -1- AH_OUTPUT([HAVE_PSET], [/* Define if you have pset functionality */
+@%:@undef HAVE_PSET])
+m4trace:configure.in:1998: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:1998: the top level])
+m4trace:configure.in:2010: -1- AC_DEFINE_TRACE_LITERAL([HAVE_PROCESSOR_BIND])
+m4trace:configure.in:2010: -1- m4_pattern_allow([^HAVE_PROCESSOR_BIND$])
+m4trace:configure.in:2010: -1- AH_OUTPUT([HAVE_PROCESSOR_BIND], [/* Define if you have processor_bind functionality */
+@%:@undef HAVE_PROCESSOR_BIND])
+m4trace:configure.in:2014: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:2014: the top level])
+m4trace:configure.in:2032: -1- AC_DEFINE_TRACE_LITERAL([HAVE_CPUSET_xETAFFINITY])
+m4trace:configure.in:2032: -1- m4_pattern_allow([^HAVE_CPUSET_xETAFFINITY$])
+m4trace:configure.in:2032: -1- AH_OUTPUT([HAVE_CPUSET_xETAFFINITY], [/* Define if you have cpuset_getaffinity/cpuset_setaffinity */
+@%:@undef HAVE_CPUSET_xETAFFINITY])
+m4trace:configure.in:2035: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+configure.in:2035: the top level])
+m4trace:configure.in:2042: -1- AC_DEFINE_TRACE_LITERAL([HAVE_END_SYMBOL])
+m4trace:configure.in:2042: -1- m4_pattern_allow([^HAVE_END_SYMBOL$])
+m4trace:configure.in:2042: -1- AH_OUTPUT([HAVE_END_SYMBOL], [/* Define if you have the \'end\' symbol */
+@%:@undef HAVE_END_SYMBOL])
+m4trace:configure.in:2045: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+configure.in:2045: the top level])
+m4trace:configure.in:2052: -1- AC_DEFINE_TRACE_LITERAL([HAVE__END_SYMBOL])
+m4trace:configure.in:2052: -1- m4_pattern_allow([^HAVE__END_SYMBOL$])
+m4trace:configure.in:2052: -1- AH_OUTPUT([HAVE__END_SYMBOL], [/* Define if you have the \'_end\' symbol */
+@%:@undef HAVE__END_SYMBOL])
+m4trace:configure.in:2055: -1- _m4_warn([obsolete], [The macro `AC_TRY_RUN' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2765: AC_TRY_RUN is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+configure.in:2055: the top level])
+m4trace:configure.in:2195: -1- AC_DEFINE_TRACE_LITERAL([ERTS___AFTER_MORECORE_HOOK_CAN_TRACK_MALLOC])
+m4trace:configure.in:2195: -1- m4_pattern_allow([^ERTS___AFTER_MORECORE_HOOK_CAN_TRACK_MALLOC$])
+m4trace:configure.in:2195: -1- AH_OUTPUT([ERTS___AFTER_MORECORE_HOOK_CAN_TRACK_MALLOC], [/* Define if __after_morecore_hook can track malloc()s core memory use. */
+@%:@undef ERTS___AFTER_MORECORE_HOOK_CAN_TRACK_MALLOC])
+m4trace:configure.in:2202: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+configure.in:2202: the top level])
+m4trace:configure.in:2231: -1- AC_DEFINE_TRACE_LITERAL([SBRK_RET_TYPE])
+m4trace:configure.in:2231: -1- m4_pattern_allow([^SBRK_RET_TYPE$])
+m4trace:configure.in:2231: -1- AH_OUTPUT([SBRK_RET_TYPE], [/* Define the sbrk() return type. */
+@%:@undef SBRK_RET_TYPE])
+m4trace:configure.in:2233: -1- AC_DEFINE_TRACE_LITERAL([SBRK_ARG_TYPE])
+m4trace:configure.in:2233: -1- m4_pattern_allow([^SBRK_ARG_TYPE$])
+m4trace:configure.in:2233: -1- AH_OUTPUT([SBRK_ARG_TYPE], [/* Define the sbrk() argument type. */
+@%:@undef SBRK_ARG_TYPE])
+m4trace:configure.in:2239: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+configure.in:2239: the top level])
+m4trace:configure.in:2268: -1- AC_DEFINE_TRACE_LITERAL([BRK_RET_TYPE])
+m4trace:configure.in:2268: -1- m4_pattern_allow([^BRK_RET_TYPE$])
+m4trace:configure.in:2268: -1- AH_OUTPUT([BRK_RET_TYPE], [/* Define the brk() return type. */
+@%:@undef BRK_RET_TYPE])
+m4trace:configure.in:2270: -1- AC_DEFINE_TRACE_LITERAL([BRK_ARG_TYPE])
+m4trace:configure.in:2270: -1- m4_pattern_allow([^BRK_ARG_TYPE$])
+m4trace:configure.in:2270: -1- AH_OUTPUT([BRK_ARG_TYPE], [/* Define the brk() argument type. */
+@%:@undef BRK_ARG_TYPE])
+m4trace:configure.in:2278: -1- _m4_warn([obsolete], [The macro `AC_TRY_RUN' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2765: AC_TRY_RUN is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+configure.in:2278: the top level])
+m4trace:configure.in:2461: -1- AC_DEFINE_TRACE_LITERAL([ERTS_BRK_WRAPPERS_CAN_TRACK_MALLOC])
+m4trace:configure.in:2461: -1- m4_pattern_allow([^ERTS_BRK_WRAPPERS_CAN_TRACK_MALLOC$])
+m4trace:configure.in:2461: -1- AH_OUTPUT([ERTS_BRK_WRAPPERS_CAN_TRACK_MALLOC], [/* Define if sbrk()/brk() wrappers can track malloc()s core memory use */
+@%:@undef ERTS_BRK_WRAPPERS_CAN_TRACK_MALLOC])
+m4trace:configure.in:2474: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+aclocal.m4:482: LM_SYS_IPV6 is expanded from...
+configure.in:2474: the top level])
+m4trace:configure.in:2474: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+aclocal.m4:482: LM_SYS_IPV6 is expanded from...
+configure.in:2474: the top level])
+m4trace:configure.in:2474: -1- AC_DEFINE_TRACE_LITERAL([HAVE_IN6])
+m4trace:configure.in:2474: -1- m4_pattern_allow([^HAVE_IN6$])
+m4trace:configure.in:2474: -1- AH_OUTPUT([HAVE_IN6], [/* Define if ipv6 is present */
+@%:@undef HAVE_IN6])
+m4trace:configure.in:2474: -1- AC_DEFINE_TRACE_LITERAL([HAVE_IN6])
+m4trace:configure.in:2474: -1- m4_pattern_allow([^HAVE_IN6$])
+m4trace:configure.in:2474: -1- AH_OUTPUT([HAVE_IN6], [/* Define if ipv6 is present */
+@%:@undef HAVE_IN6])
+m4trace:configure.in:2474: -1- AC_DEFINE_TRACE_LITERAL([HAVE_IN_ADDR6_STRUCT])
+m4trace:configure.in:2474: -1- m4_pattern_allow([^HAVE_IN_ADDR6_STRUCT$])
+m4trace:configure.in:2474: -1- AH_OUTPUT([HAVE_IN_ADDR6_STRUCT], [/* Early linux used in_addr6 instead of in6_addr, define if you have this */
+@%:@undef HAVE_IN_ADDR6_STRUCT])
+m4trace:configure.in:2475: -1- AC_DEFINE_TRACE_LITERAL([HAVE_MULTICAST_SUPPORT])
+m4trace:configure.in:2475: -1- m4_pattern_allow([^HAVE_MULTICAST_SUPPORT$])
+m4trace:configure.in:2475: -1- AH_OUTPUT([HAVE_MULTICAST_SUPPORT], [/* Define if setsockopt() accepts multicast options */
+@%:@undef HAVE_MULTICAST_SUPPORT])
+m4trace:configure.in:2476: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+aclocal.m4:1493: ERL_TIME_CORRECTION is expanded from...
+configure.in:2476: the top level])
+m4trace:configure.in:2476: -1- AC_DEFINE_TRACE_LITERAL([CORRECT_USING_TIMES])
+m4trace:configure.in:2476: -1- m4_pattern_allow([^CORRECT_USING_TIMES$])
+m4trace:configure.in:2476: -1- AH_OUTPUT([CORRECT_USING_TIMES], [/* Define if you do not have a high-res. timer & want to use times() instead
+   */
+@%:@undef CORRECT_USING_TIMES])
+m4trace:configure.in:2476: -1- AC_DEFINE_TRACE_LITERAL([GETHRTIME_WITH_CLOCK_GETTIME])
+m4trace:configure.in:2476: -1- m4_pattern_allow([^GETHRTIME_WITH_CLOCK_GETTIME$])
+m4trace:configure.in:2476: -1- AH_OUTPUT([GETHRTIME_WITH_CLOCK_GETTIME], [/* Define if you want to use clock_gettime to simulate gethrtime */
+@%:@undef GETHRTIME_WITH_CLOCK_GETTIME])
+m4trace:configure.in:2476: -1- _m4_warn([obsolete], [The macro `AC_TRY_RUN' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2765: AC_TRY_RUN is expanded from...
+aclocal.m4:1493: ERL_TIME_CORRECTION is expanded from...
+configure.in:2476: the top level])
+m4trace:configure.in:2476: -1- AC_DEFINE_TRACE_LITERAL([HAVE_GETHRVTIME_PROCFS_IOCTL])
+m4trace:configure.in:2476: -1- m4_pattern_allow([^HAVE_GETHRVTIME_PROCFS_IOCTL$])
+m4trace:configure.in:2476: -1- AH_OUTPUT([HAVE_GETHRVTIME_PROCFS_IOCTL], [/* define if gethrvtime() works and uses ioctl() to /proc/self */
+@%:@undef HAVE_GETHRVTIME_PROCFS_IOCTL])
+m4trace:configure.in:2476: -1- _m4_warn([obsolete], [The macro `AC_TRY_RUN' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2765: AC_TRY_RUN is expanded from...
+aclocal.m4:1493: ERL_TIME_CORRECTION is expanded from...
+configure.in:2476: the top level])
+m4trace:configure.in:2476: -1- AC_DEFINE_TRACE_LITERAL([HAVE_CLOCK_GETTIME])
+m4trace:configure.in:2476: -1- m4_pattern_allow([^HAVE_CLOCK_GETTIME$])
+m4trace:configure.in:2476: -1- AH_OUTPUT([HAVE_CLOCK_GETTIME], [/* define if clock_gettime() works for getting process time */
+@%:@undef HAVE_CLOCK_GETTIME])
+m4trace:configure.in:2476: -1- AC_SUBST([LIBRT])
+m4trace:configure.in:2476: -1- AC_SUBST_TRACE([LIBRT])
+m4trace:configure.in:2476: -1- m4_pattern_allow([^LIBRT$])
+m4trace:configure.in:2477: -1- AC_SUBST([M4])
+m4trace:configure.in:2477: -1- AC_SUBST_TRACE([M4])
+m4trace:configure.in:2477: -1- m4_pattern_allow([^M4$])
+m4trace:configure.in:2501: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:2501: the top level])
+m4trace:configure.in:2525: -1- AC_DEFINE_TRACE_LITERAL([DARWIN_MODERN_MCONTEXT])
+m4trace:configure.in:2525: -1- m4_pattern_allow([^DARWIN_MODERN_MCONTEXT$])
+m4trace:configure.in:2525: -1- AH_OUTPUT([DARWIN_MODERN_MCONTEXT], [/* Modern style mcontext_t in MacOSX */
+@%:@undef DARWIN_MODERN_MCONTEXT])
+m4trace:configure.in:2556: -1- AC_DEFINE_TRACE_LITERAL([NO_FPE_SIGNALS])
+m4trace:configure.in:2556: -1- m4_pattern_allow([^NO_FPE_SIGNALS$])
+m4trace:configure.in:2556: -1- AH_OUTPUT([NO_FPE_SIGNALS], [/* Define if floating points exceptions are non-existing/not reliable */
+@%:@undef NO_FPE_SIGNALS])
+m4trace:configure.in:2563: -1- _m4_warn([obsolete], [The macro `AC_TRY_RUN' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2765: AC_TRY_RUN is expanded from...
+configure.in:2563: the top level])
+m4trace:configure.in:3084: -1- AC_DEFINE_TRACE_LITERAL([NO_FPE_SIGNALS])
+m4trace:configure.in:3084: -1- m4_pattern_allow([^NO_FPE_SIGNALS$])
+m4trace:configure.in:3084: -1- AH_OUTPUT([NO_FPE_SIGNALS], [/* Define if floating points exceptions are non-existing/not reliable */
+@%:@undef NO_FPE_SIGNALS])
+m4trace:configure.in:3111: -1- AC_DEFINE_TRACE_LITERAL([REDEFINE_FD_SETSIZE])
+m4trace:configure.in:3111: -1- m4_pattern_allow([^REDEFINE_FD_SETSIZE$])
+m4trace:configure.in:3111: -1- AH_OUTPUT([REDEFINE_FD_SETSIZE], [/* Define if you wish to redefine FD_SETSIZE to be able to select on more fd
+   */
+@%:@undef REDEFINE_FD_SETSIZE])
+m4trace:configure.in:3134: -1- AC_SUBST([TSP_APP])
+m4trace:configure.in:3134: -1- AC_SUBST_TRACE([TSP_APP])
+m4trace:configure.in:3134: -1- m4_pattern_allow([^TSP_APP$])
+m4trace:configure.in:3158: -1- AC_DEFINE_TRACE_LITERAL([ERTS_HAVE_HYBRID_EMU])
+m4trace:configure.in:3158: -1- m4_pattern_allow([^ERTS_HAVE_HYBRID_EMU$])
+m4trace:configure.in:3158: -1- AH_OUTPUT([ERTS_HAVE_HYBRID_EMU], [/* Define if the hybrid emulator is built */
+@%:@undef ERTS_HAVE_HYBRID_EMU])
+m4trace:configure.in:3161: -1- AC_SUBST([ERTS_BUILD_HYBRID_EMU])
+m4trace:configure.in:3161: -1- AC_SUBST_TRACE([ERTS_BUILD_HYBRID_EMU])
+m4trace:configure.in:3161: -1- m4_pattern_allow([^ERTS_BUILD_HYBRID_EMU$])
+m4trace:configure.in:3178: -1- AC_DEFINE_TRACE_LITERAL([HIPE])
+m4trace:configure.in:3178: -1- m4_pattern_allow([^HIPE$])
+m4trace:configure.in:3178: -1- AH_OUTPUT([HIPE], [/* Define to enable HiPE */
+@%:@undef HIPE])
+m4trace:configure.in:3183: -1- AC_SUBST([HIPE_HELPERS])
+m4trace:configure.in:3183: -1- AC_SUBST_TRACE([HIPE_HELPERS])
+m4trace:configure.in:3183: -1- m4_pattern_allow([^HIPE_HELPERS$])
+m4trace:configure.in:3184: -1- AC_SUBST([HIPE_ENABLED])
+m4trace:configure.in:3184: -1- AC_SUBST_TRACE([HIPE_ENABLED])
+m4trace:configure.in:3184: -1- m4_pattern_allow([^HIPE_ENABLED$])
+m4trace:configure.in:3193: -1- AC_SUBST([NATIVE_LIBS_ENABLED])
+m4trace:configure.in:3193: -1- AC_SUBST_TRACE([NATIVE_LIBS_ENABLED])
+m4trace:configure.in:3193: -1- m4_pattern_allow([^NATIVE_LIBS_ENABLED$])
+m4trace:configure.in:3198: -1- AC_SUBST([USE_PERFCTR])
+m4trace:configure.in:3198: -1- AC_SUBST_TRACE([USE_PERFCTR])
+m4trace:configure.in:3198: -1- m4_pattern_allow([^USE_PERFCTR$])
+m4trace:configure.in:3201: -1- AC_DEFINE_TRACE_LITERAL([USE_PERFCTR])
+m4trace:configure.in:3201: -1- m4_pattern_allow([^USE_PERFCTR$])
+m4trace:configure.in:3201: -1- AH_OUTPUT([USE_PERFCTR], [/* Define to enable hrvtime() on Linux systems with perfctr extension */
+@%:@undef USE_PERFCTR])
+m4trace:configure.in:3218: -1- _m4_warn([obsolete], [The macro `AC_TRY_RUN' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2765: AC_TRY_RUN is expanded from...
+configure.in:3218: the top level])
+m4trace:configure.in:3256: -1- AC_DEFINE_TRACE_LITERAL([USE_SELECT])
+m4trace:configure.in:3256: -1- m4_pattern_allow([^USE_SELECT$])
+m4trace:configure.in:3256: -1- AH_OUTPUT([USE_SELECT], [/* Define if select() should be used instead of poll() */
+@%:@undef USE_SELECT])
+m4trace:configure.in:3265: -1- AC_DEFINE_TRACE_LITERAL([ERTS_USE_POLL])
+m4trace:configure.in:3265: -1- m4_pattern_allow([^ERTS_USE_POLL$])
+m4trace:configure.in:3265: -1- AH_OUTPUT([ERTS_USE_POLL], [/* Define if poll() should be used instead of select() */
+@%:@undef ERTS_USE_POLL])
+m4trace:configure.in:3285: -1- _m4_warn([obsolete], [The macro `AC_TRY_RUN' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2765: AC_TRY_RUN is expanded from...
+configure.in:3285: the top level])
+m4trace:configure.in:3337: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+configure.in:3337: the top level])
+m4trace:configure.in:3368: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SYS_EPOLL_H])
+m4trace:configure.in:3368: -1- m4_pattern_allow([^HAVE_SYS_EPOLL_H$])
+m4trace:configure.in:3368: -1- AH_OUTPUT([HAVE_SYS_EPOLL_H], [/* Define if you have the <sys/epoll.h> header file. */
+@%:@undef HAVE_SYS_EPOLL_H])
+m4trace:configure.in:3370: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SYS_DEVPOLL_H])
+m4trace:configure.in:3370: -1- m4_pattern_allow([^HAVE_SYS_DEVPOLL_H$])
+m4trace:configure.in:3370: -1- AH_OUTPUT([HAVE_SYS_DEVPOLL_H], [/* Define if you have <sys/devpoll.h> header file. */
+@%:@undef HAVE_SYS_DEVPOLL_H])
+m4trace:configure.in:3372: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SYS_EVENT_H])
+m4trace:configure.in:3372: -1- m4_pattern_allow([^HAVE_SYS_EVENT_H$])
+m4trace:configure.in:3372: -1- AH_OUTPUT([HAVE_SYS_EVENT_H], [/* Define if you have <sys/event.h> header file. */
+@%:@undef HAVE_SYS_EVENT_H])
+m4trace:configure.in:3377: -1- AC_DEFINE_TRACE_LITERAL([ERTS_ENABLE_KERNEL_POLL])
+m4trace:configure.in:3377: -1- m4_pattern_allow([^ERTS_ENABLE_KERNEL_POLL$])
+m4trace:configure.in:3377: -1- AH_OUTPUT([ERTS_ENABLE_KERNEL_POLL], [/* Define if you have kernel poll and want to use it */
+@%:@undef ERTS_ENABLE_KERNEL_POLL])
+m4trace:configure.in:3380: -1- AC_SUBST([ERTS_ENABLE_KERNEL_POLL])
+m4trace:configure.in:3380: -1- AC_SUBST_TRACE([ERTS_ENABLE_KERNEL_POLL])
+m4trace:configure.in:3380: -1- m4_pattern_allow([^ERTS_ENABLE_KERNEL_POLL$])
+m4trace:configure.in:3383: -1- _m4_warn([obsolete], [The macro `AC_TRY_RUN' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2765: AC_TRY_RUN is expanded from...
+configure.in:3383: the top level])
+m4trace:configure.in:3427: -1- AC_DEFINE_TRACE_LITERAL([HAVE_COPYING_PUTENV])
+m4trace:configure.in:3427: -1- m4_pattern_allow([^HAVE_COPYING_PUTENV$])
+m4trace:configure.in:3427: -1- AH_OUTPUT([HAVE_COPYING_PUTENV], [/* Define if you have a putenv() that stores a copy of the key-value pair */
+@%:@undef HAVE_COPYING_PUTENV])
+m4trace:configure.in:3570: -1- AC_SUBST([DED_LD])
+m4trace:configure.in:3570: -1- AC_SUBST_TRACE([DED_LD])
+m4trace:configure.in:3570: -1- m4_pattern_allow([^DED_LD$])
+m4trace:configure.in:3586: -1- AC_SUBST([DED_EXT])
+m4trace:configure.in:3586: -1- AC_SUBST_TRACE([DED_EXT])
+m4trace:configure.in:3586: -1- m4_pattern_allow([^DED_EXT$])
+m4trace:configure.in:3587: -1- AC_SUBST([DED_SYS_INCLUDE])
+m4trace:configure.in:3587: -1- AC_SUBST_TRACE([DED_SYS_INCLUDE])
+m4trace:configure.in:3587: -1- m4_pattern_allow([^DED_SYS_INCLUDE$])
+m4trace:configure.in:3588: -1- AC_SUBST([DED_CFLAGS])
+m4trace:configure.in:3588: -1- AC_SUBST_TRACE([DED_CFLAGS])
+m4trace:configure.in:3588: -1- m4_pattern_allow([^DED_CFLAGS$])
+m4trace:configure.in:3589: -1- AC_SUBST([DED_LD])
+m4trace:configure.in:3589: -1- AC_SUBST_TRACE([DED_LD])
+m4trace:configure.in:3589: -1- m4_pattern_allow([^DED_LD$])
+m4trace:configure.in:3590: -1- AC_SUBST([DED_LDFLAGS])
+m4trace:configure.in:3590: -1- AC_SUBST_TRACE([DED_LDFLAGS])
+m4trace:configure.in:3590: -1- m4_pattern_allow([^DED_LDFLAGS$])
+m4trace:configure.in:3591: -1- AC_SUBST([DED_LD_FLAG_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:3591: -1- AC_SUBST_TRACE([DED_LD_FLAG_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:3591: -1- m4_pattern_allow([^DED_LD_FLAG_RUNTIME_LIBRARY_PATH$])
+m4trace:configure.in:3592: -1- AC_SUBST([DED_THR_DEFS])
+m4trace:configure.in:3592: -1- AC_SUBST_TRACE([DED_THR_DEFS])
+m4trace:configure.in:3592: -1- m4_pattern_allow([^DED_THR_DEFS$])
+m4trace:configure.in:3593: -1- AC_SUBST([DED_EMU_THR_DEFS])
+m4trace:configure.in:3593: -1- AC_SUBST_TRACE([DED_EMU_THR_DEFS])
+m4trace:configure.in:3593: -1- m4_pattern_allow([^DED_EMU_THR_DEFS$])
+m4trace:configure.in:3594: -1- AC_SUBST([STATIC_CFLAGS])
+m4trace:configure.in:3594: -1- AC_SUBST_TRACE([STATIC_CFLAGS])
+m4trace:configure.in:3594: -1- m4_pattern_allow([^STATIC_CFLAGS$])
+m4trace:configure.in:3601: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+aclocal.m4:211: LM_FIND_EMU_CC is expanded from...
+configure.in:3601: the top level])
+m4trace:configure.in:3601: -1- _m4_warn([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2615: AC_TRY_COMPILE is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+aclocal.m4:211: LM_FIND_EMU_CC is expanded from...
+configure.in:3601: the top level])
+m4trace:configure.in:3601: -1- AC_DEFINE_TRACE_LITERAL([NO_JUMP_TABLE])
+m4trace:configure.in:3601: -1- m4_pattern_allow([^NO_JUMP_TABLE$])
+m4trace:configure.in:3601: -1- AH_OUTPUT([NO_JUMP_TABLE], [/* Defined if no found C compiler can handle jump tables */
+@%:@undef NO_JUMP_TABLE])
+m4trace:configure.in:3601: -1- AC_SUBST([EMU_CC])
+m4trace:configure.in:3601: -1- AC_SUBST_TRACE([EMU_CC])
+m4trace:configure.in:3601: -1- m4_pattern_allow([^EMU_CC$])
+m4trace:configure.in:3608: -1- AC_SUBST([DTRACE])
+m4trace:configure.in:3608: -1- AC_SUBST_TRACE([DTRACE])
+m4trace:configure.in:3608: -1- m4_pattern_allow([^DTRACE$])
+m4trace:configure.in:3614: -1- AC_SUBST([DTRACE])
+m4trace:configure.in:3614: -1- AC_SUBST_TRACE([DTRACE])
+m4trace:configure.in:3614: -1- m4_pattern_allow([^DTRACE$])
+m4trace:configure.in:3616: -1- AC_SUBST([DTRACE_CPP])
+m4trace:configure.in:3616: -1- AC_SUBST_TRACE([DTRACE_CPP])
+m4trace:configure.in:3616: -1- m4_pattern_allow([^DTRACE_CPP$])
+m4trace:configure.in:3617: -1- AC_SUBST([DTRACE_ENABLED])
+m4trace:configure.in:3617: -1- AC_SUBST_TRACE([DTRACE_ENABLED])
+m4trace:configure.in:3617: -1- m4_pattern_allow([^DTRACE_ENABLED$])
+m4trace:configure.in:3618: -1- AC_SUBST([DTRACE_ENABLED_2STEP])
+m4trace:configure.in:3618: -1- AC_SUBST_TRACE([DTRACE_ENABLED_2STEP])
+m4trace:configure.in:3618: -1- m4_pattern_allow([^DTRACE_ENABLED_2STEP$])
+m4trace:configure.in:3638: -1- AH_OUTPUT([HAVE_SYS_SDT_H], [/* Define to 1 if you have the <sys/sdt.h> header file. */
+@%:@undef HAVE_SYS_SDT_H])
+m4trace:configure.in:3638: -1- AC_DEFINE_TRACE_LITERAL([HAVE_SYS_SDT_H])
+m4trace:configure.in:3638: -1- m4_pattern_allow([^HAVE_SYS_SDT_H$])
+m4trace:configure.in:3681: -1- AC_SUBST([SSL_INCLUDE])
+m4trace:configure.in:3681: -1- AC_SUBST_TRACE([SSL_INCLUDE])
+m4trace:configure.in:3681: -1- m4_pattern_allow([^SSL_INCLUDE$])
+m4trace:configure.in:3682: -1- AC_SUBST([SSL_ROOT])
+m4trace:configure.in:3682: -1- AC_SUBST_TRACE([SSL_ROOT])
+m4trace:configure.in:3682: -1- m4_pattern_allow([^SSL_ROOT$])
+m4trace:configure.in:3683: -1- AC_SUBST([SSL_LIBDIR])
+m4trace:configure.in:3683: -1- AC_SUBST_TRACE([SSL_LIBDIR])
+m4trace:configure.in:3683: -1- m4_pattern_allow([^SSL_LIBDIR$])
+m4trace:configure.in:3684: -1- AC_SUBST([SSL_CRYPTO_LIBNAME])
+m4trace:configure.in:3684: -1- AC_SUBST_TRACE([SSL_CRYPTO_LIBNAME])
+m4trace:configure.in:3684: -1- m4_pattern_allow([^SSL_CRYPTO_LIBNAME$])
+m4trace:configure.in:3685: -1- AC_SUBST([SSL_SSL_LIBNAME])
+m4trace:configure.in:3685: -1- AC_SUBST_TRACE([SSL_SSL_LIBNAME])
+m4trace:configure.in:3685: -1- m4_pattern_allow([^SSL_SSL_LIBNAME$])
+m4trace:configure.in:3686: -1- AC_SUBST([SSL_CC_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:3686: -1- AC_SUBST_TRACE([SSL_CC_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:3686: -1- m4_pattern_allow([^SSL_CC_RUNTIME_LIBRARY_PATH$])
+m4trace:configure.in:3687: -1- AC_SUBST([SSL_LD_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:3687: -1- AC_SUBST_TRACE([SSL_LD_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:3687: -1- m4_pattern_allow([^SSL_LD_RUNTIME_LIBRARY_PATH$])
+m4trace:configure.in:3688: -1- AC_SUBST([SSL_DED_LD_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:3688: -1- AC_SUBST_TRACE([SSL_DED_LD_RUNTIME_LIBRARY_PATH])
+m4trace:configure.in:3688: -1- m4_pattern_allow([^SSL_DED_LD_RUNTIME_LIBRARY_PATH$])
+m4trace:configure.in:3689: -1- AC_SUBST([SSL_DYNAMIC_ONLY])
+m4trace:configure.in:3689: -1- AC_SUBST_TRACE([SSL_DYNAMIC_ONLY])
+m4trace:configure.in:3689: -1- m4_pattern_allow([^SSL_DYNAMIC_ONLY$])
+m4trace:configure.in:3690: -1- AC_SUBST([SSL_LINK_WITH_KERBEROS])
+m4trace:configure.in:3690: -1- AC_SUBST_TRACE([SSL_LINK_WITH_KERBEROS])
+m4trace:configure.in:3690: -1- m4_pattern_allow([^SSL_LINK_WITH_KERBEROS$])
+m4trace:configure.in:3691: -1- AC_SUBST([STATIC_KERBEROS_LIBS])
+m4trace:configure.in:3691: -1- AC_SUBST_TRACE([STATIC_KERBEROS_LIBS])
+m4trace:configure.in:3691: -1- m4_pattern_allow([^STATIC_KERBEROS_LIBS$])
+m4trace:configure.in:3692: -1- AC_SUBST([SSL_LINK_WITH_ZLIB])
+m4trace:configure.in:3692: -1- AC_SUBST_TRACE([SSL_LINK_WITH_ZLIB])
+m4trace:configure.in:3692: -1- m4_pattern_allow([^SSL_LINK_WITH_ZLIB$])
+m4trace:configure.in:3693: -1- AC_SUBST([STATIC_ZLIB_LIBS])
+m4trace:configure.in:3693: -1- AC_SUBST_TRACE([STATIC_ZLIB_LIBS])
+m4trace:configure.in:3693: -1- m4_pattern_allow([^STATIC_ZLIB_LIBS$])
+m4trace:configure.in:3823: -1- AC_SUBST([REGTOOL])
+m4trace:configure.in:3823: -1- AC_SUBST_TRACE([REGTOOL])
+m4trace:configure.in:3823: -1- m4_pattern_allow([^REGTOOL$])
+m4trace:configure.in:3851: -1- AC_SUBST([REGTOOL])
+m4trace:configure.in:3851: -1- AC_SUBST_TRACE([REGTOOL])
+m4trace:configure.in:3851: -1- m4_pattern_allow([^REGTOOL$])
+m4trace:configure.in:3974: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+configure.in:3974: the top level])
+m4trace:configure.in:4030: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+configure.in:4030: the top level])
+m4trace:configure.in:4278: -1- _m4_warn([obsolete], [The macro `AC_TRY_LINK' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2688: AC_TRY_LINK is expanded from...
+configure.in:4278: the top level])
+m4trace:configure.in:4308: -1- AC_SUBST([os_mon_programs])
+m4trace:configure.in:4308: -1- AC_SUBST_TRACE([os_mon_programs])
+m4trace:configure.in:4308: -1- m4_pattern_allow([^os_mon_programs$])
+m4trace:configure.in:4309: -1- AC_SUBST([CPU_SUP_LIBS])
+m4trace:configure.in:4309: -1- AC_SUBST_TRACE([CPU_SUP_LIBS])
+m4trace:configure.in:4309: -1- m4_pattern_allow([^CPU_SUP_LIBS$])
+m4trace:configure.in:4352: -1- AC_SUBST([JAVAC])
+m4trace:configure.in:4352: -1- AC_SUBST_TRACE([JAVAC])
+m4trace:configure.in:4352: -1- m4_pattern_allow([^JAVAC$])
+m4trace:configure.in:4355: -1- _m4_warn([obsolete], [The macro `AC_FD_CC' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:385: AC_FD_CC is expanded from...
+aclocal.m4:1742: ERL_TRY_LINK_JAVA is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+configure.in:4355: the top level])
+m4trace:configure.in:4355: -1- _m4_warn([obsolete], [The macro `AC_FD_CC' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:385: AC_FD_CC is expanded from...
+aclocal.m4:1742: ERL_TRY_LINK_JAVA is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+configure.in:4355: the top level])
+m4trace:configure.in:4355: -1- _m4_warn([obsolete], [The macro `AC_FD_CC' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:385: AC_FD_CC is expanded from...
+aclocal.m4:1742: ERL_TRY_LINK_JAVA is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+configure.in:4355: the top level])
+m4trace:configure.in:4355: -1- _m4_warn([obsolete], [The macro `AC_FD_CC' is obsolete.
+You should run autoupdate.], [/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:385: AC_FD_CC is expanded from...
+aclocal.m4:1742: ERL_TRY_LINK_JAVA is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/m4sugar/m4sh.m4:606: AS_IF is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2032: AC_CACHE_VAL is expanded from...
+/usr/src/packages/autoconf/26/autoconf2.5-2.68-1/src/autoconf-2.68/lib/autoconf/general.m4:2053: AC_CACHE_CHECK is expanded from...
+configure.in:4355: the top level])
+m4trace:configure.in:4382: -1- AC_SUBST([CXXFLAGS])
+m4trace:configure.in:4382: -1- AC_SUBST_TRACE([CXXFLAGS])
+m4trace:configure.in:4382: -1- m4_pattern_allow([^CXXFLAGS$])
+m4trace:configure.in:4384: -1- AC_SUBST([CXX])
+m4trace:configure.in:4384: -1- AC_SUBST_TRACE([CXX])
+m4trace:configure.in:4384: -1- m4_pattern_allow([^CXX$])
+m4trace:configure.in:4384: -1- AC_SUBST([ac_ct_CXX])
+m4trace:configure.in:4384: -1- AC_SUBST_TRACE([ac_ct_CXX])
+m4trace:configure.in:4384: -1- m4_pattern_allow([^ac_ct_CXX$])
+m4trace:configure.in:4417: -1- AC_SUBST([CC32])
+m4trace:configure.in:4417: -1- AC_SUBST_TRACE([CC32])
+m4trace:configure.in:4417: -1- m4_pattern_allow([^CC32$])
+m4trace:configure.in:4418: -1- AC_SUBST([CFLAGS32])
+m4trace:configure.in:4418: -1- AC_SUBST_TRACE([CFLAGS32])
+m4trace:configure.in:4418: -1- m4_pattern_allow([^CFLAGS32$])
+m4trace:configure.in:4427: -1- AC_DEFINE_TRACE_LITERAL([ERTS_EMU_CMDLINE_FLAGS])
+m4trace:configure.in:4427: -1- m4_pattern_allow([^ERTS_EMU_CMDLINE_FLAGS$])
+m4trace:configure.in:4427: -1- AH_OUTPUT([ERTS_EMU_CMDLINE_FLAGS], [/* The only reason ERTS_EMU_CMDLINE_FLAGS exists is to force modification of
+   config.h when the emulator command line flags are modified by configure */
+@%:@undef ERTS_EMU_CMDLINE_FLAGS])
+m4trace:configure.in:4454: -1- AH_OUTPUT([00001], [
+#define GHBN_R_SOLARIS  2
+#define GHBN_R_AIX      3
+#define GHBN_R_GLIBC    4
+])
+m4trace:configure.in:4460: -1- AH_OUTPUT([zzzz2], [
+/* Redefine in6_addr. XXX this should be moved to the files where it\'s used? */
+#ifdef HAVE_IN_ADDR6_STRUCT
+#define in6_addr in_addr6
+#endif
+
+/* Define a reasonable default for INADDR_LOOPBACK */
+/* XXX this should be moved to the files where it\'s used? */
+#ifdef HAVE_NO_INADDR_LOOPBACK
+#define INADDR_LOOPBACK (u_long)0x7F000001
+#endif
+
+#ifdef REDEFINE_FD_SETSIZE
+#define FD_SETSIZE 1024
+#endif
+ 
+#ifdef HAVE_GETHRVTIME_PROCFS_IOCTL
+#define HAVE_GETHRVTIME
+#endif
+
+#ifndef HAVE_FINITE
+# if defined(HAVE_ISINF) && defined(HAVE_ISNAN)
+#  define USE_ISINF_ISNAN
+# endif
+#endif
+
+#if defined(DEBUG) && defined(USE_THREADS) && !defined(ERTS_ENABLE_LOCK_CHECK)
+#define ERTS_ENABLE_LOCK_CHECK 1
+#endif
+])
+m4trace:configure.in:4497: -1- AC_CONFIG_FILES([emulator/$host/Makefile:emulator/Makefile.in
+  epmd/src/$host/Makefile:epmd/src/Makefile.in
+  etc/common/$host/Makefile:etc/common/Makefile.in
+  include/internal/$host/ethread.mk:include/internal/ethread.mk.in
+  include/internal/$host/erts_internal.mk:include/internal/erts_internal.mk.in
+  lib_src/$host/Makefile:lib_src/Makefile.in
+  Makefile:Makefile.in
+  ../make/$host/otp.mk:../make/otp.mk.in
+  ../make/$host/otp_ded.mk:../make/otp_ded.mk.in
+  ../lib/ic/c_src/$host/Makefile:../lib/ic/c_src/Makefile.in
+  ../lib/os_mon/c_src/$host/Makefile:../lib/os_mon/c_src/Makefile.in
+  ../lib/crypto/c_src/$host/Makefile:../lib/crypto/c_src/Makefile.in
+  ../lib/orber/c_src/$host/Makefile:../lib/orber/c_src/Makefile.in
+  ../lib/runtime_tools/c_src/$host/Makefile:../lib/runtime_tools/c_src/Makefile.in
+  ../lib/tools/c_src/$host/Makefile:../lib/tools/c_src/Makefile.in
+  ])
+m4trace:configure.in:4497: -1- _m4_warn([obsolete], [AC_OUTPUT should be used without arguments.
+You should run autoupdate.], [])
+m4trace:configure.in:4497: -1- AC_SUBST([LIB@&t@OBJS], [$ac_libobjs])
+m4trace:configure.in:4497: -1- AC_SUBST_TRACE([LIB@&t@OBJS])
+m4trace:configure.in:4497: -1- m4_pattern_allow([^LIB@&t@OBJS$])
+m4trace:configure.in:4497: -1- AC_SUBST([LTLIBOBJS], [$ac_ltlibobjs])
+m4trace:configure.in:4497: -1- AC_SUBST_TRACE([LTLIBOBJS])
+m4trace:configure.in:4497: -1- m4_pattern_allow([^LTLIBOBJS$])
+m4trace:configure.in:4497: -1- AC_SUBST_TRACE([top_builddir])
+m4trace:configure.in:4497: -1- AC_SUBST_TRACE([top_build_prefix])
+m4trace:configure.in:4497: -1- AC_SUBST_TRACE([srcdir])
+m4trace:configure.in:4497: -1- AC_SUBST_TRACE([abs_srcdir])
+m4trace:configure.in:4497: -1- AC_SUBST_TRACE([top_srcdir])
+m4trace:configure.in:4497: -1- AC_SUBST_TRACE([abs_top_srcdir])
+m4trace:configure.in:4497: -1- AC_SUBST_TRACE([builddir])
+m4trace:configure.in:4497: -1- AC_SUBST_TRACE([abs_builddir])
+m4trace:configure.in:4497: -1- AC_SUBST_TRACE([abs_top_builddir])
+m4trace:configure.in:4497: -1- AC_SUBST_TRACE([INSTALL])

@@ -1,0 +1,439 @@
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+entering db_prog_match 2
+enter db_prog_match: heap_size:24
+Scheduler_data not null
+mpsp:<cp/header:0x00000000>creat pseudo process
+cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{loaded,stdlib},{appl,stdlib,{appl_data,stdlib,[timer_server,rsh_starter,take_over_monitor,pool_master,dets],undefined,[],[array,base64,beam_lib,binary,c,calendar,dets,dets_server,dets_sup,dets_utils,dets_v8,dets_v9,dict,digraph,digraph_utils,edlin,edlin_expand,epp,eval_bits,erl_bits,erl_compile,erl_eval,erl_expand_records,erl_internal,erl_lint,erl_parse,erl_posix_msg,erl_pp,erl_scan,erl_tar,error_logger_file_h,error_logger_tty_h,escript,ets,file_sorter,filelib,filename,gb_trees,gb_sets,gen,gen_event,gen_fsm,gen_server,io,io_lib,io_lib_format,io_lib_fread,io_lib_pretty,lib,lists,log_mf_h,math,ms_transform,orddict,ordsets,otp_internal,pg,pool,proc_lib,proplists,qlc,qlc_pt,queue,random,re,sets,shell,shell_default,slave,sofs,string,supervisor,supervisor_bridge,sys,timer,unicode,win32reg,zip],[],infinity,infinity},"ERTS  CXC 138 10",[],"1.18.1",undefined,[],[kernel]}}
+matchTuple
+Prog text:3
+EP:{loaded,stdlib}
+matchPushT
+Prog text:12
+EP:{appl,stdlib,{appl_data,stdlib,[timer_server,rsh_starter,take_over_monitor,pool_master,dets],undefined,[],[array,base64,beam_lib,binary,c,calendar,dets,dets_server,dets_sup,dets_utils,dets_v8,dets_v9,dict,digraph,digraph_utils,edlin,edlin_expand,epp,eval_bits,erl_bits,erl_compile,erl_eval,erl_expand_records,erl_internal,erl_lint,erl_parse,erl_posix_msg,erl_pp,erl_scan,erl_tar,error_logger_file_h,error_logger_tty_h,escript,ets,file_sorter,filelib,filename,gb_trees,gb_sets,gen,gen_event,gen_fsm,gen_server,io,io_lib,io_lib_format,io_lib_fread,io_lib_pretty,lib,lists,log_mf_h,math,ms_transform,orddict,ordsets,otp_internal,pg,pool,proc_lib,proplists,qlc,qlc_pt,queue,random,re,sets,shell,shell_default,slave,sofs,string,supervisor,supervisor_bridge,sys,timer,unicode,win32reg,zip],[],infinity,infinity},"ERTS  CXC 138 10",[],"1.18.1",undefined,[],[kernel]}
+matchEq
+t:<0.8.0>
+ep:{appl,stdlib,{appl_data,stdlib,[timer_server,rsh_starter,take_over_monitor,pool_master,dets],undefined,[],[array,base64,beam_lib,binary,c,calendar,dets,dets_server,dets_sup,dets_utils,dets_v8,dets_v9,dict,digraph,digraph_utils,edlin,edlin_expand,epp,eval_bits,erl_bits,erl_compile,erl_eval,erl_expand_records,erl_internal,erl_lint,erl_parse,erl_posix_msg,erl_pp,erl_scan,erl_tar,error_logger_file_h,error_logger_tty_h,escript,ets,file_sorter,filelib,filename,gb_trees,gb_sets,gen,gen_event,gen_fsm,gen_server,io,io_lib,io_lib_format,io_lib_fread,io_lib_pretty,lib,lists,log_mf_h,math,ms_transform,orddict,ordsets,otp_internal,pg,pool,proc_lib,proplists,qlc,qlc_pt,queue,random,re,sets,shell,shell_default,slave,sofs,string,supervisor,supervisor_bridge,sys,timer,unicode,win32reg,zip],[],infinity,infinity},"ERTS  CXC 138 10",[],"1.18.1",undefined,[],[kernel]}
+entering db_prog_match 2
+enter db_prog_match: heap_size:24
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{env,kernel,error_logger},tty}
+matchTuple
+Prog text:3
+EP:{env,kernel,error_logger}
+matchPushT
+entering db_prog_match 2
+enter db_prog_match: heap_size:24
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{env,kernel,included_applications},[]}
+matchTuple
+Prog text:3
+EP:{env,kernel,included_applications}
+matchPushT
+entering db_prog_match 2
+enter db_prog_match: heap_size:24
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{loaded,kernel},{appl,kernel,{appl_data,kernel,[application_controller,erl_reply,auth,boot_server,code_server,disk_log_server,disk_log_sup,erl_prim_loader,error_logger,file_server_2,fixtable_server,global_group,global_name_server,heart,init,kernel_config,kernel_sup,net_kernel,net_sup,rex,user,os_server,ddll_server,erl_epmd,inet_db,pg2],undefined,{kernel,[]},[application,application_controller,application_master,application_starter,auth,code,packages,code_server,dist_util,erl_boot_server,erl_distribution,erl_reply,error_handler,error_logger,file,file_server,file_io_server,global,global_group,global_search,group,heart,hipe_unified_loader,inet6_tcp,inet6_tcp_dist,inet6_udp,inet6_sctp,inet_config,inet_hosts,inet_gethost_native,inet_tcp_dist,kernel,kernel_config,net,net_adm,net_kernel,os,ram_file,rpc,user,user_drv,user_sup,disk_log,disk_log_1,disk_log_server,disk_log_sup,dist_ac,erl_ddll,erl_epmd,erts_debug,gen_tcp,gen_udp,gen_sctp,inet,inet_db,inet_dns,inet_parse,inet_res,inet_tcp,inet_udp,inet_sctp,pg2,seq_trace,standard_error,wrap_log_reader],[],infinity,infinity},"ERTS  CXC 138 10",[],"2.15.1",undefined,[],[]}}
+matchTuple
+Prog text:3
+EP:{loaded,kernel}
+matchPushT
+Prog text:12
+EP:{appl,kernel,{appl_data,kernel,[application_controller,erl_reply,auth,boot_server,code_server,disk_log_server,disk_log_sup,erl_prim_loader,error_logger,file_server_2,fixtable_server,global_group,global_name_server,heart,init,kernel_config,kernel_sup,net_kernel,net_sup,rex,user,os_server,ddll_server,erl_epmd,inet_db,pg2],undefined,{kernel,[]},[application,application_controller,application_master,application_starter,auth,code,packages,code_server,dist_util,erl_boot_server,erl_distribution,erl_reply,error_handler,error_logger,file,file_server,file_io_server,global,global_group,global_search,group,heart,hipe_unified_loader,inet6_tcp,inet6_tcp_dist,inet6_udp,inet6_sctp,inet_config,inet_hosts,inet_gethost_native,inet_tcp_dist,kernel,kernel_config,net,net_adm,net_kernel,os,ram_file,rpc,user,user_drv,user_sup,disk_log,disk_log_1,disk_log_server,disk_log_sup,dist_ac,erl_ddll,erl_epmd,erts_debug,gen_tcp,gen_udp,gen_sctp,inet,inet_db,inet_dns,inet_parse,inet_res,inet_tcp,inet_udp,inet_sctp,pg2,seq_trace,standard_error,wrap_log_reader],[],infinity,infinity},"ERTS  CXC 138 10",[],"2.15.1",undefined,[],[]}
+matchEq
+t:<0.8.0>
+ep:{appl,kernel,{appl_data,kernel,[application_controller,erl_reply,auth,boot_server,code_server,disk_log_server,disk_log_sup,erl_prim_loader,error_logger,file_server_2,fixtable_server,global_group,global_name_server,heart,init,kernel_config,kernel_sup,net_kernel,net_sup,rex,user,os_server,ddll_server,erl_epmd,inet_db,pg2],undefined,{kernel,[]},[application,application_controller,application_master,application_starter,auth,code,packages,code_server,dist_util,erl_boot_server,erl_distribution,erl_reply,error_handler,error_logger,file,file_server,file_io_server,global,global_group,global_search,group,heart,hipe_unified_loader,inet6_tcp,inet6_tcp_dist,inet6_udp,inet6_sctp,inet_config,inet_hosts,inet_gethost_native,inet_tcp_dist,kernel,kernel_config,net,net_adm,net_kernel,os,ram_file,rpc,user,user_drv,user_sup,disk_log,disk_log_1,disk_log_server,disk_log_sup,dist_ac,erl_ddll,erl_epmd,erts_debug,gen_tcp,gen_udp,gen_sctp,inet,inet_db,inet_dns,inet_parse,inet_res,inet_tcp,inet_udp,inet_sctp,pg2,seq_trace,standard_error,wrap_log_reader],[],infinity,infinity},"ERTS  CXC 138 10",[],"2.15.1",undefined,[],[]}
+entering db_prog_match 2
+enter db_prog_match: heap_size:24
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{env,stdlib,included_applications},[]}
+matchTuple
+Prog text:3
+EP:{env,stdlib,included_applications}
+matchPushT
+entering db_prog_match 2
+enter db_prog_match: heap_size:24
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{application_master,kernel},<0.8.0>}
+matchTuple
+Prog text:3
+EP:{application_master,kernel}
+matchPushT
+Prog text:12
+EP:<0.8.0>
+matchEq
+t:<0.8.0>
+ep:<0.8.0>
+Prog text:5
+EP:<cp/header:0x00000080>
+matchPop
+Prog text:12
+EP:application_master
+matchEq
+t:application_master
+ep:application_master
+Prog text:6
+EP:kernel
+matchBind
+Prog text:44
+EP:<cp/header:0x000000e8>
+Prog text:15
+EP:<cp/header:0x000000e8>
+matchPuschC :3, 1
+Prog text:24
+EP:<cp/header:0x000000e8>
+Prog text:17
+EP:<cp/header:0x000000e8>
+Prog text:36
+EP:<cp/header:0x000000e8>
+Prog text:51
+EP:<cp/header:0x000000e8>
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+Get default trace filter-------------------
+entering db_prog_match 2
+enter db_prog_match: heap_size:24
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{loaded,stdlib},{appl,stdlib,{appl_data,stdlib,[timer_server,rsh_starter,take_over_monitor,pool_master,dets],undefined,[],[array,base64,beam_lib,binary,c,calendar,dets,dets_server,dets_sup,dets_utils,dets_v8,dets_v9,dict,digraph,digraph_utils,edlin,edlin_expand,epp,eval_bits,erl_bits,erl_compile,erl_eval,erl_expand_records,erl_internal,erl_lint,erl_parse,erl_posix_msg,erl_pp,erl_scan,erl_tar,error_logger_file_h,error_logger_tty_h,escript,ets,file_sorter,filelib,filename,gb_trees,gb_sets,gen,gen_event,gen_fsm,gen_server,io,io_lib,io_lib_format,io_lib_fread,io_lib_pretty,lib,lists,log_mf_h,math,ms_transform,orddict,ordsets,otp_internal,pg,pool,proc_lib,proplists,qlc,qlc_pt,queue,random,re,sets,shell,shell_default,slave,sofs,string,supervisor,supervisor_bridge,sys,timer,unicode,win32reg,zip],[],infinity,infinity},"ERTS  CXC 138 10",[],"1.18.1",undefined,[],[kernel]}}
+matchTuple
+Prog text:3
+EP:{loaded,stdlib}
+matchPushT
+Prog text:12
+EP:{appl,stdlib,{appl_data,stdlib,[timer_server,rsh_starter,take_over_monitor,pool_master,dets],undefined,[],[array,base64,beam_lib,binary,c,calendar,dets,dets_server,dets_sup,dets_utils,dets_v8,dets_v9,dict,digraph,digraph_utils,edlin,edlin_expand,epp,eval_bits,erl_bits,erl_compile,erl_eval,erl_expand_records,erl_internal,erl_lint,erl_parse,erl_posix_msg,erl_pp,erl_scan,erl_tar,error_logger_file_h,error_logger_tty_h,escript,ets,file_sorter,filelib,filename,gb_trees,gb_sets,gen,gen_event,gen_fsm,gen_server,io,io_lib,io_lib_format,io_lib_fread,io_lib_pretty,lib,lists,log_mf_h,math,ms_transform,orddict,ordsets,otp_internal,pg,pool,proc_lib,proplists,qlc,qlc_pt,queue,random,re,sets,shell,shell_default,slave,sofs,string,supervisor,supervisor_bridge,sys,timer,unicode,win32reg,zip],[],infinity,infinity},"ERTS  CXC 138 10",[],"1.18.1",undefined,[],[kernel]}
+matchEq
+t:<0.8.0>
+ep:{appl,stdlib,{appl_data,stdlib,[timer_server,rsh_starter,take_over_monitor,pool_master,dets],undefined,[],[array,base64,beam_lib,binary,c,calendar,dets,dets_server,dets_sup,dets_utils,dets_v8,dets_v9,dict,digraph,digraph_utils,edlin,edlin_expand,epp,eval_bits,erl_bits,erl_compile,erl_eval,erl_expand_records,erl_internal,erl_lint,erl_parse,erl_posix_msg,erl_pp,erl_scan,erl_tar,error_logger_file_h,error_logger_tty_h,escript,ets,file_sorter,filelib,filename,gb_trees,gb_sets,gen,gen_event,gen_fsm,gen_server,io,io_lib,io_lib_format,io_lib_fread,io_lib_pretty,lib,lists,log_mf_h,math,ms_transform,orddict,ordsets,otp_internal,pg,pool,proc_lib,proplists,qlc,qlc_pt,queue,random,re,sets,shell,shell_default,slave,sofs,string,supervisor,supervisor_bridge,sys,timer,unicode,win32reg,zip],[],infinity,infinity},"ERTS  CXC 138 10",[],"1.18.1",undefined,[],[kernel]}
+entering db_prog_match 2
+enter db_prog_match: heap_size:24
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{env,kernel,error_logger},tty}
+matchTuple
+Prog text:3
+EP:{env,kernel,error_logger}
+matchPushT
+entering db_prog_match 2
+enter db_prog_match: heap_size:24
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{env,kernel,included_applications},[]}
+matchTuple
+Prog text:3
+EP:{env,kernel,included_applications}
+matchPushT
+entering db_prog_match 2
+enter db_prog_match: heap_size:24
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{loaded,kernel},{appl,kernel,{appl_data,kernel,[application_controller,erl_reply,auth,boot_server,code_server,disk_log_server,disk_log_sup,erl_prim_loader,error_logger,file_server_2,fixtable_server,global_group,global_name_server,heart,init,kernel_config,kernel_sup,net_kernel,net_sup,rex,user,os_server,ddll_server,erl_epmd,inet_db,pg2],undefined,{kernel,[]},[application,application_controller,application_master,application_starter,auth,code,packages,code_server,dist_util,erl_boot_server,erl_distribution,erl_reply,error_handler,error_logger,file,file_server,file_io_server,global,global_group,global_search,group,heart,hipe_unified_loader,inet6_tcp,inet6_tcp_dist,inet6_udp,inet6_sctp,inet_config,inet_hosts,inet_gethost_native,inet_tcp_dist,kernel,kernel_config,net,net_adm,net_kernel,os,ram_file,rpc,user,user_drv,user_sup,disk_log,disk_log_1,disk_log_server,disk_log_sup,dist_ac,erl_ddll,erl_epmd,erts_debug,gen_tcp,gen_udp,gen_sctp,inet,inet_db,inet_dns,inet_parse,inet_res,inet_tcp,inet_udp,inet_sctp,pg2,seq_trace,standard_error,wrap_log_reader],[],infinity,infinity},"ERTS  CXC 138 10",[],"2.15.1",undefined,[],[]}}
+matchTuple
+Prog text:3
+EP:{loaded,kernel}
+matchPushT
+Prog text:12
+EP:{appl,kernel,{appl_data,kernel,[application_controller,erl_reply,auth,boot_server,code_server,disk_log_server,disk_log_sup,erl_prim_loader,error_logger,file_server_2,fixtable_server,global_group,global_name_server,heart,init,kernel_config,kernel_sup,net_kernel,net_sup,rex,user,os_server,ddll_server,erl_epmd,inet_db,pg2],undefined,{kernel,[]},[application,application_controller,application_master,application_starter,auth,code,packages,code_server,dist_util,erl_boot_server,erl_distribution,erl_reply,error_handler,error_logger,file,file_server,file_io_server,global,global_group,global_search,group,heart,hipe_unified_loader,inet6_tcp,inet6_tcp_dist,inet6_udp,inet6_sctp,inet_config,inet_hosts,inet_gethost_native,inet_tcp_dist,kernel,kernel_config,net,net_adm,net_kernel,os,ram_file,rpc,user,user_drv,user_sup,disk_log,disk_log_1,disk_log_server,disk_log_sup,dist_ac,erl_ddll,erl_epmd,erts_debug,gen_tcp,gen_udp,gen_sctp,inet,inet_db,inet_dns,inet_parse,inet_res,inet_tcp,inet_udp,inet_sctp,pg2,seq_trace,standard_error,wrap_log_reader],[],infinity,infinity},"ERTS  CXC 138 10",[],"2.15.1",undefined,[],[]}
+matchEq
+t:<0.8.0>
+ep:{appl,kernel,{appl_data,kernel,[application_controller,erl_reply,auth,boot_server,code_server,disk_log_server,disk_log_sup,erl_prim_loader,error_logger,file_server_2,fixtable_server,global_group,global_name_server,heart,init,kernel_config,kernel_sup,net_kernel,net_sup,rex,user,os_server,ddll_server,erl_epmd,inet_db,pg2],undefined,{kernel,[]},[application,application_controller,application_master,application_starter,auth,code,packages,code_server,dist_util,erl_boot_server,erl_distribution,erl_reply,error_handler,error_logger,file,file_server,file_io_server,global,global_group,global_search,group,heart,hipe_unified_loader,inet6_tcp,inet6_tcp_dist,inet6_udp,inet6_sctp,inet_config,inet_hosts,inet_gethost_native,inet_tcp_dist,kernel,kernel_config,net,net_adm,net_kernel,os,ram_file,rpc,user,user_drv,user_sup,disk_log,disk_log_1,disk_log_server,disk_log_sup,dist_ac,erl_ddll,erl_epmd,erts_debug,gen_tcp,gen_udp,gen_sctp,inet,inet_db,inet_dns,inet_parse,inet_res,inet_tcp,inet_udp,inet_sctp,pg2,seq_trace,standard_error,wrap_log_reader],[],infinity,infinity},"ERTS  CXC 138 10",[],"2.15.1",undefined,[],[]}
+entering db_prog_match 2
+enter db_prog_match: heap_size:24
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{env,stdlib,included_applications},[]}
+matchTuple
+Prog text:3
+EP:{env,stdlib,included_applications}
+matchPushT
+entering db_prog_match 2
+enter db_prog_match: heap_size:24
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{application_master,kernel},<0.8.0>}
+matchTuple
+Prog text:3
+EP:{application_master,kernel}
+matchPushT
+Prog text:12
+EP:<0.8.0>
+matchEq
+t:<0.8.0>
+ep:<0.8.0>
+Prog text:5
+EP:<cp/header:0x00000080>
+matchPop
+Prog text:12
+EP:application_master
+matchEq
+t:application_master
+ep:application_master
+Prog text:6
+EP:kernel
+matchBind
+Prog text:44
+EP:<cp/header:0x000000e8>
+Prog text:15
+EP:<cp/header:0x000000e8>
+matchPuschC :3, 1
+Prog text:24
+EP:<cp/header:0x000000e8>
+Prog text:17
+EP:<cp/header:0x000000e8>
+Prog text:36
+EP:<cp/header:0x000000e8>
+Prog text:51
+EP:<cp/header:0x000000e8>
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+Get default trace filter-------------------
+entering db_prog_match 2
+enter db_prog_match: heap_size:12
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{loaded,stdlib},{appl,stdlib,{appl_data,stdlib,[timer_server,rsh_starter,take_over_monitor,pool_master,dets],undefined,[],[array,base64,beam_lib,binary,c,calendar,dets,dets_server,dets_sup,dets_utils,dets_v8,dets_v9,dict,digraph,digraph_utils,edlin,edlin_expand,epp,eval_bits,erl_bits,erl_compile,erl_eval,erl_expand_records,erl_internal,erl_lint,erl_parse,erl_posix_msg,erl_pp,erl_scan,erl_tar,error_logger_file_h,error_logger_tty_h,escript,ets,file_sorter,filelib,filename,gb_trees,gb_sets,gen,gen_event,gen_fsm,gen_server,io,io_lib,io_lib_format,io_lib_fread,io_lib_pretty,lib,lists,log_mf_h,math,ms_transform,orddict,ordsets,otp_internal,pg,pool,proc_lib,proplists,qlc,qlc_pt,queue,random,re,sets,shell,shell_default,slave,sofs,string,supervisor,supervisor_bridge,sys,timer,unicode,win32reg,zip],[],infinity,infinity},"ERTS  CXC 138 10",[],"1.18.1",undefined,[],[kernel]}}
+matchTuple
+Prog text:3
+EP:{loaded,stdlib}
+matchPushT
+Prog text:12
+EP:{appl,stdlib,{appl_data,stdlib,[timer_server,rsh_starter,take_over_monitor,pool_master,dets],undefined,[],[array,base64,beam_lib,binary,c,calendar,dets,dets_server,dets_sup,dets_utils,dets_v8,dets_v9,dict,digraph,digraph_utils,edlin,edlin_expand,epp,eval_bits,erl_bits,erl_compile,erl_eval,erl_expand_records,erl_internal,erl_lint,erl_parse,erl_posix_msg,erl_pp,erl_scan,erl_tar,error_logger_file_h,error_logger_tty_h,escript,ets,file_sorter,filelib,filename,gb_trees,gb_sets,gen,gen_event,gen_fsm,gen_server,io,io_lib,io_lib_format,io_lib_fread,io_lib_pretty,lib,lists,log_mf_h,math,ms_transform,orddict,ordsets,otp_internal,pg,pool,proc_lib,proplists,qlc,qlc_pt,queue,random,re,sets,shell,shell_default,slave,sofs,string,supervisor,supervisor_bridge,sys,timer,unicode,win32reg,zip],[],infinity,infinity},"ERTS  CXC 138 10",[],"1.18.1",undefined,[],[kernel]}
+matchEq
+t:<0.7.0>
+ep:{appl,stdlib,{appl_data,stdlib,[timer_server,rsh_starter,take_over_monitor,pool_master,dets],undefined,[],[array,base64,beam_lib,binary,c,calendar,dets,dets_server,dets_sup,dets_utils,dets_v8,dets_v9,dict,digraph,digraph_utils,edlin,edlin_expand,epp,eval_bits,erl_bits,erl_compile,erl_eval,erl_expand_records,erl_internal,erl_lint,erl_parse,erl_posix_msg,erl_pp,erl_scan,erl_tar,error_logger_file_h,error_logger_tty_h,escript,ets,file_sorter,filelib,filename,gb_trees,gb_sets,gen,gen_event,gen_fsm,gen_server,io,io_lib,io_lib_format,io_lib_fread,io_lib_pretty,lib,lists,log_mf_h,math,ms_transform,orddict,ordsets,otp_internal,pg,pool,proc_lib,proplists,qlc,qlc_pt,queue,random,re,sets,shell,shell_default,slave,sofs,string,supervisor,supervisor_bridge,sys,timer,unicode,win32reg,zip],[],infinity,infinity},"ERTS  CXC 138 10",[],"1.18.1",undefined,[],[kernel]}
+entering db_prog_match 2
+enter db_prog_match: heap_size:12
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{env,kernel,error_logger},tty}
+matchTuple
+Prog text:3
+EP:{env,kernel,error_logger}
+matchPushT
+entering db_prog_match 2
+enter db_prog_match: heap_size:12
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{env,kernel,included_applications},[]}
+matchTuple
+Prog text:3
+EP:{env,kernel,included_applications}
+matchPushT
+entering db_prog_match 2
+enter db_prog_match: heap_size:12
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{loaded,kernel},{appl,kernel,{appl_data,kernel,[application_controller,erl_reply,auth,boot_server,code_server,disk_log_server,disk_log_sup,erl_prim_loader,error_logger,file_server_2,fixtable_server,global_group,global_name_server,heart,init,kernel_config,kernel_sup,net_kernel,net_sup,rex,user,os_server,ddll_server,erl_epmd,inet_db,pg2],undefined,{kernel,[]},[application,application_controller,application_master,application_starter,auth,code,packages,code_server,dist_util,erl_boot_server,erl_distribution,erl_reply,error_handler,error_logger,file,file_server,file_io_server,global,global_group,global_search,group,heart,hipe_unified_loader,inet6_tcp,inet6_tcp_dist,inet6_udp,inet6_sctp,inet_config,inet_hosts,inet_gethost_native,inet_tcp_dist,kernel,kernel_config,net,net_adm,net_kernel,os,ram_file,rpc,user,user_drv,user_sup,disk_log,disk_log_1,disk_log_server,disk_log_sup,dist_ac,erl_ddll,erl_epmd,erts_debug,gen_tcp,gen_udp,gen_sctp,inet,inet_db,inet_dns,inet_parse,inet_res,inet_tcp,inet_udp,inet_sctp,pg2,seq_trace,standard_error,wrap_log_reader],[],infinity,infinity},"ERTS  CXC 138 10",[],"2.15.1",undefined,[],[]}}
+matchTuple
+Prog text:3
+EP:{loaded,kernel}
+matchPushT
+Prog text:12
+EP:{appl,kernel,{appl_data,kernel,[application_controller,erl_reply,auth,boot_server,code_server,disk_log_server,disk_log_sup,erl_prim_loader,error_logger,file_server_2,fixtable_server,global_group,global_name_server,heart,init,kernel_config,kernel_sup,net_kernel,net_sup,rex,user,os_server,ddll_server,erl_epmd,inet_db,pg2],undefined,{kernel,[]},[application,application_controller,application_master,application_starter,auth,code,packages,code_server,dist_util,erl_boot_server,erl_distribution,erl_reply,error_handler,error_logger,file,file_server,file_io_server,global,global_group,global_search,group,heart,hipe_unified_loader,inet6_tcp,inet6_tcp_dist,inet6_udp,inet6_sctp,inet_config,inet_hosts,inet_gethost_native,inet_tcp_dist,kernel,kernel_config,net,net_adm,net_kernel,os,ram_file,rpc,user,user_drv,user_sup,disk_log,disk_log_1,disk_log_server,disk_log_sup,dist_ac,erl_ddll,erl_epmd,erts_debug,gen_tcp,gen_udp,gen_sctp,inet,inet_db,inet_dns,inet_parse,inet_res,inet_tcp,inet_udp,inet_sctp,pg2,seq_trace,standard_error,wrap_log_reader],[],infinity,infinity},"ERTS  CXC 138 10",[],"2.15.1",undefined,[],[]}
+matchEq
+t:<0.7.0>
+ep:{appl,kernel,{appl_data,kernel,[application_controller,erl_reply,auth,boot_server,code_server,disk_log_server,disk_log_sup,erl_prim_loader,error_logger,file_server_2,fixtable_server,global_group,global_name_server,heart,init,kernel_config,kernel_sup,net_kernel,net_sup,rex,user,os_server,ddll_server,erl_epmd,inet_db,pg2],undefined,{kernel,[]},[application,application_controller,application_master,application_starter,auth,code,packages,code_server,dist_util,erl_boot_server,erl_distribution,erl_reply,error_handler,error_logger,file,file_server,file_io_server,global,global_group,global_search,group,heart,hipe_unified_loader,inet6_tcp,inet6_tcp_dist,inet6_udp,inet6_sctp,inet_config,inet_hosts,inet_gethost_native,inet_tcp_dist,kernel,kernel_config,net,net_adm,net_kernel,os,ram_file,rpc,user,user_drv,user_sup,disk_log,disk_log_1,disk_log_server,disk_log_sup,dist_ac,erl_ddll,erl_epmd,erts_debug,gen_tcp,gen_udp,gen_sctp,inet,inet_db,inet_dns,inet_parse,inet_res,inet_tcp,inet_udp,inet_sctp,pg2,seq_trace,standard_error,wrap_log_reader],[],infinity,infinity},"ERTS  CXC 138 10",[],"2.15.1",undefined,[],[]}
+entering db_prog_match 2
+enter db_prog_match: heap_size:12
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{env,stdlib,included_applications},[]}
+matchTuple
+Prog text:3
+EP:{env,stdlib,included_applications}
+matchPushT
+entering db_prog_match 2
+enter db_prog_match: heap_size:12
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{application_master,kernel},<0.8.0>}
+matchTuple
+Prog text:3
+EP:{application_master,kernel}
+matchPushT
+Prog text:12
+EP:<0.8.0>
+matchEq
+t:<0.7.0>
+ep:<0.8.0>
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+Get default trace filter-------------------
+entering db_prog_match 2
+enter db_prog_match: heap_size:12
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{loaded,stdlib},{appl,stdlib,{appl_data,stdlib,[timer_server,rsh_starter,take_over_monitor,pool_master,dets],undefined,[],[array,base64,beam_lib,binary,c,calendar,dets,dets_server,dets_sup,dets_utils,dets_v8,dets_v9,dict,digraph,digraph_utils,edlin,edlin_expand,epp,eval_bits,erl_bits,erl_compile,erl_eval,erl_expand_records,erl_internal,erl_lint,erl_parse,erl_posix_msg,erl_pp,erl_scan,erl_tar,error_logger_file_h,error_logger_tty_h,escript,ets,file_sorter,filelib,filename,gb_trees,gb_sets,gen,gen_event,gen_fsm,gen_server,io,io_lib,io_lib_format,io_lib_fread,io_lib_pretty,lib,lists,log_mf_h,math,ms_transform,orddict,ordsets,otp_internal,pg,pool,proc_lib,proplists,qlc,qlc_pt,queue,random,re,sets,shell,shell_default,slave,sofs,string,supervisor,supervisor_bridge,sys,timer,unicode,win32reg,zip],[],infinity,infinity},"ERTS  CXC 138 10",[],"1.18.1",undefined,[],[kernel]}}
+matchTuple
+Prog text:3
+EP:{loaded,stdlib}
+matchPushT
+Prog text:12
+EP:{appl,stdlib,{appl_data,stdlib,[timer_server,rsh_starter,take_over_monitor,pool_master,dets],undefined,[],[array,base64,beam_lib,binary,c,calendar,dets,dets_server,dets_sup,dets_utils,dets_v8,dets_v9,dict,digraph,digraph_utils,edlin,edlin_expand,epp,eval_bits,erl_bits,erl_compile,erl_eval,erl_expand_records,erl_internal,erl_lint,erl_parse,erl_posix_msg,erl_pp,erl_scan,erl_tar,error_logger_file_h,error_logger_tty_h,escript,ets,file_sorter,filelib,filename,gb_trees,gb_sets,gen,gen_event,gen_fsm,gen_server,io,io_lib,io_lib_format,io_lib_fread,io_lib_pretty,lib,lists,log_mf_h,math,ms_transform,orddict,ordsets,otp_internal,pg,pool,proc_lib,proplists,qlc,qlc_pt,queue,random,re,sets,shell,shell_default,slave,sofs,string,supervisor,supervisor_bridge,sys,timer,unicode,win32reg,zip],[],infinity,infinity},"ERTS  CXC 138 10",[],"1.18.1",undefined,[],[kernel]}
+matchEq
+t:<0.27.0>
+ep:{appl,stdlib,{appl_data,stdlib,[timer_server,rsh_starter,take_over_monitor,pool_master,dets],undefined,[],[array,base64,beam_lib,binary,c,calendar,dets,dets_server,dets_sup,dets_utils,dets_v8,dets_v9,dict,digraph,digraph_utils,edlin,edlin_expand,epp,eval_bits,erl_bits,erl_compile,erl_eval,erl_expand_records,erl_internal,erl_lint,erl_parse,erl_posix_msg,erl_pp,erl_scan,erl_tar,error_logger_file_h,error_logger_tty_h,escript,ets,file_sorter,filelib,filename,gb_trees,gb_sets,gen,gen_event,gen_fsm,gen_server,io,io_lib,io_lib_format,io_lib_fread,io_lib_pretty,lib,lists,log_mf_h,math,ms_transform,orddict,ordsets,otp_internal,pg,pool,proc_lib,proplists,qlc,qlc_pt,queue,random,re,sets,shell,shell_default,slave,sofs,string,supervisor,supervisor_bridge,sys,timer,unicode,win32reg,zip],[],infinity,infinity},"ERTS  CXC 138 10",[],"1.18.1",undefined,[],[kernel]}
+entering db_prog_match 2
+enter db_prog_match: heap_size:12
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{env,kernel,error_logger},tty}
+matchTuple
+Prog text:3
+EP:{env,kernel,error_logger}
+matchPushT
+entering db_prog_match 2
+enter db_prog_match: heap_size:12
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{env,kernel,included_applications},[]}
+matchTuple
+Prog text:3
+EP:{env,kernel,included_applications}
+matchPushT
+entering db_prog_match 2
+enter db_prog_match: heap_size:12
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{loaded,kernel},{appl,kernel,{appl_data,kernel,[application_controller,erl_reply,auth,boot_server,code_server,disk_log_server,disk_log_sup,erl_prim_loader,error_logger,file_server_2,fixtable_server,global_group,global_name_server,heart,init,kernel_config,kernel_sup,net_kernel,net_sup,rex,user,os_server,ddll_server,erl_epmd,inet_db,pg2],undefined,{kernel,[]},[application,application_controller,application_master,application_starter,auth,code,packages,code_server,dist_util,erl_boot_server,erl_distribution,erl_reply,error_handler,error_logger,file,file_server,file_io_server,global,global_group,global_search,group,heart,hipe_unified_loader,inet6_tcp,inet6_tcp_dist,inet6_udp,inet6_sctp,inet_config,inet_hosts,inet_gethost_native,inet_tcp_dist,kernel,kernel_config,net,net_adm,net_kernel,os,ram_file,rpc,user,user_drv,user_sup,disk_log,disk_log_1,disk_log_server,disk_log_sup,dist_ac,erl_ddll,erl_epmd,erts_debug,gen_tcp,gen_udp,gen_sctp,inet,inet_db,inet_dns,inet_parse,inet_res,inet_tcp,inet_udp,inet_sctp,pg2,seq_trace,standard_error,wrap_log_reader],[],infinity,infinity},"ERTS  CXC 138 10",[],"2.15.1",undefined,[],[]}}
+matchTuple
+Prog text:3
+EP:{loaded,kernel}
+matchPushT
+Prog text:12
+EP:{appl,kernel,{appl_data,kernel,[application_controller,erl_reply,auth,boot_server,code_server,disk_log_server,disk_log_sup,erl_prim_loader,error_logger,file_server_2,fixtable_server,global_group,global_name_server,heart,init,kernel_config,kernel_sup,net_kernel,net_sup,rex,user,os_server,ddll_server,erl_epmd,inet_db,pg2],undefined,{kernel,[]},[application,application_controller,application_master,application_starter,auth,code,packages,code_server,dist_util,erl_boot_server,erl_distribution,erl_reply,error_handler,error_logger,file,file_server,file_io_server,global,global_group,global_search,group,heart,hipe_unified_loader,inet6_tcp,inet6_tcp_dist,inet6_udp,inet6_sctp,inet_config,inet_hosts,inet_gethost_native,inet_tcp_dist,kernel,kernel_config,net,net_adm,net_kernel,os,ram_file,rpc,user,user_drv,user_sup,disk_log,disk_log_1,disk_log_server,disk_log_sup,dist_ac,erl_ddll,erl_epmd,erts_debug,gen_tcp,gen_udp,gen_sctp,inet,inet_db,inet_dns,inet_parse,inet_res,inet_tcp,inet_udp,inet_sctp,pg2,seq_trace,standard_error,wrap_log_reader],[],infinity,infinity},"ERTS  CXC 138 10",[],"2.15.1",undefined,[],[]}
+matchEq
+t:<0.27.0>
+ep:{appl,kernel,{appl_data,kernel,[application_controller,erl_reply,auth,boot_server,code_server,disk_log_server,disk_log_sup,erl_prim_loader,error_logger,file_server_2,fixtable_server,global_group,global_name_server,heart,init,kernel_config,kernel_sup,net_kernel,net_sup,rex,user,os_server,ddll_server,erl_epmd,inet_db,pg2],undefined,{kernel,[]},[application,application_controller,application_master,application_starter,auth,code,packages,code_server,dist_util,erl_boot_server,erl_distribution,erl_reply,error_handler,error_logger,file,file_server,file_io_server,global,global_group,global_search,group,heart,hipe_unified_loader,inet6_tcp,inet6_tcp_dist,inet6_udp,inet6_sctp,inet_config,inet_hosts,inet_gethost_native,inet_tcp_dist,kernel,kernel_config,net,net_adm,net_kernel,os,ram_file,rpc,user,user_drv,user_sup,disk_log,disk_log_1,disk_log_server,disk_log_sup,dist_ac,erl_ddll,erl_epmd,erts_debug,gen_tcp,gen_udp,gen_sctp,inet,inet_db,inet_dns,inet_parse,inet_res,inet_tcp,inet_udp,inet_sctp,pg2,seq_trace,standard_error,wrap_log_reader],[],infinity,infinity},"ERTS  CXC 138 10",[],"2.15.1",undefined,[],[]}
+entering db_prog_match 2
+enter db_prog_match: heap_size:12
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{env,stdlib,included_applications},[]}
+matchTuple
+Prog text:3
+EP:{env,stdlib,included_applications}
+matchPushT
+entering db_prog_match 2
+enter db_prog_match: heap_size:12
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+entering db_prog_match 1
+entering db_prog_match 2
+Prog text:2
+EP:{{application_master,kernel},<0.8.0>}
+matchTuple
+Prog text:3
+EP:{application_master,kernel}
+matchPushT
+Prog text:12
+EP:<0.8.0>
+matchEq
+t:<0.27.0>
+ep:<0.8.0>
+Scheduler_data not null
+mpsp:<cp/header:0x03662668>cleanup mpsp done.
+Get default trace filter-------------------
+Get default trace filter-------------------
+Eshell V5.9.1  (abort with ^G)
+Get default trace filter-------------------
+Get default trace filter-------------------
+1> 
